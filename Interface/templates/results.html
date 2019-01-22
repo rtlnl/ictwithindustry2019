@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+<!-- Define title -->
+{% block title %}<h1>Search query</h1>{% endblock %}
+
+<!-- Define contents -->
+{% block content %}
+<p>
+You searched for: {{query}}
+</p>
+
+<table>
+{% for row in results %}
+    <tr>
+    <td>{{row.media}}<td>
+    <td><b>{{row.title}}</b><br/>
+    {{row.description}}
+    </td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}
