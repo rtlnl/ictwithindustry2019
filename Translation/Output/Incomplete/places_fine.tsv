@@ -1,0 +1,366 @@
+location_full	location_main	location_spec
+/a/airfield	airfield	
+/a/airplane_cabin	airplane_cabin	
+/a/airport_terminal	airport_terminal	
+/a/alcove	alcove	
+/a/alley	alley	
+/a/amphitheater	amphitheater	
+/a/amusement_arcade	amusement_arcade	
+/a/amusement_park	amusement_park	
+/a/apartment_building/outdoor	apartment_building	outdoor
+/a/aquarium	aquarium	
+/a/aqueduct	aqueduct	
+/a/arcade	arcade	
+/a/arch	arch	
+/a/archaelogical_excavation	archaelogical_excavation	
+/a/archive	archive	
+/a/arena/hockey	arena	hockey
+/a/arena/performance	arena	performance
+/a/arena/rodeo	arena	rodeo
+/a/army_base	army_base	
+/a/art_gallery	art_gallery	
+/a/art_school	art_school	
+/a/art_studio	art_studio	
+/a/artists_loft	artists_loft	
+/a/assembly_line	assembly_line	
+/a/athletic_field/outdoor	athletic_field	outdoor
+/a/atrium/public	atrium	public
+/a/attic	attic	
+/a/auditorium	auditorium	
+/a/auto_factory	auto_factory	
+/a/auto_showroom	auto_showroom	
+/b/badlands	badlands	
+/b/bakery/shop	bakery	shop
+/b/balcony/exterior	balcony	exterior
+/b/balcony/interior	balcony	interior
+/b/ball_pit	ball_pit	
+/b/ballroom	ballroom	
+/b/bamboo_forest	bamboo_forest	
+/b/bank_vault	bank_vault	
+/b/banquet_hall	banquet_hall	
+/b/bar	bar	
+/b/barn	barn	
+/b/barndoor	barndoor	
+/b/baseball_field	baseball_field	
+/b/basement	basement	
+/b/basketball_court/indoor	basketball_court	indoor
+/b/bathroom	bathroom	
+/b/bazaar/indoor	bazaar	indoor
+/b/bazaar/outdoor	bazaar	outdoor
+/b/beach	beach	
+/b/beach_house	beach_house	
+/b/beauty_salon	beauty_salon	
+/b/bedchamber	bedchamber	
+/b/bedroom	bedroom	
+/b/beer_garden	beer_garden	
+/b/beer_hall	beer_hall	
+/b/berth	berth	
+/b/biology_laboratory	biology_laboratory	
+/b/boardwalk	boardwalk	
+/b/boat_deck	boat_deck	
+/b/boathouse	boathouse	
+/b/bookstore	bookstore	
+/b/booth/indoor	booth	indoor
+/b/botanical_garden	botanical_garden	
+/b/bow_window/indoor	bow_window	indoor
+/b/bowling_alley	bowling_alley	
+/b/boxing_ring	boxing_ring	
+/b/bridge	bridge	
+/b/building_facade	building_facade	
+/b/bullring	bullring	
+/b/burial_chamber	burial_chamber	
+/b/bus_interior	bus_interior	
+/b/bus_station/indoor	bus_station	indoor
+/b/butchers_shop	butchers_shop	
+/b/butte	butte	
+/c/cabin/outdoor	cabin	outdoor
+/c/cafeteria	cafeteria	
+/c/campsite	campsite	
+/c/campus	campus	
+/c/canal/natural	canal	natural
+/c/canal/urban	canal	urban
+/c/candy_store	candy_store	
+/c/canyon	canyon	
+/c/car_interior	car_interior	
+/c/carrousel	carrousel	
+/c/castle	castle	
+/c/catacomb	catacomb	
+/c/cemetery	cemetery	
+/c/chalet	chalet	
+/c/chemistry_lab	chemistry_lab	
+/c/childs_room	childs_room	
+/c/church/indoor	church	indoor
+/c/church/outdoor	church	outdoor
+/c/classroom	classroom	
+/c/clean_room	clean_room	
+/c/cliff	cliff	
+/c/closet	closet	
+/c/clothing_store	clothing_store	
+/c/coast	coast	
+/c/cockpit	cockpit	
+/c/coffee_shop	coffee_shop	
+/c/computer_room	computer_room	
+/c/conference_center	conference_center	
+/c/conference_room	conference_room	
+/c/construction_site	construction_site	
+/c/corn_field	corn_field	
+/c/corral	corral	
+/c/corridor	corridor	
+/c/cottage	cottage	
+/c/courthouse	courthouse	
+/c/courtyard	courtyard	
+/c/creek	creek	
+/c/crevasse	crevasse	
+/c/crosswalk	crosswalk	
+/d/dam	dam	
+/d/delicatessen	delicatessen	
+/d/department_store	department_store	
+/d/desert/sand	desert	sand
+/d/desert/vegetation	desert	vegetation
+/d/desert_road	desert_road	
+/d/diner/outdoor	diner	outdoor
+/d/dining_hall	dining_hall	
+/d/dining_room	dining_room	
+/d/discotheque	discotheque	
+/d/doorway/outdoor	doorway	outdoor
+/d/dorm_room	dorm_room	
+/d/downtown	downtown	
+/d/dressing_room	dressing_room	
+/d/driveway	driveway	
+/d/drugstore	drugstore	
+/e/elevator/door	elevator	door
+/e/elevator_lobby	elevator_lobby	
+/e/elevator_shaft	elevator_shaft	
+/e/embassy	embassy	
+/e/engine_room	engine_room	
+/e/entrance_hall	entrance_hall	
+/e/escalator/indoor	escalator	indoor
+/e/excavation	excavation	
+/f/fabric_store	fabric_store	
+/f/farm	farm	
+/f/fastfood_restaurant	fastfood_restaurant	
+/f/field/cultivated	field	cultivated
+/f/field/wild	field	wild
+/f/field_road	field_road	
+/f/fire_escape	fire_escape	
+/f/fire_station	fire_station	
+/f/fishpond	fishpond	
+/f/flea_market/indoor	flea_market	indoor
+/f/florist_shop/indoor	florist_shop	indoor
+/f/food_court	food_court	
+/f/football_field	football_field	
+/f/forest/broadleaf	forest	broadleaf
+/f/forest_path	forest_path	
+/f/forest_road	forest_road	
+/f/formal_garden	formal_garden	
+/f/fountain	fountain	
+/g/galley	galley	
+/g/garage/indoor	garage	indoor
+/g/garage/outdoor	garage	outdoor
+/g/gas_station	gas_station	
+/g/gazebo/exterior	gazebo	exterior
+/g/general_store/indoor	general_store	indoor
+/g/general_store/outdoor	general_store	outdoor
+/g/gift_shop	gift_shop	
+/g/glacier	glacier	
+/g/golf_course	golf_course	
+/g/greenhouse/indoor	greenhouse	indoor
+/g/greenhouse/outdoor	greenhouse	outdoor
+/g/grotto	grotto	
+/g/gymnasium/indoor	gymnasium	indoor
+/h/hangar/indoor	hangar	indoor
+/h/hangar/outdoor	hangar	outdoor
+/h/harbor	harbor	
+/h/hardware_store	hardware_store	
+/h/hayfield	hayfield	
+/h/heliport	heliport	
+/h/highway	highway	
+/h/home_office	home_office	
+/h/home_theater	home_theater	
+/h/hospital	hospital	
+/h/hospital_room	hospital_room	
+/h/hot_spring	hot_spring	
+/h/hotel/outdoor	hotel	outdoor
+/h/hotel_room	hotel_room	
+/h/house	house	
+/h/hunting_lodge/outdoor	hunting_lodge	outdoor
+/i/ice_cream_parlor	ice_cream_parlor	
+/i/ice_floe	ice_floe	
+/i/ice_shelf	ice_shelf	
+/i/ice_skating_rink/indoor	ice_skating_rink	indoor
+/i/ice_skating_rink/outdoor	ice_skating_rink	outdoor
+/i/iceberg	iceberg	
+/i/igloo	igloo	
+/i/industrial_area	industrial_area	
+/i/inn/outdoor	inn	outdoor
+/i/islet	islet	
+/j/jacuzzi/indoor	jacuzzi	indoor
+/j/jail_cell	jail_cell	
+/j/japanese_garden	japanese_garden	
+/j/jewelry_shop	jewelry_shop	
+/j/junkyard	junkyard	
+/k/kasbah	kasbah	
+/k/kennel/outdoor	kennel	outdoor
+/k/kindergarden_classroom	kindergarden_classroom	
+/k/kitchen	kitchen	
+/l/lagoon	lagoon	
+/l/lake/natural	lake	natural
+/l/landfill	landfill	
+/l/landing_deck	landing_deck	
+/l/laundromat	laundromat	
+/l/lawn	lawn	
+/l/lecture_room	lecture_room	
+/l/legislative_chamber	legislative_chamber	
+/l/library/indoor	library	indoor
+/l/library/outdoor	library	outdoor
+/l/lighthouse	lighthouse	
+/l/living_room	living_room	
+/l/loading_dock	loading_dock	
+/l/lobby	lobby	
+/l/lock_chamber	lock_chamber	
+/l/locker_room	locker_room	
+/m/mansion	mansion	
+/m/manufactured_home	manufactured_home	
+/m/market/indoor	market	indoor
+/m/market/outdoor	market	outdoor
+/m/marsh	marsh	
+/m/martial_arts_gym	martial_arts_gym	
+/m/mausoleum	mausoleum	
+/m/medina	medina	
+/m/mezzanine	mezzanine	
+/m/moat/water	moat	water
+/m/mosque/outdoor	mosque	outdoor
+/m/motel	motel	
+/m/mountain	mountain	
+/m/mountain_path	mountain_path	
+/m/mountain_snowy	mountain_snowy	
+/m/movie_theater/indoor	movie_theater	indoor
+/m/museum/indoor	museum	indoor
+/m/museum/outdoor	museum	outdoor
+/m/music_studio	music_studio	
+/n/natural_history_museum	natural_history_museum	
+/n/nursery	nursery	
+/n/nursing_home	nursing_home	
+/o/oast_house	oast_house	
+/o/ocean	ocean	
+/o/office	office	
+/o/office_building	office_building	
+/o/office_cubicles	office_cubicles	
+/o/oilrig	oilrig	
+/o/operating_room	operating_room	
+/o/orchard	orchard	
+/o/orchestra_pit	orchestra_pit	
+/p/pagoda	pagoda	
+/p/palace	palace	
+/p/pantry	pantry	
+/p/park	park	
+/p/parking_garage/indoor	parking_garage	indoor
+/p/parking_garage/outdoor	parking_garage	outdoor
+/p/parking_lot	parking_lot	
+/p/pasture	pasture	
+/p/patio	patio	
+/p/pavilion	pavilion	
+/p/pet_shop	pet_shop	
+/p/pharmacy	pharmacy	
+/p/phone_booth	phone_booth	
+/p/physics_laboratory	physics_laboratory	
+/p/picnic_area	picnic_area	
+/p/pier	pier	
+/p/pizzeria	pizzeria	
+/p/playground	playground	
+/p/playroom	playroom	
+/p/plaza	plaza	
+/p/pond	pond	
+/p/porch	porch	
+/p/promenade	promenade	
+/p/pub/indoor	pub	indoor
+/r/racecourse	racecourse	
+/r/raceway	raceway	
+/r/raft	raft	
+/r/railroad_track	railroad_track	
+/r/rainforest	rainforest	
+/r/reception	reception	
+/r/recreation_room	recreation_room	
+/r/repair_shop	repair_shop	
+/r/residential_neighborhood	residential_neighborhood	
+/r/restaurant	restaurant	
+/r/restaurant_kitchen	restaurant_kitchen	
+/r/restaurant_patio	restaurant_patio	
+/r/rice_paddy	rice_paddy	
+/r/river	river	
+/r/rock_arch	rock_arch	
+/r/roof_garden	roof_garden	
+/r/rope_bridge	rope_bridge	
+/r/ruin	ruin	
+/r/runway	runway	
+/s/sandbox	sandbox	
+/s/sauna	sauna	
+/s/schoolhouse	schoolhouse	
+/s/science_museum	science_museum	
+/s/server_room	server_room	
+/s/shed	shed	
+/s/shoe_shop	shoe_shop	
+/s/shopfront	shopfront	
+/s/shopping_mall/indoor	shopping_mall	indoor
+/s/shower	shower	
+/s/ski_resort	ski_resort	
+/s/ski_slope	ski_slope	
+/s/sky	sky	
+/s/skyscraper	skyscraper	
+/s/slum	slum	
+/s/snowfield	snowfield	
+/s/soccer_field	soccer_field	
+/s/stable	stable	
+/s/stadium/baseball	stadium	baseball
+/s/stadium/football	stadium	football
+/s/stadium/soccer	stadium	soccer
+/s/stage/indoor	stage	indoor
+/s/stage/outdoor	stage	outdoor
+/s/staircase	staircase	
+/s/storage_room	storage_room	
+/s/street	street	
+/s/subway_station/platform	subway_station	platform
+/s/supermarket	supermarket	
+/s/sushi_bar	sushi_bar	
+/s/swamp	swamp	
+/s/swimming_hole	swimming_hole	
+/s/swimming_pool/indoor	swimming_pool	indoor
+/s/swimming_pool/outdoor	swimming_pool	outdoor
+/s/synagogue/outdoor	synagogue	outdoor
+/t/television_room	television_room	
+/t/television_studio	television_studio	
+/t/temple/asia	temple	asia
+/t/throne_room	throne_room	
+/t/ticket_booth	ticket_booth	
+/t/topiary_garden	topiary_garden	
+/t/tower	tower	
+/t/toyshop	toyshop	
+/t/train_interior	train_interior	
+/t/train_station/platform	train_station	platform
+/t/tree_farm	tree_farm	
+/t/tree_house	tree_house	
+/t/trench	trench	
+/t/tundra	tundra	
+/u/underwater/ocean_deep	underwater	ocean_deep
+/u/utility_room	utility_room	
+/v/valley	valley	
+/v/vegetable_garden	vegetable_garden	
+/v/veterinarians_office	veterinarians_office	
+/v/viaduct	viaduct	
+/v/village	village	
+/v/vineyard	vineyard	
+/v/volcano	volcano	
+/v/volleyball_court/outdoor	volleyball_court	outdoor
+/w/waiting_room	waiting_room	
+/w/water_park	water_park	
+/w/water_tower	water_tower	
+/w/waterfall	waterfall	
+/w/watering_hole	watering_hole	
+/w/wave	wave	
+/w/wet_bar	wet_bar	
+/w/wheat_field	wheat_field	
+/w/wind_farm	wind_farm	
+/w/windmill	windmill	
+/y/yard	yard	
+/y/youth_hostel	youth_hostel	
+/z/zen_garden	zen_garden	

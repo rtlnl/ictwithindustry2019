@@ -1,0 +1,366 @@
+location_full	location_main	location_spec	translation_main	translation_spec
+/a/airfield	airfield		vliegveld	
+/a/airplane_cabin	airplane_cabin		airplane_cabin	
+/a/airport_terminal	airport_terminal		luchthaventerminal	
+/a/alcove	alcove		prieel	
+/a/alley	alley		steeg	
+/a/amphitheater	amphitheater		amfitheater	
+/a/amusement_arcade	amusement_arcade		amusementshal	
+/a/amusement_park	amusement_park		attractiepark	
+/a/apartment_building/outdoor	apartment_building	outdoor	appartementencomplex	outdoor
+/a/aquarium	aquarium		aquarium	
+/a/aqueduct	aqueduct		waterleiding	
+/a/arcade	arcade		zuilengang	
+/a/arch	arch		boog	
+/a/archaelogical_excavation	archaelogical_excavation		archaelogical_excavation	
+/a/archive	archive		archief	
+/a/arena/hockey	arena	hockey	arena	hockey
+/a/arena/performance	arena	performance	arena	performance
+/a/arena/rodeo	arena	rodeo	arena	rodeo
+/a/army_base	army_base		leger basis	
+/a/art_gallery	art_gallery		kunstgallerij	
+/a/art_school	art_school		kunstschool	
+/a/art_studio	art_studio		kunststudio	
+/a/artists_loft	artists_loft		artists_loft	
+/a/assembly_line	assembly_line		lopende band	
+/a/athletic_field/outdoor	athletic_field	outdoor	atletiek veld	outdoor
+/a/atrium/public	atrium	public	atrium	public
+/a/attic	attic		vliering	
+/a/auditorium	auditorium		gehoorzaal	
+/a/auto_factory	auto_factory		auto_factory	
+/a/auto_showroom	auto_showroom		auto_showroom	
+/b/badlands	badlands		badlands	
+/b/bakery/shop	bakery	shop	bakkerij	shop
+/b/balcony/exterior	balcony	exterior	balkon	exterior
+/b/balcony/interior	balcony	interior	balkon	interior
+/b/ball_pit	ball_pit		ballenbak	
+/b/ballroom	ballroom		danszaal	
+/b/bamboo_forest	bamboo_forest		Bamboo Bos	
+/b/bank_vault	bank_vault		bank kluis	
+/b/banquet_hall	banquet_hall		banketzaal	
+/b/bar	bar		bar	
+/b/barn	barn		schuur	
+/b/barndoor	barndoor		schuurdeur	
+/b/baseball_field	baseball_field		Honkbal veld	
+/b/basement	basement		kelder	
+/b/basketball_court/indoor	basketball_court	indoor	basketbalveld	indoor
+/b/bathroom	bathroom		badkamer	
+/b/bazaar/indoor	bazaar	indoor	bazaar	indoor
+/b/bazaar/outdoor	bazaar	outdoor	bazaar	outdoor
+/b/beach	beach		strand	
+/b/beach_house	beach_house		beach_house	
+/b/beauty_salon	beauty_salon		schoonheidssalon	
+/b/bedchamber	bedchamber		bedchamber	
+/b/bedroom	bedroom		slaapkamer	
+/b/beer_garden	beer_garden		biertuin	
+/b/beer_hall	beer_hall		beer_hall	
+/b/berth	berth		ligplaats	
+/b/biology_laboratory	biology_laboratory		biology_laboratory	
+/b/boardwalk	boardwalk		promenade	
+/b/boat_deck	boat_deck		boot dek	
+/b/boathouse	boathouse		botenhuis	
+/b/bookstore	bookstore		boekenwinkel	
+/b/booth/indoor	booth	indoor	kraam	indoor
+/b/botanical_garden	botanical_garden		botanische tuin	
+/b/bow_window/indoor	bow_window	indoor	boograam	indoor
+/b/bowling_alley	bowling_alley		bowlingbaan	
+/b/boxing_ring	boxing_ring		boksring	
+/b/bridge	bridge		brug	
+/b/building_facade	building_facade		building_facade	
+/b/bullring	bullring		arena voor stierengevechten	
+/b/burial_chamber	burial_chamber		burial_chamber	
+/b/bus_interior	bus_interior		bus_interior	
+/b/bus_station/indoor	bus_station	indoor	bushalte	indoor
+/b/butchers_shop	butchers_shop		slagerij	
+/b/butte	butte		butte	
+/c/cabin/outdoor	cabin	outdoor	cabine	outdoor
+/c/cafeteria	cafeteria		cafetaria	
+/c/campsite	campsite		camping	
+/c/campus	campus		campus	
+/c/canal/natural	canal	natural	kanaal	natural
+/c/canal/urban	canal	urban	kanaal	urban
+/c/candy_store	candy_store		snoepwinkel	
+/c/canyon	canyon		canyon	
+/c/car_interior	car_interior		car_interior	
+/c/carrousel	carrousel		carrousel	
+/c/castle	castle		kasteel	
+/c/catacomb	catacomb		catacombe	
+/c/cemetery	cemetery		begraafplaats	
+/c/chalet	chalet		chalet	
+/c/chemistry_lab	chemistry_lab		scheikunde lab	
+/c/childs_room	childs_room		childs_room	
+/c/church/indoor	church	indoor	kerk	indoor
+/c/church/outdoor	church	outdoor	kerk	outdoor
+/c/classroom	classroom		klas	
+/c/clean_room	clean_room		schone ruimte	
+/c/cliff	cliff		klif	
+/c/closet	closet		kast	
+/c/clothing_store	clothing_store		Kledingwinkel	
+/c/coast	coast		kust	
+/c/cockpit	cockpit		cockpit	
+/c/coffee_shop	coffee_shop		coffeeshop	
+/c/computer_room	computer_room		computer Kamer	
+/c/conference_center	conference_center		conferentiecentrum	
+/c/conference_room	conference_room		vergaderruimte	
+/c/construction_site	construction_site		bouwplaats	
+/c/corn_field	corn_field		corn_field	
+/c/corral	corral		kraal	
+/c/corridor	corridor		gang	
+/c/cottage	cottage		huisje	
+/c/courthouse	courthouse		gerechtsgebouw	
+/c/courtyard	courtyard		binnenplaats	
+/c/creek	creek		kreek	
+/c/crevasse	crevasse		spleet	
+/c/crosswalk	crosswalk		zebrapad	
+/d/dam	dam		dam	
+/d/delicatessen	delicatessen		delicatessenwinkel	
+/d/department_store	department_store		warenhuis	
+/d/desert/sand	desert	sand	woestijn	sand
+/d/desert/vegetation	desert	vegetation	woestijn	vegetation
+/d/desert_road	desert_road		desert_road	
+/d/diner/outdoor	diner	outdoor	diner	outdoor
+/d/dining_hall	dining_hall		eetkamer	
+/d/dining_room	dining_room		eetkamer	
+/d/discotheque	discotheque		discotheek	
+/d/doorway/outdoor	doorway	outdoor	deuropening	outdoor
+/d/dorm_room	dorm_room		studentenkamer	
+/d/downtown	downtown		downtown	
+/d/dressing_room	dressing_room		kleedkamer	
+/d/driveway	driveway		pad	
+/d/drugstore	drugstore		apotheek	
+/e/elevator/door	elevator	door	lift	by
+/e/elevator_lobby	elevator_lobby		elevator_lobby	
+/e/elevator_shaft	elevator_shaft		lift schacht	
+/e/embassy	embassy		ambassade	
+/e/engine_room	engine_room		machinekamer	
+/e/entrance_hall	entrance_hall		entreehal	
+/e/escalator/indoor	escalator	indoor	roltrap	indoor
+/e/excavation	excavation		uitgraving	
+/f/fabric_store	fabric_store		Stoffenwinkel	
+/f/farm	farm		farm	
+/f/fastfood_restaurant	fastfood_restaurant		fastfood restaurant	
+/f/field/cultivated	field	cultivated	veld-	cultivated
+/f/field/wild	field	wild	veld-	wild
+/f/field_road	field_road		field_road	
+/f/fire_escape	fire_escape		nooduitgang	
+/f/fire_station	fire_station		brandweerkazerne	
+/f/fishpond	fishpond		visvijver	
+/f/flea_market/indoor	flea_market	indoor	vlooienmarkt	indoor
+/f/florist_shop/indoor	florist_shop	indoor	bloemenwinkel	indoor
+/f/food_court	food_court		voedselbank	
+/f/football_field	football_field		voetbalveld	
+/f/forest/broadleaf	forest	broadleaf	Bos	broadleaf
+/f/forest_path	forest_path		forest_path	
+/f/forest_road	forest_road		forest_road	
+/f/formal_garden	formal_garden		formal_garden	
+/f/fountain	fountain		fontein	
+/g/galley	galley		kombuis	
+/g/garage/indoor	garage	indoor	garage	indoor
+/g/garage/outdoor	garage	outdoor	garage	outdoor
+/g/gas_station	gas_station		benzinestation	
+/g/gazebo/exterior	gazebo	exterior	tuinhuisje	exterior
+/g/general_store/indoor	general_store	indoor	general_store	indoor
+/g/general_store/outdoor	general_store	outdoor	general_store	outdoor
+/g/gift_shop	gift_shop		cadeauwinkel	
+/g/glacier	glacier		gletsjer	
+/g/golf_course	golf_course		golfbaan	
+/g/greenhouse/indoor	greenhouse	indoor	broeikas	indoor
+/g/greenhouse/outdoor	greenhouse	outdoor	broeikas	outdoor
+/g/grotto	grotto		grot	
+/g/gymnasium/indoor	gymnasium	indoor	gymnastiekzaal	indoor
+/h/hangar/indoor	hangar	indoor	hangar	indoor
+/h/hangar/outdoor	hangar	outdoor	hangar	outdoor
+/h/harbor	harbor		haven	
+/h/hardware_store	hardware_store		hardware_store	
+/h/hayfield	hayfield		hayfield	
+/h/heliport	heliport		heliport	
+/h/highway	highway		snelweg	
+/h/home_office	home_office		thuiskantoor	
+/h/home_theater	home_theater		thuisbioscoop	
+/h/hospital	hospital		ziekenhuis	
+/h/hospital_room	hospital_room		ziekenzaal	
+/h/hot_spring	hot_spring		warme lente	
+/h/hotel/outdoor	hotel	outdoor	hotel	outdoor
+/h/hotel_room	hotel_room		hotelkamer	
+/h/house	house		huis	
+/h/hunting_lodge/outdoor	hunting_lodge	outdoor	jachthut	outdoor
+/i/ice_cream_parlor	ice_cream_parlor		ijssalon	
+/i/ice_floe	ice_floe		ice_floe	
+/i/ice_shelf	ice_shelf		ice_shelf	
+/i/ice_skating_rink/indoor	ice_skating_rink	indoor	ijsbaan	indoor
+/i/ice_skating_rink/outdoor	ice_skating_rink	outdoor	ijsbaan	outdoor
+/i/iceberg	iceberg		ijsberg	
+/i/igloo	igloo		iglo	
+/i/industrial_area	industrial_area		industriegebied	
+/i/inn/outdoor	inn	outdoor	cafe	outdoor
+/i/islet	islet		eilandje	
+/j/jacuzzi/indoor	jacuzzi	indoor	jacuzzi	indoor
+/j/jail_cell	jail_cell		gevangeniscel	
+/j/japanese_garden	japanese_garden		Japanse tuin	
+/j/jewelry_shop	jewelry_shop		juwelier	
+/j/junkyard	junkyard		autokerkhof	
+/k/kasbah	kasbah		kasbah	
+/k/kennel/outdoor	kennel	outdoor	hok	outdoor
+/k/kindergarden_classroom	kindergarden_classroom		kindergarden_classroom	
+/k/kitchen	kitchen		keuken-	
+/l/lagoon	lagoon		lagune	
+/l/lake/natural	lake	natural	meer	natural
+/l/landfill	landfill		stortplaats	
+/l/landing_deck	landing_deck		landing_deck	
+/l/laundromat	laundromat		wasserette	
+/l/lawn	lawn		gazon	
+/l/lecture_room	lecture_room		collegezaal	
+/l/legislative_chamber	legislative_chamber		legislative_chamber	
+/l/library/indoor	library	indoor	bibliotheek	indoor
+/l/library/outdoor	library	outdoor	bibliotheek	outdoor
+/l/lighthouse	lighthouse		vuurtoren	
+/l/living_room	living_room		woonkamer	
+/l/loading_dock	loading_dock		laadperron	
+/l/lobby	lobby		lobby	
+/l/lock_chamber	lock_chamber		lock_chamber	
+/l/locker_room	locker_room		kleedkamer	
+/m/mansion	mansion		herenhuis	
+/m/manufactured_home	manufactured_home		manufactured_home	
+/m/market/indoor	market	indoor	markt	indoor
+/m/market/outdoor	market	outdoor	markt	outdoor
+/m/marsh	marsh		moeras	
+/m/martial_arts_gym	martial_arts_gym		martial_arts_gym	
+/m/mausoleum	mausoleum		mausoleum	
+/m/medina	medina		medina	
+/m/mezzanine	mezzanine		tussenverdieping	
+/m/moat/water	moat	water	slotgracht	water
+/m/mosque/outdoor	mosque	outdoor	moskee	outdoor
+/m/motel	motel		motel	
+/m/mountain	mountain		berg-	
+/m/mountain_path	mountain_path		mountain_path	
+/m/mountain_snowy	mountain_snowy		mountain_snowy	
+/m/movie_theater/indoor	movie_theater	indoor	bioscoop	indoor
+/m/museum/indoor	museum	indoor	museum	indoor
+/m/museum/outdoor	museum	outdoor	museum	outdoor
+/m/music_studio	music_studio		muziek studio	
+/n/natural_history_museum	natural_history_museum		natuurlijk geschiedenismuseum	
+/n/nursery	nursery		kwekerij	
+/n/nursing_home	nursing_home		verzorgingstehuis	
+/o/oast_house	oast_house		oast_house	
+/o/ocean	ocean		oceaan	
+/o/office	office		kantoor	
+/o/office_building	office_building		kantoorgebouw	
+/o/office_cubicles	office_cubicles		office_cubicles	
+/o/oilrig	oilrig		booreiland	
+/o/operating_room	operating_room		operating_room	
+/o/orchard	orchard		boomgaard	
+/o/orchestra_pit	orchestra_pit		orkestbak	
+/p/pagoda	pagoda		pagode	
+/p/palace	palace		paleis	
+/p/pantry	pantry		provisiekast	
+/p/park	park		park	
+/p/parking_garage/indoor	parking_garage	indoor	parkeergarage	indoor
+/p/parking_garage/outdoor	parking_garage	outdoor	parkeergarage	outdoor
+/p/parking_lot	parking_lot		parkeerplaats	
+/p/pasture	pasture		weide	
+/p/patio	patio		patio	
+/p/pavilion	pavilion		paviljoen	
+/p/pet_shop	pet_shop		dierenwinkel	
+/p/pharmacy	pharmacy		apotheek	
+/p/phone_booth	phone_booth		telefooncel	
+/p/physics_laboratory	physics_laboratory		physics_laboratory	
+/p/picnic_area	picnic_area		picnic_area	
+/p/pier	pier		pier	
+/p/pizzeria	pizzeria		pizzeria	
+/p/playground	playground		speelplaats	
+/p/playroom	playroom		speelkamer	
+/p/plaza	plaza		plein	
+/p/pond	pond		vijver	
+/p/porch	porch		veranda	
+/p/promenade	promenade		promenade	
+/p/pub/indoor	pub	indoor	kroeg	indoor
+/r/racecourse	racecourse		renbaan	
+/r/raceway	raceway		toevoerkanaal	
+/r/raft	raft		vlot	
+/r/railroad_track	railroad_track		spoorlijn	
+/r/rainforest	rainforest		regenwoud	
+/r/reception	reception		ontvangst	
+/r/recreation_room	recreation_room		recreatie ruimte	
+/r/repair_shop	repair_shop		herstelwinkel	
+/r/residential_neighborhood	residential_neighborhood		residential_neighborhood	
+/r/restaurant	restaurant		restaurant	
+/r/restaurant_kitchen	restaurant_kitchen		restaurant_kitchen	
+/r/restaurant_patio	restaurant_patio		restaurant_patio	
+/r/rice_paddy	rice_paddy		rijstveld	
+/r/river	river		rivier-	
+/r/rock_arch	rock_arch		rock_arch	
+/r/roof_garden	roof_garden		tuin op het dak	
+/r/rope_bridge	rope_bridge		touwbrug	
+/r/ruin	ruin		ruïneren	
+/r/runway	runway		startbaan	
+/s/sandbox	sandbox		zandbak	
+/s/sauna	sauna		sauna	
+/s/schoolhouse	schoolhouse		schoolgebouw	
+/s/science_museum	science_museum		wetenschapsmuseum	
+/s/server_room	server_room		server ruimte	
+/s/shed	shed		schuur	
+/s/shoe_shop	shoe_shop		schoenenwinkel	
+/s/shopfront	shopfront		winkel voorkant	
+/s/shopping_mall/indoor	shopping_mall	indoor	winkelcentrum	indoor
+/s/shower	shower		douche	
+/s/ski_resort	ski_resort		ski_resort	
+/s/ski_slope	ski_slope		piste	
+/s/sky	sky		hemel	
+/s/skyscraper	skyscraper		wolkenkrabber	
+/s/slum	slum		achterbuurt	
+/s/snowfield	snowfield		snowfield	
+/s/soccer_field	soccer_field		voetbalveld	
+/s/stable	stable		stal	
+/s/stadium/baseball	stadium	baseball	stadion	baseball
+/s/stadium/football	stadium	football	stadion	football
+/s/stadium/soccer	stadium	soccer	stadion	soccer
+/s/stage/indoor	stage	indoor	stadium	indoor
+/s/stage/outdoor	stage	outdoor	stadium	outdoor
+/s/staircase	staircase		trappenhuis	
+/s/storage_room	storage_room		opslagruimte	
+/s/street	street		straat	
+/s/subway_station/platform	subway_station	platform	metrostation	platform
+/s/supermarket	supermarket		supermarkt	
+/s/sushi_bar	sushi_bar		sushi bar	
+/s/swamp	swamp		moeras	
+/s/swimming_hole	swimming_hole		swimming_hole	
+/s/swimming_pool/indoor	swimming_pool	indoor	zwembad	indoor
+/s/swimming_pool/outdoor	swimming_pool	outdoor	zwembad	outdoor
+/s/synagogue/outdoor	synagogue	outdoor	synagoge	outdoor
+/t/television_room	television_room		television_room	
+/t/television_studio	television_studio		television_studio	
+/t/temple/asia	temple	asia	tempel	asia
+/t/throne_room	throne_room		troonzaal	
+/t/ticket_booth	ticket_booth		loket	
+/t/topiary_garden	topiary_garden		topiary_garden	
+/t/tower	tower		toren	
+/t/toyshop	toyshop		speelgoedwinkel	
+/t/train_interior	train_interior		train_interior	
+/t/train_station/platform	train_station	platform	treinstation	platform
+/t/tree_farm	tree_farm		tree_farm	
+/t/tree_house	tree_house		boomhut	
+/t/trench	trench		loopgraaf	
+/t/tundra	tundra		toendra	
+/u/underwater/ocean_deep	underwater	ocean_deep	onderwater-	ocean_deep
+/u/utility_room	utility_room		utility_room	
+/v/valley	valley		vallei	
+/v/vegetable_garden	vegetable_garden		moestuin	
+/v/veterinarians_office	veterinarians_office		veterinarians_office	
+/v/viaduct	viaduct		viaduct	
+/v/village	village		dorp	
+/v/vineyard	vineyard		wijngaard	
+/v/volcano	volcano		vulkaan	
+/v/volleyball_court/outdoor	volleyball_court	outdoor	volleybal veld	outdoor
+/w/waiting_room	waiting_room		wachtkamer	
+/w/water_park	water_park		waterpark	
+/w/water_tower	water_tower		watertoren	
+/w/waterfall	waterfall		waterval	
+/w/watering_hole	watering_hole		afvoer	
+/w/wave	wave		Golf	
+/w/wet_bar	wet_bar		natte bar	
+/w/wheat_field	wheat_field		tarwe veld	
+/w/wind_farm	wind_farm		windmolenpark	
+/w/windmill	windmill		windmolen	
+/y/yard	yard		werf	
+/y/youth_hostel	youth_hostel		jeugdherberg	
+/z/zen_garden	zen_garden		zentuin	
