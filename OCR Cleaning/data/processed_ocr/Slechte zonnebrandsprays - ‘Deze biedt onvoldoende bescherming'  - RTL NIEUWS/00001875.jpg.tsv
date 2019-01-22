@@ -1,0 +1,7 @@
+	level	page_num	block_num	par_num	line_num	word_num	left	top	width	height	conf	text	actual_word
+9	5	1	2	1	1	2	536	0	168	96	58	wi	wi
+14	5	1	2	1	3	2	371	227	160	65	91	dage	dage
+18	5	1	3	1	1	1	134	307	52	52	91	in	in
+19	5	1	3	1	1	2	203	308	56	64	91	je	je
+20	5	1	3	1	1	3	376	323	72	37	43	inbox	inbox
+25	5	1	4	1	1	1	134	539	610	52	49	rtlnieuws nl nieuwsbrief	rtlnieuws NL Nieuwsbrief
