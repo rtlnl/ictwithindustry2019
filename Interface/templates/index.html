@@ -1,11 +1,14 @@
 {% extends "layout.html" %}
 <!-- Define title -->
-{% block title %}<h1>Welcome to this page!</h1>{% endblock %}
+{% block title %}<h1>RTL video search</h1>{% endblock %}
 
 <!-- Define contents -->
 {% block content %}
 <form action="/initial-query/" method="POST">
 <input type="text" name="textfield" size=40>
 <input type="submit" value="Submit">
+<p>
+<a href="/advanced/">Advanced search</a>
+</p>
 </form>
 {% endblock %}

@@ -1,21 +1,82 @@
-{% extends "layout.html" %}
-<!-- Define title -->
-{% block title %}<h1>Search query</h1>{% endblock %}
+<html>
+<!-- Layout structure from: http://learnlayout.com/float-layout.html -->
+<!-- This structure is inherited by all other pages. -->
+<head>
+    <title>RTL Image Search</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        .column {
+          float: left;
+          width: 50%;
+        }
 
-<!-- Define contents -->
-{% block content %}
-<p>
-You searched for: {{query}}
-</p>
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+    th {
+        font-weight: normal;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    ul {
+        text-align: center;
+        list-style-position: inside;
+    }
+    </style>
+</head>
 
-<table>
-{% for row in results %}
-    <tr>
-    <td>{{row.media}}<td>
-    <td><b>{{row.title}}</b><br/>
-    {{row.description}}
-    </td>
-    </tr>
-{% endfor %}
-</table>
-{% endblock %}
+<body>
+    
+    <center><h1>Results</h1></center>
+    <p>
+    You searched for: {{query}}.<br />
+    </p>
+    <p>
+        <a href="/">Back to search.</a>
+    </p>
+    <section class="row">
+        <div class="column">
+            <center>
+            <table>
+            {% for row in results %}
+                <tr>
+                <th colspan="5"><b>{{row.title}}</b><br/>
+                {{row.description}}
+                </th>
+                </tr>
+                <tr>
+                {% for shot in row.shots%}
+                <td><img src="{{shot}}" width="50px"></td>
+                {% endfor %}
+                </tr>
+            {% endfor %}
+            </table>
+            </center>
+        </div>
+        <div class="column">
+            <p><b>Related queries</b></p>
+            <ul>
+            {% for query in related_queries %}
+                <li>{{query}}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+
+
+<div class="related">
+
+</div>
+</body>
+</html>
