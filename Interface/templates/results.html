@@ -28,14 +28,24 @@
                 <!--</ul>-->
             <!--</nav>-->
         <!--</div>-->
-        <section class="region--under-navigation"></section>
+        <!--<section class="region&#45;&#45;under-navigation"></section>-->
+        <br /><br /><br /><br />
         <section class="region--content-top"></section>
         <section class="region--content">
             <div id="search-app">
                 <div class="search">
-                    <form class="search-form" _lpchecked="1">
-                        <label>{{results|length}} Resultaten voor {{query}}</label>
-                        <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}">
+                    <form class="search-form row"  action="/results/" method="POST" _lpchecked="1" style="padding: 20px 0;">
+                        <!-- <label>{{results|length}} Resultaten voor {{query}}</label> -->
+                        <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}"> <br />
+                        {% for category in weights %}
+                            <div class="small-2 medium-2 large-2">
+                                <b>{{ category }}</b><br />
+                                {% for key in weights[category] %}
+                                    <label for="{{key}}" style="font-size: 16px; font-weight: normal;">{{weights[category][key].nl}}</label>
+                                    <input type="range" name="{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11"><br />
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
                     </form>
                 </div>
             <div>
@@ -46,13 +56,15 @@
                             {% for row in results %}
                                 <a href="{{row.url}}" class="search-item search-item--artikel">
                                     <div class="search-item__image">
-                                        <img src="{{row.shots[0]}}" alt="ALT_TEXT">
+                                        <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
                                     </div>
                                     <div class="search-item__content">
-                                        <span class="search-item__label chapeau">{{row.chapeau}}</span>
                                         <h2 class="search-item__title">{{row.title}}</h2>
                                         <p class="search-item__description">{{row.description}}</p>
-                                        <span class="search-item__date">{{row.date}}</span>
+                                        {% for tag in row.tags %}
+                                            <span class="search-item__label chapeau">{{tag}}</span>
+                                        {% endfor %}
+                                        <span class="search-item__date" style="float: right;">{{row.date}}</span>
                                     </div>
                                 </a>
                             {% endfor %}
