@@ -13,11 +13,13 @@ def get_eng2dutch(root):
         translation[arg] = {}
         df = pd.read_csv(os.path.join(root, 'Embeddings - ' + csv + '.csv'))
         for _, row in df.iterrows():
+            src = row['Original']
             if csv == 'Scene categories':
-                src = row['Original'][3:].replace('/', '_')
+                src = src[3:].replace('/', '_')
+            if csv == 'Actions':
+                target = src
             else:
-                src = row['Original']
-            target = row['Embedding']
+                target = row['Embedding']
             translation[arg][src] = target
     return translation
 
