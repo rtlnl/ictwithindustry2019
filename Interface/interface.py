@@ -2,6 +2,7 @@
 from flask import Flask, request, render_template
 import json
 import elasticsearch
+import requests
 
 ################################################################################
 # Load data
@@ -17,13 +18,13 @@ app = Flask(__name__)
 es = elasticsearch.Elasticsearch()
 
 CONCEPT_FIELDS = ('places', 'places_attributes', 'places_environment', 'coco', 'coco_count', 'imagenet')
+FIELD_MAPPING = {'places_attributes': 'Attributen'}
 
 try:
     assert es.cluster.health(timeout='10s').get('status') == 'green'
     MOCK_ES = False
-    all_docs = es.search('ictwi2019', size=10000, _source=CONCEPT_FIELDS, timeout='60s')["hits"]["hits"]
+    all_docs = es.search('ictwi2019', size=10000, _source=CONCEPT_FIELDS, request_timeout=60)["hits"]["hits"]
 except:
-    raise
     app.logger.warn('Cannot connect to Elasticsearch, using mock data.')
     MOCK_ES = True
     with open('static/search.json') as f:
@@ -65,18 +66,17 @@ def search(query, weights):
 
 def rank_concepts(query):
     weights = {
-        'BM25': {
+        'Tekst': {
             'title': {'nl': 'Titel', 'weight': 50},
             'description': {'nl': 'Beschrijving', 'weight': 20},
             'meta.og:video:tag': {'nl': 'Tags', 'weight': 10},
             'clean_ocr': {'nl': 'OCR', 'weight': 10}
-        },
-        'Coco': {
-            'cow': {'nl': 'Koe', 'weight': 50},
-            'person': {'nl': 'Persoon', 'weight': 20},
-            'tree': {'nl': 'Boom', 'weight': 10}
         }
     }
+    for term in query.split():
+        concept_scores = requests.get(f'http://localhost:5001/{term}').json()
+        for field, scores in concept_scores.items():
+            weights[FIELD_MAPPING.get(field, field.capitalize())] = dict(sorted(scores.items(), key=lambda x: -x[1]['weight'])[:4])
     return weights
 
 @app.route('/', methods=['POST'])
@@ -90,7 +90,7 @@ def results():
         for key, value in weights[category].items():
             if f'{category}/{key}' in request.form:
                 value['weight'] = request.form[f'{category}/{key}']
-    return render_template('results.html', query=query, results=search(query, weights['BM25']), weights=weights)
+    return render_template('results.html', query=query, results=search(query, weights['Tekst']), weights=weights)
 
 ################################################################################
 # Running the website
