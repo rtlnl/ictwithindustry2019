@@ -45,26 +45,21 @@
             <div class="search-items">
                 <div class="search-items__list">
                     <div class="search-results">
-                        <div>
-                            {% for row in results %}
-                                <!--<a role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">-->
-                                <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myOutput{{ row.id }}">Output</button>-->
-                                <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">
-                                    <div class="search-item__image">
-                                        <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
-                                    </div>
-                                    <div class="search-item__content">
-                                        <h2 class="search-item__title">{{row.title}}</h2>
-                                        <p class="search-item__description">{{row.description}}</p>
-                                        {% for tag in row.tags %}
-                                            <span class="search-item__label chapeau">{{tag}}</span>
-                                        {% endfor %}
-                                        <span class="search-item__date" style="float: right;">{{row.date}}</span>
-                                    </div>
-                                </a>
-
-                            {% endfor %}
-                        </div>
+                        {% for row in results %}
+                            <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">
+                                <div class="search-item__image">
+                                    <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
+                                </div>
+                                <div class="search-item__content">
+                                    <h2 class="search-item__title">{{row.title}}</h2>
+                                    <p class="search-item__description">{{row.description}}</p>
+                                    {% for tag in row.tags %}
+                                        <span class="search-item__label chapeau">{{tag}}</span>
+                                    {% endfor %}
+                                    <span class="search-item__date" style="float: right;">{{row.date}}</span>
+                                </div>
+                            </a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
