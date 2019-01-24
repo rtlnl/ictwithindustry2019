@@ -35,7 +35,7 @@
                                 <b>{{ category }}</b><br />
                                 {% for key in weights[category] %}
                                     <label for="{{key}}" style="font-size: 16px; font-weight: normal;">{{weights[category][key].nl}}</label>
-                                    <input type="range" name="{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11"><br />
+                                    <input type="range" name="{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()"><br />
                                 {% endfor %}
                             </div>
                         {% endfor %}

@@ -1,0 +1,11 @@
+	block_num	clean_text	conf	height	left	level	line_num	page_num	par_num	text	top	width	word_num
+0	1	Li	60	96	536	5	1	1	1	..li	0	168	1
+1	2	p	50	6	80	5	1	1	1	P	220	48	1
+2	2	e	66	37	333	5	1	1	1	(e|	163	36	2
+3	2	s	53	32	147	5	2	1	1	s	256	32	2
+4	2	dage	86	65	371	5	2	1	1	dage	227	160	3
+5	2	in	91	52	134	5	3	1	1	in	307	52	1
+6	2	je	91	64	203	5	3	1	1	je	308	56	2
+7	2	inbox	42	37	376	5	3	1	1	inbox	323	72	3
+8	2	f	20	67	264	5	4	1	1	F_	437	149	1
+9	3	rtlnieuws NL Nieuwsbrief	40	51	134	5	1	1	1	rtlnieuws.nl/nieuwsbrief	539	610	1
