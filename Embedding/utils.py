@@ -7,9 +7,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 CSV_FILES = ['COCO', 'Objects',
-             'Scene attributes', 'Scene categories']
+             'Scene attributes', 'Scene categories',
+             'Actions']
 
-JSON_ARG = ['coco', 'imagenet', 'places_attributes', 'places']
+JSON_ARG = ['coco', 'imagenet', 'places_attributes', 'places', 'kinetics']
 
 
 def similarity(a, b):
