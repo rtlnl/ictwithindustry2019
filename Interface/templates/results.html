@@ -1,21 +1,68 @@
-{% extends "layout.html" %}
-<!-- Define title -->
-{% block title %}<h1>Search query</h1>{% endblock %}
+<html>
+<!-- Layout structure from: http://learnlayout.com/float-layout.html -->
+<!-- This structure is inherited by all other pages. -->
+<head>
+    <title>RTL Image Search</title>
+    <link rel="stylesheet"  href="{{url_for('static', filename='style.css')}}"/>
+    <!--<script type="text/javascript" src="{{url_for('static', filename='modal.js') }}"></script>-->
+</head>
 
-<!-- Define contents -->
-{% block content %}
-<p>
-You searched for: {{query}}
-</p>
+<div>
+    <div class="js-off-canvas-overlay is-overlay-fixed"></div>
+    <div class="off-canvas-content">
+        <header id="js-header-container" class="rtlnieuws-header">
+            <div class="header-nav">
+                <div class="logo vertical-middle">
+                    <img src="https://www.rtlnieuws.nl/themes/custom/rtlnieuws/images/logo-rtlnieuws.svg">
 
-<table>
-{% for row in results %}
-    <tr>
-    <td>{{row.media}}<td>
-    <td><b>{{row.title}}</b><br/>
-    {{row.description}}
-    </td>
-    </tr>
-{% endfor %}
-</table>
-{% endblock %}
+                </div>
+            </div>
+        </header>
+        <br /><br /><br /><br />
+        <section class="region--content-top"></section>
+        <section class="region--content">
+            <div id="search-app">
+                <div class="search">
+                    <form class="search-form row"  action="/results/" method="POST" _lpchecked="1" style="padding: 20px 0;">
+                        <!-- <label>{{results|length}} Resultaten voor {{query}}</label> -->
+                        <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}"> <br />
+                        {% for category in weights %}
+                            <div class="small-2 medium-2 large-2">
+                                <b>{{ category }}</b><br />
+                                {% for key in weights[category] %}
+                                    <label for="{{key}}" style="font-size: 16px; font-weight: normal;">{{weights[category][key].nl}}</label>
+                                    <input type="range" name="{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11"><br />
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </form>
+                </div>
+            <div>
+            <div class="search-items">
+                <div class="search-items__list">
+                    <div class="search-results">
+                        <div>
+                            {% for row in results %}
+                                <a href="{{row.url}}" class="search-item search-item--artikel">
+                                    <div class="search-item__image">
+                                        <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
+                                    </div>
+                                    <div class="search-item__content">
+                                        <h2 class="search-item__title">{{row.title}}</h2>
+                                        <p class="search-item__description">{{row.description}}</p>
+                                        {% for tag in row.tags %}
+                                            <span class="search-item__label chapeau">{{tag}}</span>
+                                        {% endfor %}
+                                        <span class="search-item__date" style="float: right;">{{row.date}}</span>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>

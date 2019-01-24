@@ -3,36 +3,42 @@
 <!-- This structure is inherited by all other pages. -->
 <head>
     <title>RTL Image Search</title>
-    <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    <link rel="stylesheet"  href="{{url_for('static', filename='style.css')}}"/>
 </head>
 
 <body>
-<div class="clearfix elem">
 
-  <nav class="elem elem-red">
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/to-do/">Some page</a>
-      </li>
-      <li>
-        <a href="/to-do/">Some other page</a>
-      </li>
-    </ul>
-  </nav>
+<div>
+    <div class="js-off-canvas-overlay is-overlay-fixed"></div>
+    <div class="off-canvas-content">
+        <header id="js-header-container" class="rtlnieuws-header">
+            <div class="header-nav">
+                <div class="logo vertical-middle">
+                    <img src="https://www.rtlnieuws.nl/themes/custom/rtlnieuws/images/logo-rtlnieuws.svg">
 
-  <section class="elem elem-green">
-      <!--Define title block for the template.-->
-      {% block title %}<h1>Page title</h1>{% endblock %}
-  </section>
-
-  <section class="elem elem-green ipsum">
-      <!--Define content block for the template.-->
-    {% block content %}Bla bla bla{% endblock %}
-  </section>
-
+                </div>
+            </div>
+        </header>
+    <!--</header>-->
+        <!--<div id="js-top-nav" class="top-nav">-->
+            <!--<nav class="main-nav">-->
+                <!--<ul class="list-bare menu">-->
+                    <!--&lt;!&ndash;Define content block for the template.&ndash;&gt;-->
+                    <!--{% block content %}Bla bla bla{% endblock %}-->
+                    <!--You searched for: {{query}}.-->
+                    <!--<li class="menu-item default">-->
+                        <!--<a href="/">Back to search.</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</nav>-->
+        <!--</div>-->
+        <section class="region--under-navigation"></section>
+        <section class="region--content-top"></section>
+        <section class="region--content">
+            <!--Define content block for the template.-->
+            {% block search %}Bla bla bla{% endblock %}
+        </section>
+    </div>
 </div>
 </body>
 </html>
