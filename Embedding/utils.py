@@ -62,6 +62,15 @@ class Embedding(object):
             tmp.append(self.model.word_vec(r[0]))
         return np.mean(tmp, axis=0)
 
+    def query_vec(self, query):
+        keys = query.lower().split()
+        if len(keys) == 1:
+            return self.model.word_vec(keys[0])
+        else:
+            tmp = []
+            for i in range(len(keys)):
+                tmp.append(self.model.word_vec(keys[i].strip(',')))
+            return np.mean(tmp, axis=0)
 
 def matching_score(query, preds, probs, topk=5):
     '''matching score between a query and a video
@@ -82,4 +91,4 @@ def matching_score(query, preds, probs, topk=5):
 if __name__ == "__main__":
     translation = get_eng2dutch(root='Translations')
     emb = Embedding('fastText/cc.nl.300.vec', translation)
-    tmp = emb.word_vec('n01484850')
+    tmp = emb.word_vec('imagenet', 'n01484850')
