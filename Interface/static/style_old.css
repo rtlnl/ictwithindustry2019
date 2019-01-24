@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+/* Borrowed from RTL Nieuws website */
+
+@font-face{
+  font-family:'graphik-web';
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-bold.d835fbd0.eot);
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-bold.d835fbd0.eot) format("embedded-opentype"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-bold.e089ae05.woff) format("woff"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-bold.00e0668b.ttf) format("truetype"), url(/themes/custom/rtlnieuws/dist/images/rtl-graphik-web-bold.a5e7d641.svg) format("svg");
+  font-weight:700;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:fallback;
+}
+
+@font-face{
+  font-family:'graphik-web';
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-medium.7ef108a0.eot);
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-medium.7ef108a0.eot) format("embedded-opentype"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-medium.1671fcdb.woff) format("woff"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-medium.4cf0539d.ttf) format("truetype"), url(/themes/custom/rtlnieuws/dist/images/rtl-graphik-web-medium.61d2d01a.svg) format("svg");
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:fallback;
+}
+
+@font-face{
+  font-family:'graphik-web';
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-semibold.2dd6e919.eot);
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-semibold.2dd6e919.eot) format("embedded-opentype"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-semibold.073eddfe.woff) format("woff"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-semibold.2a57b4c9.ttf) format("truetype"), url(/themes/custom/rtlnieuws/dist/images/rtl-graphik-web-semibold.3b160406.svg) format("svg");
+  font-weight:600;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:fallback;
+}
+
+@font-face{
+  font-family:'graphik-web';
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-regular.dc12be59.eot);
+  src:url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-regular.dc12be59.eot) format("embedded-opentype"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-regular.13828875.woff) format("woff"), url(/themes/custom/rtlnieuws/dist/fonts/rtl-graphik-web-regular.517e407a.ttf) format("truetype"), url(/themes/custom/rtlnieuws/dist/images/rtl-graphik-web-regular.1f5c55df.svg) format("svg");
+  font-weight:400;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:fallback;
+}
+
+body {
+    font-family:graphik-web, sans-serif, arial, helvetica;
+}
+
+.js-off-canvas-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  -webkit-transition:opacity 0.5s ease, visibility 0.5s ease;
+  transition:opacity 0.5s ease, visibility 0.5s ease;
+  background:rgba(254, 254, 254, 0.25);
+  opacity:0;
+  visibility:hidden;
+  overflow:hidden;
+}
+
+.js-off-canvas-overlay.is-visible{
+  opacity:1;
+  visibility:visible;
+}
+
+.js-off-canvas-overlay.is-closable{
+  cursor:pointer;
+}
+
+.js-off-canvas-overlay.is-overlay-absolute{
+  position:absolute;
+}
+
+.js-off-canvas-overlay.is-overlay-fixed{
+  position:fixed;
+}
+
+.off-canvas-content .main-nav{
+  position:absolute;
+  background-color:#fff;
+  width:100%;
+  height:50px;
+  margin-top:60px;
+  -webkit-box-shadow:0 -1px 5px 0 rgba(0, 0, 0, 0.25);
+          box-shadow:0 -1px 5px 0 rgba(0, 0, 0, 0.25);
+  z-index:3;
+  top:0;
+}
+
+.rtlnieuws-header{
+  width:100%;
+  height:60px;
+  background:#fff;
+  overflow:hidden;
+  position:fixed;
+  z-index:11;
+  top:0;
+  border-top:4px solid #35a7d7;
+}
+
+.rtlnieuws-header .header-nav{
+  width:1170px;
+  max-width:100%;
+  margin:0 auto;
+  border-bottom:1px solid #edeff1;
+  height:100%;
+}
+
+.region--under-navigation{
+  margin:0 auto;
+  padding-top:110px;
+}
+
+@media print, screen and (min-width: 48em){
+  .region--under-navigation{
+    padding-top:120px;
+  }
+}
+
+@media print, screen and (min-width: 64em){
+  .region--under-navigation{
+    padding-top:130px;
+  }
+}
+
+@media screen and (min-width: 73.125em){
+  .region--under-navigation{
+    padding-top:150px;
+  }
+}
+
+/* Old stuff */
+
+/*
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+nav {
+float: left;
+width: 200px;
+}
+section {
+margin-left: 200px;
+}
+th {
+    font-weight: normal;
+}
+
+
+/* p {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+/
+
+th.page_title  {
+    font-size: 20px;
+    font-weight: bold;
+    height: 75px;
+    vertical-align: bottom;
+}
+
+th.result_title  {
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+td.result_description  {
+    font-size: 12px;
+}*/
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
