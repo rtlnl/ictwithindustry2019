@@ -4,6 +4,10 @@
 <head>
     <title>RTL Image Search</title>
     <link rel="stylesheet"  href="{{url_for('static', filename='style.css')}}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
     <!--<script type="text/javascript" src="{{url_for('static', filename='modal.js') }}"></script>-->
 </head>
 
@@ -37,13 +41,15 @@
                         {% endfor %}
                     </form>
                 </div>
-            <div>
+            </div>
             <div class="search-items">
                 <div class="search-items__list">
                     <div class="search-results">
                         <div>
                             {% for row in results %}
-                                <a href="{{row.url}}" class="search-item search-item--artikel">
+                                <!--<a role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">-->
+                                <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myOutput{{ row.id }}">Output</button>-->
+                                <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">
                                     <div class="search-item__image">
                                         <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
                                     </div>
@@ -56,6 +62,7 @@
                                         <span class="search-item__date" style="float: right;">{{row.date}}</span>
                                     </div>
                                 </a>
+
                             {% endfor %}
                         </div>
                     </div>
@@ -63,6 +70,26 @@
             </div>
         </section>
     </div>
+{% for row in results %}
+ <!-- Modal -->
+  <div class="modal fade" id="myOutput{{ row.id }}" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">{{ row.title }}</h4>
+        </div>
+        <div class="modal-body">
+            <center><iframe width="750" height="500" src="{{ row.url }}"></iframe></center>
+        </div>
+      </div>
+
+    </div>
+  </div>
+{% endfor %}
 </div>
+
 </body>
 </html>
