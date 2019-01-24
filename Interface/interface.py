@@ -79,7 +79,7 @@ def rank_concepts(query):
     }
     return weights
 
-@app.route('/results/', methods=['POST'])
+@app.route('/', methods=['POST'])
 def results():
     """
     Show the results of the submitted query
