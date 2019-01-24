@@ -2,37 +2,22 @@ import os
 import numpy as np
 import pandas as pd
 from gensim.models import KeyedVectors
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity as similarity
 
 
-
-CSV_FILES = ['COCO', 'Objects',
-             'Scene attributes', 'Scene categories',
-             'Actions']
-
-JSON_ARG = ['coco', 'imagenet', 'places_attributes', 'places', 'kinetics']
-
-
-def similarity(a, b):
-    return cosine_similarity(a, b)
-
+CSV_TO_JSON = {'COCO': 'coco', 'Objects': 'imagenet', 'Scene attributes': 'places_attributes', 'Scene categories':'places', 'Actions': 'kinetics'}
 
 def get_eng2dutch(root):
     translation = {}
-    for csv, arg in zip(CSV_FILES, JSON_ARG):
+    for csv, arg in CSV_TO_JSON.items():
         translation[arg] = {}
-        tmp = 'Embeddings - ' + csv + '.csv'
-        df = pd.read_csv(os.path.join(tmp))
-        for i in range(len(df)):
+        df = pd.read_csv(os.path.join(root, 'Embeddings - ' + csv + '.csv'))
+        for _, row in df.iterrows():
             if csv == 'Scene categories':
-                tmp = df['Original'][i].split('/')
-                if len(tmp) == 2:
-                    src = tmp[-1]
-                else:
-                    src = '_'.join(tmp[-2:])
+                src = row['Original'][3:].replace('/', '_')
             else:
-                src = df['Original'][i]
-            target = df['Embedding'][i]
+                src = row['Original']
+            target = row['Embedding']
             translation[arg][src] = target
     return translation
 
@@ -91,5 +76,6 @@ def matching_score(query, preds, probs, topk=5):
 
 if __name__ == "__main__":
     translation = get_eng2dutch(root='Translations')
+    print(translation)
     emb = Embedding('fastText/cc.nl.300.vec', translation)
     tmp = emb.word_vec('imagenet', 'n01484850')
