@@ -6,9 +6,9 @@
 {% block search %}
 <div id="search-app">
     <div class="search">
-        <form action="/initial-query/" method="POST">
+        <form action="/results/" method="POST">
             <label>Search</label>
-            <input class="search-box" type="text" name="search-box" placeholder="Fill in your search terms..." value="">
+            <input class="search-box" type="text" name="textfield" placeholder="Fill in your search term..." value="">
         </form>
         <div class="search-items">
             <div class="search-items__list">
@@ -17,13 +17,6 @@
         </div>
     </div>
 </div>
-<!--<form action="/initial-query/" method="POST">-->
-<!--<input type="text" name="textfield" size=40>-->
-<!--<input type="submit" value="Submit">-->
-<!--<p>-->
-<!--<a href="/advanced/">Advanced search</a>-->
-<!--</p>-->
-<!--</form>-->
 {% endblock %}
 
 <!-- Define contents -->
