@@ -3,14 +3,26 @@ from flask import Flask, request, render_template
 import json
 import elasticsearch
 import requests
+from operator import itemgetter
 
 ################################################################################
 # Load data
 
+with open('static/imagenet_translations.json') as f:
+    imagenet_translation = json.load(f)
 
 ################################################################################
 # Set up general functions
 
+def map_list(my_list, translations):
+   "Return a translation for every item in a list"
+   return [translations[item] for item in my_list]
+
+
+def get_top_items(dictionary, n):
+    "Get N top items from a dictionary"
+    sorted_tuples = sorted(dictionary.items(), key=itemgetter(1))
+    return [item for item, value in sorted_tuples[:n]]
 
 ################################################################################
 # Set up app:
@@ -27,8 +39,10 @@ try:
 except:
     app.logger.warn('Cannot connect to Elasticsearch, using mock data.')
     MOCK_ES = True
-    with open('static/search.json') as f:
+    with open('static/search.json', encoding='utf-8') as f:
         all_docs = json.load(f)["hits"]["hits"]
+    with open('static/mock.json', encoding='utf-8') as f:
+        mock_embeddings = json.load(f)
 
 ################################################################################
 # Webpage-related functions
@@ -57,6 +71,11 @@ def search(query, weights):
         doc['description'] = doc['description'].split("Abonneer je GRATIS voor meer video")[0]
         doc['url'] = doc["meta"]["og:video:url"]
         doc['tags'] = [tag.capitalize() for tag in doc["meta"]["og:video:tag"][4:]]
+        doc['actions'] = " • ".join(get_top_items(doc['kinetics'],5))
+        doc['imagenet_str'] = " • ".join(map_list(get_top_items(doc['imagenet'], 5), imagenet_translation))
+        doc['coco_str'] = " • ".join(get_top_items(doc['coco'], 5))
+        doc['places_str'] = " • ".join(get_top_items(doc['places'], 5))
+        doc['places_attributes_str'] = " • ".join(get_top_items(doc['places_attributes'], 5))
         docs.append(doc)
 
     return docs
@@ -92,7 +111,10 @@ def rank_concepts(query):
         }
     }
     for term in query.split():
-        concept_scores = requests.get(f'http://localhost:5001/{term}').json()
+        if not MOCK_ES:
+            concept_scores = requests.get(f'http://localhost:5001/{term}').json()
+        else:
+            concept_scores = mock_embeddings
         for field, scores in concept_scores.items():
             if field not in weights:
                 weights[field] = {}
