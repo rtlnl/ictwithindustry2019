@@ -17,7 +17,7 @@ import requests
 app = Flask(__name__)
 es = elasticsearch.Elasticsearch()
 
-CONCEPT_FIELDS = ('places', 'places_attributes', 'places_environment', 'coco', 'coco_count', 'imagenet')
+CONCEPT_FIELDS = ('places', 'places_attributes', 'places_environment', 'coco', 'coco_count', 'imagenet', 'kinetics')
 FIELD_MAPPING = {'places_attributes': 'Attributen'}
 
 try:
@@ -42,6 +42,9 @@ def main_page():
     return render_template('index.html')
 
 def search(query, weights):
+    return text_search(query, weights['Tekst'])
+
+def text_search(query, weights):
     if MOCK_ES:
         search_data = all_docs
     else:
@@ -76,7 +79,17 @@ def rank_concepts(query):
     for term in query.split():
         concept_scores = requests.get(f'http://localhost:5001/{term}').json()
         for field, scores in concept_scores.items():
-            weights[FIELD_MAPPING.get(field, field.capitalize())] = dict(sorted(scores.items(), key=lambda x: -x[1]['weight'])[:4])
+            if field not in weights:
+                weights[field] = {}
+            for k, v in scores.items():
+                if k not in weights[field]:
+                    weights[field][k] = v
+                else:
+                    weights[field][k]['weight'] += v['weight']
+
+    for field, scores in weights.items():
+        weights[field] = dict(sorted(scores.items(), key=lambda x: -x[1]['weight'])[:4])
+
     return weights
 
 @app.route('/', methods=['POST'])
@@ -90,7 +103,9 @@ def results():
         for key, value in weights[category].items():
             if f'{category}/{key}' in request.form:
                 value['weight'] = request.form[f'{category}/{key}']
-    return render_template('results.html', query=query, results=search(query, weights['Tekst']), weights=weights)
+
+    return render_template('results.html', query=query, results=search(query, weights),
+                           weights={FIELD_MAPPING.get(field, field.capitalize()): v for field, v in weights.items()})
 
 ################################################################################
 # Running the website
