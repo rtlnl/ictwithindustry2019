@@ -9,6 +9,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!--<script type="text/javascript" src="{{url_for('static', filename='modal.js') }}"></script>-->
+    <style>
+        a:hover { text-decoration: none; }
+        .search-item .search-item__image img { height: 55px; }
+        .rtlnieuws-header .header-nav { margin-top: -30px; }
+    </style>
 </head>
 
 <div>
@@ -18,7 +23,6 @@
             <div class="header-nav">
                 <div class="logo vertical-middle">
                     <img src="https://www.rtlnieuws.nl/themes/custom/rtlnieuws/images/logo-rtlnieuws.svg">
-
                 </div>
             </div>
         </header>
@@ -34,8 +38,8 @@
                             <div class="small-2 medium-2 large-2">
                                 <b title="{{ tooltips[category] }}">{{ field_mapping[category] }}</b><br />
                                 {% for key in weights[category] %}
-                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal;"{{weights[category][key].nl}}</label>
-                                    <input type="range" name="{{category}}/{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()"><br />
+                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal; white-space: nowrap; line-height: 1.0;">{{weights[category][key].nl}}</label>
+                                    <input type="range" name="{{category}}/{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()">
                                 {% endfor %}
                             </div>
                         {% endfor %}
@@ -46,7 +50,7 @@
                 <div class="search-items__list">
                     <div class="search-results">
                         {% for row in results %}
-                            <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">
+                            <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}" onClick="loadYouTube('{{ row.id }}', '{{ row.url }}')">
                                 <div class="search-item__image">
                                     <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
                                 </div>
@@ -83,7 +87,7 @@
             <div>
                 <table>
                     <tr>
-                        <td colspan="2"><iframe width="400" height="250" src="{{ row.url }}"></iframe></td>
+                        <td colspan="2"><iframe width="400" height="250" src="about:blank" id="iframe{{ row.id }}"></iframe></td>
                         <td valign="top">{{ row.description }}</td>
                     </tr>
                     <tr><th colspan="3">Objects</th></tr>
@@ -139,6 +143,14 @@
   </div>
 {% endfor %}
 </div>
+
+<script type="text/javascript">
+
+function loadYouTube(id, yt_url) {
+
+    document.getElementById('iframe'+id).src = yt_url;
+}
+</script>
 
 </body>
 </html>

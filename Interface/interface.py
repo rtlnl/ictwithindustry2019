@@ -21,7 +21,7 @@ def map_list(my_list, translations):
 
 def get_top_items(dictionary, n):
     "Get N top items from a dictionary"
-    sorted_tuples = sorted(dictionary.items(), key=itemgetter(1))
+    sorted_tuples = sorted(dictionary.items(), key=itemgetter(1), reverse=True)
     return [item for item, value in sorted_tuples[:n]]
 
 ################################################################################
@@ -51,6 +51,13 @@ except:
     with open('static/mock.json', encoding='utf-8') as f:
         mock_embeddings = json.load(f)
 
+max_scores = {}
+for field in CONCEPT_FIELDS:
+    max_scores[field] = {}
+    for doc in all_docs:
+        for k, v in doc['_source'].get(field, {}).items():
+            max_scores[field][k] = max(max_scores[field].get(k, 0.0), v)
+
 ################################################################################
 # Webpage-related functions
 
@@ -66,7 +73,22 @@ def search(query, weights):
     visual_scores = visual_search(weights)
     text_scores = text_search(query, weights['Tekst'])
 
-    scores = sorted(text_scores, key=lambda doc: -visual_scores[doc['_id']])
+    max_visual_score = max(visual_scores.values())
+    max_text_score = max(doc['_score'] for doc in text_scores)
+    sum_text_weights = sum(v['weight'] for k, v in weights['Tekst'].items())
+    sum_visual_weights = sum(sum(v['weight'] for _, v in w.items()) for k, w in weights.items() if k != 'Tekst')
+
+    if max_visual_score == 0:
+        max_visual_score = 1
+    if max_text_score == 0:
+        max_text_score = 1
+    print(max_text_score, max_visual_score, sum_text_weights, sum_visual_weights)
+
+    scores = {doc['_id']: doc['_score'] / max_text_score * sum_text_weights +
+                          visual_scores[doc['_id']] / max_visual_score * sum_visual_weights
+              for doc in text_scores}
+
+    scores = sorted(text_scores, key=lambda doc: -scores[doc['_id']])[:10]
 
     docs = []
     for row in scores:
@@ -126,6 +148,7 @@ def rank_concepts(query):
             if field not in weights:
                 weights[field] = {}
             for k, v in scores.items():
+                v['weight'] *= max_scores[field].get(k, 0.0)
                 if k not in weights[field]:
                     weights[field][k] = v
                 else:
@@ -133,6 +156,9 @@ def rank_concepts(query):
 
     for field, scores in weights.items():
         weights[field] = dict(sorted(scores.items(), key=lambda x: -x[1]['weight'])[:4])
+        if field != 'Tekst':
+            for k, v in weights[field].items():
+                v['weight'] = 0.0
 
     return weights
 
@@ -143,11 +169,10 @@ def results():
     """
     query = request.form['textfield']
     weights = rank_concepts(query)
-    print(request.form)
     for category in weights:
         for key, value in weights[category].items():
             if f'{category}/{key}' in request.form:
-                value['weight'] = request.form[f'{category}/{key}']
+                value['weight'] = int(request.form[f'{category}/{key}'])
 
     return render_template('results.html', query=query, results=search(query, weights),
                            weights=weights, field_mapping={field: FIELD_MAPPING.get(field, field.capitalize()) for field in weights}, 
