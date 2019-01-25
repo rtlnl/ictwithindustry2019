@@ -1,0 +1,1001 @@
+Original,wordnet_id,synonms,provenance,Embedding
+n01440764,eng-30-01440764-n,zeelt,odwn,zeelt
+n01443537,eng-30-01443537-n,goudvis,odwn,goudvis
+n01484850,eng-30-01484850-n,"grote witte haai, antropofaag, kannibaal, menseneter",odwn,"kannibaal, menseneter"
+n01491361,eng-30-01491361-n,tijgerhaai,odwn,tijgerhaai
+n01494475,eng-30-01494475-n,hamerhaai,odwn,hamerhaai
+n01496331,eng-30-01496331-n,"sidderrog, crampfish, numbfish, torpedo-",google_translate,sidderrog
+n01498041,eng-30-01498041-n,pijlstaartrog,odwn,pijlstaartrog
+n01514668,eng-30-01514668-n,haan,odwn,haan
+n01514859,eng-30-01514859-n,"wijfje, hen, roddeltante",odwn,"wijfje, hen, roddeltante"
+n01518878,eng-30-01518878-n,struisvogel,odwn,struisvogel
+n01530575,eng-30-01530575-n,"brambling, Fringilla montifringilla",google_translate,"fringilla, montifringilla"
+n01531178,eng-30-01531178-n,"distelvink, Carduelis carduelis",google_translate,distelvink
+n01532829,eng-30-01532829-n,kneu,odwn,kneu
+n01534433,eng-30-01534433-n,"junco, lijster",google_translate,"junco, lijster"
+n01537544,eng-30-01537544-n,"indigobunting, indigo vink, indigo vogel, Passerina cyanea",google_translate,"bunting, vink"
+n01558993,eng-30-01558993-n,"roodborstje, Amerikaanse robin, Turdus migratorius",google_translate,roodborstje
+n01560419,eng-30-01560419-n,bulbul,google_translate,buulbuuls
+n01580077,eng-30-01580077-n,"Vlaamse gaai, gaai",odwn,gaai
+n01582220,eng-30-01582220-n,ekster,odwn,ekster
+n01592084,eng-30-01592084-n,mees,odwn,mees
+n01601694,eng-30-01601694-n,waterspreeuw,odwn,waterspreeuw
+n01608432,eng-30-01608432-n,vlieger,google_translate,vlieger
+n01614925,eng-30-01614925-n,"bald eagle, Amerikaanse zeearend, Haliaeetus leucocephalus",google_translate,zeearend
+n01616318,eng-30-01616318-n,gier,odwn,gier
+n01622779,eng-30-01622779-n,"grote grijze uil, grote grijze uil, Strix nebulosa",google_translate,uil
+n01629819,eng-30-01629819-n,"European fire salamander, salamandra salamandra",google_translate,salamander
+n01630670,eng-30-01630670-n,"gemeenschappelijke newt, Triturus vulgaris",google_translate,watersalamander
+n01631663,eng-30-01631663-n,eft,google_translate,eft
+n01632458,eng-30-01632458-n,"bevlekte salamander, Ambystoma maculatum",google_translate,salamander
+n01632777,eng-30-01632777-n,axolotl,odwn,axolotl
+n01641577,eng-30-01641577-n,brulkikker,odwn,brulkikker
+n01644373,eng-30-01644373-n,boomkikvors,odwn,kikvors
+n01644900,eng-30-01644900-n,"ascaphus, bell pad, geribbelde pad, tailed pad, Ascaphus trui",google_translate,pad
+n01664065,eng-30-01664065-n,"onechte, onechte karetschildpad, Caretta Caretta",google_translate,onechte
+n01665541,eng-30-01665541-n,"lederschildpad, lederschildpad, leerachtige schildpad, Dermochelys coriacea",google_translate,"lederschildpad, lederschildpad"
+n01667114,eng-30-01667114-n,modderschildpad,google_translate,modderschildpad
+n01667778,eng-30-01667778-n,moerasschildpad,odwn,moerasschildpad
+n01669191,eng-30-01669191-n,"doosschildpad, doos schildpad",google_translate,"doosschildpad, doosschildpad"
+n01675722,eng-30-01675722-n,gestreepte gekko,google_translate,gekko
+n01677366,eng-30-01677366-n,"leguaan, iguana",odwn,"leguaan, iguana"
+n01682714,eng-30-01682714-n,"Amerikaanse kameleon, anole, Anolis carolinensis",google_translate,kameleon
+n01685808,eng-30-01685808-n,"whiptail, whiptail hagedis",google_translate,hagedis
+n01687978,eng-30-01687978-n,agama,google_translate,agama
+n01688243,eng-30-01688243-n,"kraaghagedis, Chlamydosaurus kingi",google_translate,kraaghagedis
+n01689811,eng-30-01689811-n,krokodillehagedis,google_translate,hagedis
+n01692333,eng-30-01692333-n,gilamonster,odwn,gilamonster
+n01693334,eng-30-01693334-n,"groene hagedis, Lacerta viridis",google_translate,hagedis
+n01694178,eng-30-01694178-n,"Afrikaanse kameleon, Chamaeleo chamaeleon",google_translate,kameleon
+n01695060,eng-30-01695060-n,komodovaraan,odwn,komodovaraan
+n01697457,eng-30-01697457-n,"Afrikaanse krokodil, Nijlkrokodil, Crocodylus niloticus",google_translate,Nijlkrokodil
+n01698640,eng-30-01698640-n,"Amerikaanse alligator, alligator Mississipiensis",google_translate,alligator
+n01704323,eng-30-01704323-n,triceratops,odwn,triceratops
+n01728572,eng-30-01728572-n,"donder slang, worm slang, carphophis amoenus",google_translate,wormslang
+n01728920,eng-30-01728920-n,"ringneck slang, ringnekslang, ring slang",google_translate,"ringnekslang, ringslang"
+n01729322,eng-30-01729322-n,"slang Hognose, pofadder, zandadder",google_translate,"pofadder, zandadder"
+n01729977,eng-30-01729977-n,"groene slang, ringslang",google_translate,ringslang
+n01734418,eng-30-01734418-n,"king snake, kingsnake",google_translate,slang
+n01735189,eng-30-01735189-n,"kousenbandslang, ringslang",google_translate,"kousenbandslang, ringslang"
+n01737021,eng-30-01737021-n,Waterslang,google_translate,Waterslang
+n01739381,eng-30-01739381-n,twijgslang,google_translate,slang
+n01740131,eng-30-01740131-n,"nacht slang, hypsiglena torquata",google_translate,slang
+n01742172,eng-30-01742172-n,"reuzenslang, constrictor constrictor",google_translate,reuzenslang
+n01744401,eng-30-01744401-n,"rots python, rots slang, Python sebae",google_translate,rotspython
+n01748264,eng-30-01748264-n,"Indian cobra, Naja naja",google_translate,cobra
+n01749939,eng-30-01749939-n,groene mamba,google_translate,mamba
+n01751748,eng-30-01751748-n,zeeslang,google_translate,zeeslang
+n01753488,eng-30-01753488-n,"gehoornde adder, adder, zandadder, gehoornde asp, cerastes cornutus",google_translate,"adder, zandadder"
+n01755581,eng-30-01755581-n,"diamondback, diamondbackratelslang, Crotalus adamanteus",google_translate,slang
+n01756291,eng-30-01756291-n,"slag van terzijde, gehoornde ratelslang, hoornratelslang",google_translate,hoornratelslang
+n01768244,eng-30-01768244-n,trilobite,google_translate,trilobiet
+n01770081,eng-30-01770081-n,hooiwagen,odwn,hooiwagen
+n01770393,eng-30-01770393-n,schorpioen,odwn,schorpioen
+n01773157,eng-30-01773157-n,"zwart en goud kruisspin, argiope aurantia",google_translate,kruisspin
+n01773549,eng-30-01773549-n,"schuur spider, Araneus cavaticus",google_translate,spin
+n01773797,eng-30-01773797-n,"kruisspin, Aranea diademata",google_translate,kruisspin
+n01774384,eng-30-01774384-n,zwarte weduwe,odwn,"spin, giftig"
+n01774750,eng-30-01774750-n,"vogelspin, tarantula",odwn,"vogelspin, tarantula"
+n01775062,eng-30-01775062-n,"wolf spider, jacht spider",google_translate,spin
+n01776313,eng-30-01776313-n,teek,odwn,teek
+n01784675,eng-30-01784675-n,duizendpoot,odwn,duizendpoot
+n01795545,eng-30-01795545-n,korhoen,odwn,korhoen
+n01796340,eng-30-01796340-n,"patrijs, sneeuwhoen",odwn,"patrijs, sneeuwhoen"
+n01797886,eng-30-01797886-n,"ruffed hoen, patrijs, Bonasa umbellus",google_translate,patrijs
+n01798484,eng-30-01798484-n,"prairiekip, prairie hoen, prairie gevogelte",google_translate,prairiehoen
+n01806143,eng-30-01806143-n,"pauwhaan, pauw",odwn,pauw
+n01806567,eng-30-01806567-n,kwartel,odwn,kwartel
+n01807496,eng-30-01807496-n,"hoen, hoentje, patrijs",odwn,"hoen, hoentje, patrijs"
+n01817953,eng-30-01817953-n,"Afrikaanse grijze, Afrikaanse grijze, Psittacus erithacus",google_translate,papegaai
+n01818515,eng-30-01818515-n,ara,odwn,ara
+n01819313,eng-30-01819313-n,"Zwavel kuifkaketoe, Kakatoe galerita, Cacatua galerita",google_translate,kaketoe
+n01820546,eng-30-01820546-n,lori,google_translate,lori
+n01824575,eng-30-01824575-n,coucal,google_translate,koekoek
+n01828970,eng-30-01828970-n,bijeneter,google_translate,bijeneter
+n01829413,eng-30-01829413-n,neushoornvogel,google_translate,neushoornvogel
+n01833805,eng-30-01833805-n,kolibrie,odwn,kolibrie
+n01843065,eng-30-01843065-n,jacamar,google_translate,vogel
+n01843383,eng-30-01843383-n,toekan,odwn,toekan
+n01847000,eng-30-01847000-n,"mannetjeseend, waard, woerd",odwn,"mannetjeseend, waard, woerd"
+n01855032,eng-30-01855032-n,"middelste zaagbek, Mergus serrator",google_translate,zaagbek
+n01855672,eng-30-01855672-n,gans,google_translate,gans
+n01860187,eng-30-01860187-n,"zwarte zwaan, Cygnus atratus",google_translate,zwaan
+n01871265,eng-30-01871265-n,olifant met grote slagtanden,odwn,olifant
+n01872401,eng-30-01872401-n,mierenegel,odwn,mierenegel
+n01873310,eng-30-01873310-n,vogelbekdier,odwn,vogelbekdier
+n01877812,eng-30-01877812-n,"wallabie, wallaby",odwn,"wallabie, wallaby"
+n01882714,eng-30-01882714-n,"koalabeertje, koalabeer, koala",odwn,"koalabeertje, koalabeer, koala"
+n01883070,eng-30-01883070-n,wombat,odwn,wombat
+n01910747,eng-30-01910747-n,kwal,odwn,kwal
+n01914609,eng-30-01914609-n,"zeeanemoon, anemoon",google_translate,"zeeanemoon, anemoon"
+n01917289,eng-30-01917289-n,hersenenkoraal,google_translate,koraal
+n01924916,eng-30-01924916-n,"platwormen, platworm",odwn,"platwormen, platworm"
+n01930112,eng-30-01930112-n,"nematoda, rondworm, aaltjes",odwn,"rondworm, aaltjes"
+n01943899,eng-30-01943899-n,"schelp, hoorn",odwn,"schelp, hoorn"
+n01944390,eng-30-01944390-n,"huisjesslak, slak",odwn,"huisjesslak, slak"
+n01945685,eng-30-01945685-n,slak,odwn,slak
+n01950731,eng-30-01950731-n,"zeeslak, naaktslak",google_translate,"zeeslak, naaktslak"
+n01955084,eng-30-01955084-n,"chiton, coat-of-mail shell, zee cradle, polyplacophore",google_translate,chiton
+n01968897,eng-30-01968897-n,"chambered nautilus, parelachtige nautilus, nautilus",google_translate,nautilus
+n01978287,eng-30-01978287-n,"dungenesskrab, Cancer magister",google_translate,krab
+n01978455,eng-30-01978455-n,"rotskrab, cancer irroratus",google_translate,krab
+n01980166,eng-30-01980166-n,fiddlerkrab,google_translate,krab
+n01981276,eng-30-01981276-n,"koning krab, Alaska krab, Koningskrab Van Alaska, Alaska king krab, Paralithodes camtschatica",google_translate,krab
+n01983481,eng-30-01983481-n,"Amerikaanse kreeft, Northern kreeft, Maine kreeft, Homarus americanus",google_translate,"langoest, rivierkreeft, rivierkreeft, langoesten"
+n01984695,eng-30-01984695-n,"langoest, langouste, steen kreeft, rivierkreeft, rivierkreeft, langoesten",google_translate,rivierkreeft
+n01985128,eng-30-01985128-n,rivierkreeft,odwn,rivierkreeft
+n01986214,eng-30-01986214-n,"heremiet, heremietkreeft",odwn,"heremiet, heremietkreeft"
+n01990800,eng-30-01990800-n,isopod,google_translate,pissebed
+n02002556,eng-30-02002556-n,ooievaar,odwn,ooievaar
+n02002724,eng-30-02002724-n,"zwarte ooievaar, Ciconia nigra",google_translate,ooievaar
+n02006656,eng-30-02006656-n,lepelaar,odwn,lepelaar
+n02007558,eng-30-02007558-n,flamingo,odwn,flamingo
+n02009229,eng-30-02009229-n,"weinig blauwe reiger, Egretta caerulea",google_translate,reiger
+n02009912,eng-30-02009912-n,"Amerikaanse zilverreiger, grote witte reiger, Egretta albus",google_translate,reiger
+n02011460,eng-30-02011460-n,roerdomp,odwn,roerdomp
+n02012849,eng-30-02012849-n,"hijskraan, kraanvogel",odwn,"hijskraan, kraanvogel"
+n02013706,eng-30-02013706-n,"limpkin, Aramus pictus",google_translate,vogel
+n02017213,eng-30-02017213-n,"Europese gallinule, Porphyrio porphyrio",google_translate,vogel
+n02018207,eng-30-02018207-n,"Amerikaanse Koet, moeras kip, modder duivin, waterhoen, Fulica americana",google_translate,waterhoen
+n02018795,eng-30-02018795-n,"trapgans, trap",odwn,"trapgans, trap"
+n02025239,eng-30-02025239-n,"Steenloper, arenaria interpres",google_translate,Steenloper
+n02027492,eng-30-02027492-n,"-Red-backed strandloper, dunlin, Erolia alpina",google_translate,strandloper
+n02028035,eng-30-02028035-n,"perzikkruid, tringatotanus",google_translate,perzikkruid
+n02033041,eng-30-02033041-n,Dowitcher,google_translate,vogel
+n02037110,eng-30-02037110-n,scholekster,odwn,scholekster
+n02051845,eng-30-02051845-n,pelikaan,odwn,pelikaan
+n02056570,eng-30-02056570-n,koningspinguïn,odwn,koningspinguïn
+n02058221,eng-30-02058221-n,albatros,odwn,albatros
+n02066245,eng-30-02066245-n,"grijze walvis, grijze walvis, devilfish, Eschrichtius gibbosus, Eschrichtius robustus",google_translate,walvis
+n02071294,eng-30-02071294-n,orka,odwn,orka
+n02074367,eng-30-02074367-n,doejong,odwn,doejong
+n02077923,eng-30-02077923-n,zeeleeuw,odwn,zeeleeuw
+n02085620,eng-30-02085620-n,chihuahua,odwn,chihuahua
+n02085782,eng-30-02085782-n,Japanse spaniel,google_translate,spaniel
+n02085936,eng-30-02085936-n,Maltese,odwn,Maltese
+n02086079,eng-30-02086079-n,"pekinese, Pekinees, Peke",google_translate,"Pekinees, Peke"
+n02086240,eng-30-02086240-n,Shih-Tzu,google_translate,Shih-Tzu
+n02086646,eng-30-02086646-n,Blenheim spaniel,google_translate,spaniel
+n02086910,eng-30-02086910-n,papillon,google_translate,papillon
+n02087046,eng-30-02087046-n,stuk speelgoed terriër,google_translate,terrier
+n02087394,eng-30-02087394-n,Rhodesian ridgeback,google_translate,hond
+n02088094,eng-30-02088094-n,Afghaanse windhond,odwn,windhond
+n02088238,eng-30-02088238-n,brak,odwn,brak
+n02088364,eng-30-02088364-n,"snuffelaar, beagle, brak",odwn,"snuffelaar, beagle, brak"
+n02088466,eng-30-02088466-n,"bloedhond, speurhond",google_translate,"bloedhond, speurhond"
+n02088632,eng-30-02088632-n,bluetick,google_translate,hond
+n02089078,eng-30-02089078-n,black-and-tan coonhound,google_translate,hond
+n02089867,eng-30-02089867-n,"Walker hound, Walker foxhound",google_translate,hond
+n02089973,eng-30-02089973-n,Engels foxhound,google_translate,hond
+n02090379,eng-30-02090379-n,redbone,google_translate,hond
+n02090622,eng-30-02090622-n,"borzoi, Russische wolfshond",google_translate,hond
+n02090721,eng-30-02090721-n,trillen op zijn benen,odwn,hond
+n02091032,eng-30-02091032-n,Italiaanse windhond,google_translate,hond
+n02091134,eng-30-02091134-n,whippet,google_translate,whippet
+n02091244,eng-30-02091244-n,"ibizan, Ibizan Podenco",google_translate,hond
+n02091467,eng-30-02091467-n,"Noorse elkhound, elkhound",google_translate,hond
+n02091635,eng-30-02091635-n,hond voor jacht op otters,odwn,hond
+n02091831,eng-30-02091831-n,"Saluki, gazelle hound",google_translate,Saluki
+n02092002,eng-30-02092002-n,"Scottish deerhound, deerhound",google_translate,hond
+n02092339,eng-30-02092339-n,Weimaraner,google_translate,Weimaraner
+n02093256,eng-30-02093256-n,"Staffordshire bullterrier, Staffordshire bull terrier",google_translate,terrier
+n02093428,eng-30-02093428-n,pitbullterriër,odwn,pitbullterriër
+n02093647,eng-30-02093647-n,bedlingtonterriër,google_translate,terriër
+n02093754,eng-30-02093754-n,Border terrier,google_translate,terriër
+n02093859,eng-30-02093859-n,Kerry blue terrier,google_translate,terriër
+n02093991,eng-30-02093991-n,Ierse terriër,google_translate,terriër
+n02094114,eng-30-02094114-n,Norfolk terrier,google_translate,terriër
+n02094258,eng-30-02094258-n,Norwich terrier,google_translate,terriër
+n02094433,eng-30-02094433-n,Yorkshire terrier,google_translate,terriër
+n02095314,eng-30-02095314-n,ruwhaar fox terrier,google_translate,terriër
+n02095570,eng-30-02095570-n,Lakeland terrier,google_translate,Lakelandterrier
+n02095889,eng-30-02095889-n,"Sealyham Terrier, sealyham",google_translate,terriër
+n02096051,eng-30-02096051-n,"Airedale, airedaleterriër",google_translate,"Airedale, airedaleterriër"
+n02096177,eng-30-02096177-n,"steenhoop, steenhoopterriër",google_translate,steenhoop
+n02096294,eng-30-02096294-n,Australian terrier,google_translate,terriër
+n02096437,eng-30-02096437-n,"Dinmont, Dinmont terriër",google_translate,Dinmont
+n02096585,eng-30-02096585-n,"Boston bull, Boston terrier",google_translate,terriër
+n02097047,eng-30-02097047-n,miniatuur schnauzer,google_translate,hond
+n02097130,eng-30-02097130-n,giant schnauzer,google_translate,schnauzer
+n02097209,eng-30-02097209-n,standard schnauzer,google_translate,schnauzer
+n02097298,eng-30-02097298-n,Schotse terriër,odwn,terriër
+n02097474,eng-30-02097474-n,"Tibetaanse terriër, chrysant hond",google_translate,terriër
+n02097658,eng-30-02097658-n,"zijdeachtige terriër, Sydney zijdeachtig",google_translate,terriër
+n02098105,eng-30-02098105-n,soft-coated wheaten terrier,google_translate,terriër
+n02098286,eng-30-02098286-n,West Highland white terriër,google_translate,terriër
+n02098413,eng-30-02098413-n,"Lhasa, Lhasa apso",google_translate,Lhasa
+n02099267,eng-30-02099267-n,vlak beklede retriever,google_translate,retriever
+n02099429,eng-30-02099429-n,Curly coated retriever,google_translate,retriever
+n02099601,eng-30-02099601-n,golden retriever,odwn,retriever
+n02099712,eng-30-02099712-n,labrador retriever,google_translate,retriever
+n02099849,eng-30-02099849-n,Chesapeake Bay retriever,google_translate,retriever
+n02100236,eng-30-02100236-n,Duitse kortharige wijzer,google_translate,hond
+n02100583,eng-30-02100583-n,"vizsla, Hongaarse pointer",google_translate,vizsla
+n02100735,eng-30-02100735-n,Engels setter,google_translate,hond
+n02100877,eng-30-02100877-n,Ierse setter,odwn,hond
+n02101006,eng-30-02101006-n,Gordon setter,google_translate,hond
+n02101388,eng-30-02101388-n,Brittany spaniel,google_translate,hond
+n02101556,eng-30-02101556-n,"clumber, clumber spaniel",google_translate,hond
+n02102040,eng-30-02102040-n,"Engels springer, Engels springer spaniel",google_translate,hond
+n02102177,eng-30-02102177-n,Welsh springer spaniel,google_translate,hond
+n02102318,eng-30-02102318-n,"Cocker spaniel, Engels cocker spaniel, cocker",google_translate,cocker
+n02102480,eng-30-02102480-n,Sussex spaniel,google_translate,hond
+n02102973,eng-30-02102973-n,Ierse water spaniel,google_translate,hond
+n02104029,eng-30-02104029-n,kuvasz,google_translate,kuvasz
+n02104365,eng-30-02104365-n,"schippersklokje, schippertje",odwn,schippertje
+n02105056,eng-30-02105056-n,groenendael,google_translate,hond
+n02105162,eng-30-02105162-n,Mechelaar,google_translate,Mechelaar
+n02105251,eng-30-02105251-n,briard,google_translate,briard
+n02105412,eng-30-02105412-n,kelpie,google_translate,kelpie
+n02105505,eng-30-02105505-n,komondor,odwn,komondor
+n02105641,eng-30-02105641-n,"Oude Engels herdershond, kortstaart",google_translate,kortstaart
+n02105855,eng-30-02105855-n,"De herdershond van Shetland, Shetland schapen hond, Shetland",google_translate,Shetland
+n02106030,eng-30-02106030-n,collie,google_translate,collie
+n02106166,eng-30-02106166-n,Border collie,google_translate,Bordercollie
+n02106382,eng-30-02106382-n,"Bouvier, Vlaamse Koehond",google_translate,Bouvier
+n02106550,eng-30-02106550-n,Rottweiler,google_translate,Rottweiler
+n02106662,eng-30-02106662-n,Duitse herdershond,odwn,hond
+n02107142,eng-30-02107142-n,"Doberman, doberman",google_translate,"Doberman, doberman"
+n02107312,eng-30-02107312-n,dwergpinscher,odwn,dwergpinscher
+n02107574,eng-30-02107574-n,Greater hond Swiss Mountain,google_translate,hond
+n02107683,eng-30-02107683-n,Berner Sennenhond,google_translate,hond
+n02107908,eng-30-02107908-n,Appenzeller,google_translate,Appenzeller
+n02108000,eng-30-02108000-n,Entlebucher,google_translate,Entlebucher
+n02108089,eng-30-02108089-n,"boxer, pugilist, vuistvechter, bokser",odwn,"boxer, vuistvechter, bokser"
+n02108422,eng-30-02108422-n,bull mastiff,google_translate,bullmastiff
+n02108551,eng-30-02108551-n,Tibetaanse mastiff,odwn,mastiff
+n02108915,eng-30-02108915-n,Franse bulldog,google_translate,bulldog
+n02109047,eng-30-02109047-n,Deense dog,google_translate,hond
+n02109525,eng-30-02109525-n,"Sint Bernard, St Bernard",google_translate,hond
+n02109961,eng-30-02109961-n,sledehond,odwn,sledehond
+n02110063,eng-30-02110063-n,"malamute, malemute, Alaskan malamute",google_translate,malamute
+n02110185,eng-30-02110185-n,Siberische husky,odwn,husky
+n02110341,eng-30-02110341-n,"dalmatiër, Dalmatische",odwn,"dalmatiër, Dalmatische"
+n02110627,eng-30-02110627-n,"affenpinscher, aap pinscher, aap hond",google_translate,hond
+n02110806,eng-30-02110806-n,basenji,google_translate,basenji
+n02110958,eng-30-02110958-n,"mops, mopshond",odwn,"mops, mopshond"
+n02111129,eng-30-02111129-n,Leonberg,google_translate,Leonberg
+n02111277,eng-30-02111277-n,"Newfoundland, newfoundland",google_translate,Newfoundland
+n02111500,eng-30-02111500-n,De grote Pyreneeën,google_translate,hond
+n02111889,eng-30-02111889-n,Samojeed,odwn,Samojeed
+n02112018,eng-30-02112018-n,Pommers,odwn,Pommers
+n02112137,eng-30-02112137-n,eten,odwn,eten
+n02112350,eng-30-02112350-n,keeshond,odwn,keeshond
+n02112706,eng-30-02112706-n,Brabancon vale,google_translate,hond
+n02113023,eng-30-02113023-n,"Pembroke, Pembroke Welsh corgi",google_translate,Pembroke
+n02113186,eng-30-02113186-n,"Cardigan, Cardigan Welsh corgi",google_translate,Cardigan
+n02113624,eng-30-02113624-n,toy poedel,google_translate,poedel
+n02113712,eng-30-02113712-n,miniatuur poedel,google_translate,poedel
+n02113799,eng-30-02113799-n,standaard poedel,google_translate,poedel
+n02113978,eng-30-02113978-n,Mexicaanse naakthond,google_translate,hond
+n02114367,eng-30-02114367-n,wolf,odwn,wolf
+n02114548,eng-30-02114548-n,witte wolf,odwn,wolf
+n02114712,eng-30-02114712-n,"rode wolf, maned wolf, Canis rufus, canis niger",google_translate,wolf
+n02114855,eng-30-02114855-n,"coyote, prairiewolf",odwn,"coyote, prairiewolf"
+n02115641,eng-30-02115641-n,dingo,odwn,dingo
+n02115913,eng-30-02115913-n,"wildhond, Cuon alpinus",google_translate,hond
+n02116738,eng-30-02116738-n,"Afrikaanse jachthond, hyena hond, Cape jachthond, pictus Lycaon",google_translate,hond
+n02117135,eng-30-02117135-n,hyena,odwn,hyena
+n02119022,eng-30-02119022-n,"rode vos, vulpes vulpes",google_translate,vos
+n02119789,eng-30-02119789-n,"kit fox, vulpes macrotis",google_translate,vos
+n02120079,eng-30-02120079-n,"poolvos, witte vos, Alopex lagopus",google_translate,poolvos
+n02120505,eng-30-02120505-n,"grijze vos, grijze vos, Urocyon cinereoargenteus",google_translate,vos
+n02123045,eng-30-02123045-n,"gestreept, tabby kat",google_translate,gestreept
+n02123159,eng-30-02123159-n,tijgerkat,google_translate,tijgerkat
+n02123394,eng-30-02123394-n,Perzische kat,google_translate,kat
+n02123597,eng-30-02123597-n,siamees,odwn,siamees
+n02124075,eng-30-02124075-n,Egyptische kat,google_translate,kat
+n02125311,eng-30-02125311-n,"bergleeuw, poema",odwn,"bergleeuw, poema"
+n02127052,eng-30-02127052-n,"los, lynx",odwn,"los, lynx"
+n02128385,eng-30-02128385-n,luipaard,odwn,luipaard
+n02128757,eng-30-02128757-n,sneeuwpanter,odwn,sneeuwpanter
+n02128925,eng-30-02128925-n,"panter, Jaguar, jaguar",odwn,"panter, Jaguar, jaguar"
+n02129165,eng-30-02129165-n,leeuw,odwn,leeuw
+n02129604,eng-30-02129604-n,tijger,odwn,tijger
+n02130308,eng-30-02130308-n,"cheetah, jachtluipaard",odwn,"cheetah, jachtluipaard"
+n02132136,eng-30-02132136-n,bruine beer,odwn,beer
+n02133161,eng-30-02133161-n,"Amerikaanse zwarte beer, kraagbeer",odwn,kraagbeer
+n02134084,eng-30-02134084-n,ijsbeer,odwn,ijsbeer
+n02134418,eng-30-02134418-n,"luiaard beer, Melursus ursinus, Ursus ursinus",google_translate,beer
+n02137549,eng-30-02137549-n,"mangoest, mangoeste",odwn,"mangoest, mangoeste"
+n02138441,eng-30-02138441-n,"meerkat, mierkat",google_translate,meerkat
+n02165105,eng-30-02165105-n,tijgerkever,google_translate,kever
+n02165456,eng-30-02165456-n,"lieveheersbeestje, onzelieveheersbeestje",odwn,lieveheersbeestje
+n02167151,eng-30-02167151-n,"loopkever, carabid kever",google_translate,loopkever
+n02168699,eng-30-02168699-n,"boktor, longicorn, longicorn kever",google_translate,"boktor, longicorn"
+n02169497,eng-30-02169497-n,goudhaantje,odwn,goudhaantje
+n02172182,eng-30-02172182-n,mestkever,odwn,mestkever
+n02174001,eng-30-02174001-n,neushoorn kever,google_translate,neushoornkever
+n02177972,eng-30-02177972-n,snuitkever,odwn,snuitkever
+n02190166,eng-30-02190166-n,vlieg,odwn,vlieg
+n02206856,eng-30-02206856-n,bij,odwn,bij
+n02219486,eng-30-02219486-n,mier,odwn,mier
+n02226429,eng-30-02226429-n,sprinkhaan,odwn,sprinkhaan
+n02229544,eng-30-02229544-n,krekel,odwn,krekel
+n02231487,eng-30-02231487-n,[[wandelende]] [[tak]],odwn,"tak, wandelen"
+n02233338,eng-30-02233338-n,"sissende kakkerlak, kakkerlak",odwn,kakkerlak
+n02236044,eng-30-02236044-n,bidsprinkhaan,odwn,bidsprinkhaan
+n02256656,eng-30-02256656-n,"cicade, cicaden",odwn,"cicade, cicaden"
+n02259212,eng-30-02259212-n,cicade,google_translate,cicade
+n02264363,eng-30-02264363-n,"gaasje, gaasvlieg",odwn,"gaasje, gaasvlieg"
+n02268443,eng-30-02268443-n,"libel, libellen",odwn,"libel, libellen"
+n02268853,eng-30-02268853-n,juffer,odwn,juffer
+n02276258,eng-30-02276258-n,admiraal,google_translate,admiraal
+n02277742,eng-30-02277742-n,"ringetje, lok vlinder",google_translate,ringetje
+n02279972,eng-30-02279972-n,monarchvlinder,odwn,monarchvlinder
+n02280649,eng-30-02280649-n,koolwitje,google_translate,koolwitje
+n02281406,eng-30-02281406-n,"zwavel vlinder, zwavel vlinder",google_translate,vlinder
+n02281787,eng-30-02281787-n,"lycaenid, lycaenid vlinder",google_translate,vlinder
+n02317335,eng-30-02317335-n,zeester,odwn,zeester
+n02319095,eng-30-02319095-n,"zee-egel, zeeëgel",odwn,"zee-egel, zeeëgel"
+n02321529,eng-30-02321529-n,"zeekomkommer, Holothurian",google_translate,zeekomkommer
+n02325366,eng-30-02325366-n,katoenstaartkonijn,odwn,katoenstaartkonijn
+n02326432,eng-30-02326432-n,"haas, langoor",odwn,"haas, langoor"
+n02328150,eng-30-02328150-n,"Angora, Angora konijn",google_translate,"Angora, Angorakonijn"
+n02342885,eng-30-02342885-n,hamster,odwn,hamster
+n02346627,eng-30-02346627-n,"egel, mol, stekelvarken",odwn,"egel, mol, stekelvarken"
+n02356798,eng-30-02356798-n,"vos eekhoorn, oostelijk eekhoorn vos, Sciurus Niger",google_translate,eekhoorn
+n02361337,eng-30-02361337-n,marmot,odwn,marmot
+n02363005,eng-30-02363005-n,bever,odwn,bever
+n02364673,eng-30-02364673-n,guinees biggetje,odwn,cavia
+n02389026,eng-30-02389026-n,zuring,google_translate,zuring
+n02391049,eng-30-02391049-n,zebra,odwn,zebra
+n02395406,eng-30-02395406-n,"krulstaart, varken, zwijn",odwn,"krulstaart, varken, zwijn"
+n02396427,eng-30-02396427-n,everzwijn,odwn,everzwijn
+n02397096,eng-30-02397096-n,"wrattenzwijn, knobbelzwijn",odwn,"wrattenzwijn, knobbelzwijn"
+n02398521,eng-30-02398521-n,nijlpaard,odwn,nijlpaard
+n02403003,eng-30-02403003-n,os,odwn,os
+n02408429,eng-30-02408429-n,"karbauw, karbouw, waterbuffel",odwn,"karbouw, waterbuffel"
+n02410509,eng-30-02410509-n,"wisent, Europese bizon, bizon",odwn,"wisent, bizon"
+n02412080,eng-30-02412080-n,ram,odwn,ram
+n02415577,eng-30-02415577-n,dikhoornschaap,odwn,dikhoornschaap
+n02417914,eng-30-02417914-n,steenbok,odwn,steenbok
+n02422106,eng-30-02422106-n,hartenbeest,odwn,hartenbeest
+n02422699,eng-30-02422699-n,impala,odwn,impala
+n02423022,eng-30-02423022-n,"gezelle, gazelle",odwn,"gezelle, gazelle"
+n02437312,eng-30-02437312-n,dromedaris,odwn,dromedaris
+n02437616,eng-30-02437616-n,lama,odwn,lama
+n02441942,eng-30-02441942-n,wezel,odwn,wezel
+n02442845,eng-30-02442845-n,nerts,google_translate,nerts
+n02443114,eng-30-02443114-n,bunzing,odwn,bunzing
+n02443484,eng-30-02443484-n,"black-footed fret, fret, Mustela nigripes",google_translate,fret
+n02444819,eng-30-02444819-n,otter,odwn,otter
+n02445715,eng-30-02445715-n,stinkdier,odwn,stinkdier
+n02447366,eng-30-02447366-n,das,odwn,das
+n02454379,eng-30-02454379-n,"armadillo, gordeldier, pantserdier, schildvarken",odwn,"armadillo, gordeldier"
+n02457408,eng-30-02457408-n,"drie luiaard, ai, Bradypus tridactylus",google_translate,"ai, luiaard"
+n02480495,eng-30-02480495-n,"orang-oetan, orang-oetan(g)",odwn,orang-oetan
+n02480855,eng-30-02480855-n,gorilla,odwn,gorilla
+n02481823,eng-30-02481823-n,chimpansee,odwn,chimpansee
+n02483362,eng-30-02483362-n,"gibbon, langarmaap, langarmapen",odwn,gibbon
+n02483708,eng-30-02483708-n,"siamang, Hylobates syndactylus, Symphalangus syndactylus",google_translate,siamang
+n02484975,eng-30-02484975-n,meerkat,odwn,meerkat
+n02486261,eng-30-02486261-n,"patas, huzaar aap, Erythrocebus patas",google_translate,"patas, huzaaraap"
+n02486410,eng-30-02486410-n,baviaan,odwn,baviaan
+n02487347,eng-30-02487347-n,makaak,odwn,makaak
+n02488291,eng-30-02488291-n,langur,google_translate,langoer
+n02488702,eng-30-02488702-n,"colobus, colobusaap",google_translate,colobus
+n02489166,eng-30-02489166-n,"zuigorganenaap, Nasalis larvatus",google_translate,aap
+n02490219,eng-30-02490219-n,klauwaapje,odwn,klauwaapje
+n02492035,eng-30-02492035-n,kapucijn,odwn,kapucijn
+n02492660,eng-30-02492660-n,"miskleun, blunder, brulaap",odwn,"miskleun, blunder, brulaap"
+n02493509,eng-30-02493509-n,"titi, titi aap",google_translate,titi
+n02493793,eng-30-02493793-n,"spin aap, Ateles geoffroyi",google_translate,aap
+n02494079,eng-30-02494079-n,doodshoofdaapje,odwn,doodshoofdaapje
+n02497673,eng-30-02497673-n,"Madagascar cat, ringstaartmaki, makicatta",google_translate,ringstaartmaki
+n02500267,eng-30-02500267-n,"indri, INDRIS, indri indri, indri brevicaudatus",google_translate,indri
+n02504013,eng-30-02504013-n,"Indische olifant, Elephas maximus",google_translate,olifant
+n02504458,eng-30-02504458-n,afrikaanse olifant,odwn,olifant
+n02509815,eng-30-02509815-n,"pandabeer, panda",odwn,panda
+n02510455,eng-30-02510455-n,"panda, reuzenpanda",odwn,"panda, reuzenpanda"
+n02514041,eng-30-02514041-n,"barracouta, snoek",google_translate,snoek
+n02526121,eng-30-02526121-n,paling,odwn,paling
+n02536864,eng-30-02536864-n,"coho, Cohoe, cohozalm, blauw jack, zilveren zalm, Oncorhynchus kisutch",google_translate,"coho, cohozalm"
+n02606052,eng-30-02606052-n,"hertogsvis, holocanthus tricolor",google_translate,zalm
+n02607072,eng-30-02607072-n,anemoon vis,google_translate,anemoonvis
+n02640242,eng-30-02640242-n,steur,odwn,steur
+n02641379,eng-30-02641379-n,"snoek, geep, zeilvissen",odwn,"snoek, geep, zeilvissen"
+n02643566,eng-30-02643566-n,lionfish,google_translate,lionfish
+n02655020,eng-30-02655020-n,kogelvis,odwn,kogelvis
+n02666196,eng-30-02666196-n,"abacus, rekenraam, telraam",odwn,"abacus, telraam"
+n02667093,eng-30-02667093-n,abaya,google_translate,abaya
+n02669723,eng-30-02669723-n,"academische toga, academische robe, rechter robe",google_translate,toga
+n02672831,eng-30-02672831-n,"harmonica, accordeon",odwn,"harmonica, accordeon"
+n02676566,eng-30-02676566-n,akoestische gitaar,odwn,gitaar
+n02687172,eng-30-02687172-n,"carrier, vliegdekschip, vliegtuigmoederschip",odwn,"carrier, vliegdekschip, vliegtuigmoederschip"
+n02690373,eng-30-02690373-n,"passagiersvliegtuig, lijntoestel, lijnvliegtuig",odwn,"passagiersvliegtuig, lijntoestel, lijnvliegtuig"
+n02692877,eng-30-02692877-n,luchtschip,odwn,luchtschip
+n02699494,eng-30-02699494-n,altaar,google_translate,altaar
+n02701002,eng-30-02701002-n,"ambulance, ziekenwagen",odwn,"ambulance, ziekenwagen"
+n02704792,eng-30-02704792-n,"amfibie, amfibievoertuig",odwn,"amfibie, amfibievoertuig"
+n02708093,eng-30-02708093-n,Analoge klok,google_translate,klok
+n02727426,eng-30-02727426-n,bijenstal,odwn,bijenstal
+n02730930,eng-30-02730930-n,"dienschort, schoot, schort",odwn,"schoot, schort"
+n02747177,eng-30-02747177-n,"vuilnisbak, vuilnisemmer, asbak",odwn,"vuilnisbak, vuilnisemmer, asbak"
+n02749479,eng-30-02749479-n,aanvalsgeweer,odwn,aanvalsgeweer
+n02769748,eng-30-02769748-n,"knapzak, ransel, rugzak",odwn,"knapzak, ransel, rugzak"
+n02776631,eng-30-02776631-n,bakkerij,odwn,bakkerij
+n02777292,eng-30-02777292-n,evenwichtsbalk,odwn,evenwichtsbalk
+n02782093,eng-30-02782093-n,ballon,odwn,ballon
+n02783161,eng-30-02783161-n,"ballpoint, balpen, kogelpen",odwn,"ballpoint, balpen, kogelpen"
+n02786058,eng-30-02786058-n,Pleister,google_translate,Pleister
+n02787622,eng-30-02787622-n,banjo,odwn,banjo
+n02788148,eng-30-02788148-n,"baluster, leuning, balustrade",odwn,"baluster, leuning, balustrade"
+n02790996,eng-30-02790996-n,halter,odwn,halter
+n02791124,eng-30-02791124-n,kappersstoel,google_translate,kappersstoel
+n02791270,eng-30-02791270-n,kapper,odwn,kapper
+n02793495,eng-30-02793495-n,hooischuur,odwn,hooischuur
+n02794156,eng-30-02794156-n,"barometer, weerglas",odwn,barometer
+n02795169,eng-30-02795169-n,"fust, ton, vaatje, vat",odwn,"fust, ton, vaatje, vat"
+n02797295,eng-30-02797295-n,kruiwagen,odwn,kruiwagen
+n02799071,eng-30-02799071-n,basketbal,google_translate,basketbal
+n02802426,eng-30-02802426-n,basketbal,odwn,basketbal
+n02804414,eng-30-02804414-n,wieg,google_translate,wieg
+n02804610,eng-30-02804610-n,fagot,odwn,fagot
+n02807133,eng-30-02807133-n,badmuts,odwn,badmuts
+n02808304,eng-30-02808304-n,badhanddoek,google_translate,badhanddoek
+n02808440,eng-30-02808440-n,"bad, badkuip, teil, tobbe, wasteil, wastobbe",odwn,"bad, badkuip, teil, tobbe, wasteil, wastobbe"
+n02814533,eng-30-02814533-n,"beach wagon, station wagon, wagon, stationwagen, strand wagen, station wagon, wagon",google_translate,"stationwagon, wagon, stationwagen, stationwagon, wagon"
+n02814860,eng-30-02814860-n,"kustlicht, lichtbaken, vuurbaak, vuurbaken, vuurtoren",odwn,"kustlicht, lichtbaken, vuurbaak, vuurbaken, vuurtoren"
+n02815834,eng-30-02815834-n,bekerglas,odwn,bekerglas
+n02817516,eng-30-02817516-n,"kolbak, beremuts, berenmuts, huzarenmuts",odwn,"kolbak, beremuts, berenmuts"
+n02823428,eng-30-02823428-n,"bierfles, pijpje",odwn,"bierfles, pijpje"
+n02823750,eng-30-02823750-n,bierglas,odwn,bierglas
+n02825657,eng-30-02825657-n,"bell cote, bell kinderbed",google_translate,bed
+n02834397,eng-30-02834397-n,"borstje, salopette",odwn,"borstje, salopette"
+n02835271,eng-30-02835271-n,tandem,odwn,tandem
+n02837789,eng-30-02837789-n,bikini,odwn,bikini
+n02840245,eng-30-02840245-n,verzamelband,odwn,verzamelband
+n02841315,eng-30-02841315-n,"toneelkijker, verrekijker, binocle, binoculair, kijker, veldkijker",odwn,"toneelkijker, verrekijker, binocle, binoculair, kijker"
+n02843684,eng-30-02843684-n,"columbarium, nestkastje, vogelhuisje, vogelkastje",odwn,"columbarium, nestkastje, vogelhuisje"
+n02859443,eng-30-02859443-n,botenhuis,odwn,botenhuis
+n02860847,eng-30-02860847-n,"bob, bobslee",odwn,"bob, bobslee"
+n02865351,eng-30-02865351-n,"bolo tie, bolo, bola tie, bola",google_translate,"bolo, bola"
+n02869837,eng-30-02869837-n,"kap, luifelhoed",google_translate,"kap, luifelhoed"
+n02870880,eng-30-02870880-n,boekenkast,odwn,boekenkast
+n02871525,eng-30-02871525-n,"boekenwinkel, boekhandel, boekwinkel",odwn,"boekenwinkel, boekhandel, boekwinkel"
+n02877765,eng-30-02877765-n,flesdop,google_translate,dop
+n02879718,eng-30-02879718-n,boog,google_translate,boog
+n02883205,eng-30-02883205-n,"strikje, vlinderdas",odwn,"strikje, vlinderdas"
+n02892201,eng-30-02892201-n,"gedenksteen, plaket, plateau",odwn,"gedenksteen, plaket, plateau"
+n02892767,eng-30-02892767-n,"b.h., beha, bh, bustehouder",odwn,"b.h., beha, bh, bustehouder"
+n02894605,eng-30-02894605-n,"krib, steiger, zeewering, zeedijk, breekwater, havendam, golfbreker, landhoofd, paalhoofd, pier, zeebreker, zeehoofd",odwn,"krib, steiger, zeewering, zeedijk, havendam, golfbreker, landhoofd, pier"
+n02895154,eng-30-02895154-n,"borstplaat, borstschild",odwn,"borstplaat, borstschild"
+n02906734,eng-30-02906734-n,bezem,odwn,bezem
+n02909870,eng-30-02909870-n,emmer,odwn,emmer
+n02910353,eng-30-02910353-n,gesp,odwn,gesp
+n02916936,eng-30-02916936-n,kogelvrij vest,google_translate,kogelvrijvest
+n02917067,eng-30-02917067-n,"bullet train, kogel",google_translate,kogel
+n02927161,eng-30-02927161-n,"beenhouwerij, charcuterie, slagerij",odwn,"beenhouwerij, charcuterie, slagerij"
+n02930766,eng-30-02930766-n,taxi,odwn,taxi
+n02939185,eng-30-02939185-n,"kookketel, ketel",odwn,"kookketel, ketel"
+n02948072,eng-30-02948072-n,kaars,odwn,kaars
+n02950826,eng-30-02950826-n,kanon,google_translate,kanon
+n02951358,eng-30-02951358-n,kano,odwn,kano
+n02951585,eng-30-02951585-n,blikopener,odwn,blikopener
+n02963159,eng-30-02963159-n,vest,odwn,vest
+n02965783,eng-30-02965783-n,autospiegel,google_translate,autospiegel
+n02966193,eng-30-02966193-n,"carrousel, draaimolen, mallemolen, paardenmolen, zweef, zweefmolen, zwiermolen",odwn,"mallemolen, paardenmolen, zweef, zweefmolen"
+n02966687,eng-30-02966687-n,"timmerman kit, tool kit",google_translate,toolkit
+n02971356,eng-30-02971356-n,karton,google_translate,karton
+n02974003,eng-30-02974003-n,auto wiel,google_translate,autowiel
+n02977058,eng-30-02977058-n,"bankautomaat, geldautomaat, gelduitgifteautomaat, giromaat",odwn,"bankautomaat, geldautomaat"
+n02978881,eng-30-02978881-n,cassette,odwn,cassette
+n02979186,eng-30-02979186-n,cassettespeler,google_translate,cassettespeler
+n02980441,eng-30-02980441-n,"fort, burcht, burg, kasteel, slot, steen",odwn,"fort, burcht, burg, kasteel, slot, steen"
+n02981792,eng-30-02981792-n,katamaran,odwn,katamaran
+n02988304,eng-30-02988304-n,"C.D.-speler, cd-speler, compact-discspeler",odwn,cd-speler
+n02992211,eng-30-02992211-n,"violoncello, cello",odwn,"violoncello, cello"
+n02992529,eng-30-02992529-n,"telefoon, mobiele telefoon",odwn,telefoon
+n02999410,eng-30-02999410-n,"ketting, keten",odwn,"ketting, keten"
+n03000134,eng-30-03000134-n,chainlinkomheining,google_translate,hek
+n03000247,eng-30-03000247-n,maliënkolder,odwn,maliënkolder
+n03000684,eng-30-03000684-n,"boomzaag, motorkettingzaag, motorzaag, kettingzaag",odwn,"boomzaag, motorkettingzaag, motorzaag, kettingzaag"
+n03014705,eng-30-03014705-n,kist,odwn,kist
+n03016953,eng-30-03016953-n,"chiffonier, commode",google_translate,commode
+n03017168,eng-30-03017168-n,klok,odwn,klok
+n03018349,eng-30-03018349-n,porseleinkast,odwn,porseleinkast
+n03026506,eng-30-03026506-n,kerstsok,google_translate,kerstsok
+n03028079,eng-30-03028079-n,"godshuis, kerk, kerkgebouw",odwn,"godshuis, kerk, kerkgebouw"
+n03032252,eng-30-03032252-n,"bios, bioscoop, cinema, filmtheater",odwn,"bios, bioscoop, cinema, filmtheater"
+n03041632,eng-30-03041632-n,"hakmes, mes",odwn,"hakmes, mes"
+n03042490,eng-30-03042490-n,klippenwoning,google_translate,woning
+n03045698,eng-30-03045698-n,mantel,google_translate,mantel
+n03047690,eng-30-03047690-n,"holsblok, klomp, klompschoen, schoenklomp",odwn,klomp
+n03062245,eng-30-03062245-n,cocktailshaker,google_translate,cocktailshaker
+n03063599,eng-30-03063599-n,koffiemok,google_translate,koffiemok
+n03063689,eng-30-03063689-n,koffiepot,odwn,koffiepot
+n03065424,eng-30-03065424-n,"schroef, helix, krul, schroeflijn, spiraal, spiraallijn",odwn,"schroef, helix, krul, schroeflijn, spiraal"
+n03075370,eng-30-03075370-n,"cijferslot, combinatieslot, letterslot, nummerslot",odwn,"cijferslot, combinatieslot"
+n03085013,eng-30-03085013-n,"toetsenbord, keypad",google_translate,"toetsenbord, keypad"
+n03089624,eng-30-03089624-n,"banketbakkerij, snoepwinkel",odwn,"banketbakkerij, snoepwinkel"
+n03095699,eng-30-03095699-n,containerschip,odwn,containerschip
+n03100240,eng-30-03100240-n,"cabrio, cabriolet",odwn,"cabrio, cabriolet"
+n03109150,eng-30-03109150-n,"kurkentrekker, kurketrekker, trekker",odwn,"kurkentrekker, kurketrekker, trekker"
+n03110669,eng-30-03110669-n,"cornet, kornet, trompet",odwn,"cornet, kornet, trompet"
+n03124043,eng-30-03124043-n,cowboylaars,google_translate,cowboylaars
+n03124170,eng-30-03124170-n,tien-gallon_hat,odwn,hoed
+n03125729,eng-30-03125729-n,"bakermat, wieg",odwn,"bakermat, wieg"
+n03126707,eng-30-03126707-n,"hefkraan, hijskraan, kraan",odwn,"hefkraan, hijskraan, kraan"
+n03127747,eng-30-03127747-n,"bromfietshelm, motorhelm, valhelm",odwn,"bromfietshelm, motorhelm, valhelm"
+n03127925,eng-30-03127925-n,krat,odwn,krat
+n03131574,eng-30-03131574-n,"kinderbed, wieg",odwn,"kinderbed, wieg"
+n03133878,eng-30-03133878-n,crock Pot,google_translate,pan
+n03134739,eng-30-03134739-n,croquet bal,google_translate,bal
+n03141823,eng-30-03141823-n,kruk,google_translate,kruk
+n03146219,eng-30-03146219-n,"harnas, kuras",odwn,"harnas, kuras"
+n03160309,eng-30-03160309-n,"stuwdam, dam, dijk, waterdam, waterkering",odwn,"stuwdam, dam, dijk, waterdam, waterkering"
+n03179701,eng-30-03179701-n,"lessenaar, schrijftafel, bureau",odwn,"lessenaar, schrijftafel, bureau"
+n03180011,eng-30-03180011-n,desktop computer,google_translate,desktopcomputer
+n03187595,eng-30-03187595-n,draaitoestel,odwn,draaitafel
+n03188531,eng-30-03188531-n,luier,odwn,luier
+n03196217,eng-30-03196217-n,digitale klok,google_translate,klok
+n03197337,eng-30-03197337-n,digitaal horloge,google_translate,horloge
+n03201208,eng-30-03201208-n,"eettafel, boord",google_translate,"eettafel, boord"
+n03207743,eng-30-03207743-n,"schotelvod, schoteldoek, vaatdoek, vod, wisdoek",odwn,"schotelvod, vaatdoek, vod"
+n03207941,eng-30-03207941-n,"afwasautomaat, vaatwasser, afwasmachine, vaatwasmachine",odwn,"afwasautomaat, vaatwasser, afwasmachine, vaatwasmachine"
+n03208938,eng-30-03208938-n,schijfrem,odwn,schijfrem
+n03216828,eng-30-03216828-n,dok,odwn,dok
+n03218198,eng-30-03218198-n,"hondenslee, hondenslee, hondenslee",google_translate,"hondenslee, hondenslee, hondenslee"
+n03220513,eng-30-03220513-n,koepel,google_translate,koepel
+n03223299,eng-30-03223299-n,"deurmat, vloermat, voetmat",odwn,"deurmat, vloermat, voetmat"
+n03240683,eng-30-03240683-n,"boorplatform, offshore-rig",google_translate,boorplatform
+n03249569,eng-30-03249569-n,"drum, kalfsvel, trom, trommel",odwn,"drum, trom, trommel"
+n03250847,eng-30-03250847-n,"drumstok, drumstokje, trommelstok",odwn,"drumstok, trommelstok"
+n03255030,eng-30-03255030-n,halter,google_translate,halter
+n03259280,eng-30-03259280-n,nederlandse oven,google_translate,oven
+n03271574,eng-30-03271574-n,"elektrische ventilator, blazer",google_translate,blazer
+n03272010,eng-30-03272010-n,elektrische gitaar,odwn,gitaar
+n03272562,eng-30-03272562-n,elektrische locomotief,odwn,locomotief
+n03290653,eng-30-03290653-n,entertainment center,google_translate,tv
+n03291819,eng-30-03291819-n,"couvert, briefomslag, envelop, enveloppe, omslag",odwn,"couvert, briefomslag, envelop, enveloppe, omslag"
+n03297495,eng-30-03297495-n,espresso-apparaat,google_translate,espresso-apparaat
+n03314780,eng-30-03314780-n,gezichtspoeder,google_translate,gezichtspoeder
+n03325584,eng-30-03325584-n,"veren boa, boa",google_translate,"verenboa, boa"
+n03337140,eng-30-03337140-n,archiefkast,odwn,archiefkast
+n03344393,eng-30-03344393-n,fireboat,google_translate,boot
+n03345487,eng-30-03345487-n,"brandweerauto, brandweerwagen, brandspuit, waterspuit",odwn,"brandweerauto, brandweerwagen, brandspuit, waterspuit"
+n03347037,eng-30-03347037-n,"brandscherm, fireguard",google_translate,brandscherm
+n03355925,eng-30-03355925-n,"vlaggenstok, vlaggestok",odwn,"vlaggenstok, vlaggestok"
+n03372029,eng-30-03372029-n,"dwarsfluit, fluit",odwn,"dwarsfluit, fluit"
+n03376595,eng-30-03376595-n,klapstoel,odwn,klapstoel
+n03379051,eng-30-03379051-n,voetbal helm,google_translate,helm
+n03384352,eng-30-03384352-n,"heftruck, vorkheftruck",odwn,"heftruck, vorkheftruck"
+n03388043,eng-30-03388043-n,"fontein, fonteintje",odwn,"fontein, fonteintje"
+n03388183,eng-30-03388183-n,vulpen,odwn,vulpen
+n03388549,eng-30-03388549-n,hemelbed,odwn,hemelbed
+n03393912,eng-30-03393912-n,"goederenwagen, goederenwagon",odwn,"goederenwagen, goederenwagon"
+n03394916,eng-30-03394916-n,"hoorn, horen, waldhoorn",odwn,"hoorn, horen, waldhoorn"
+n03400231,eng-30-03400231-n,"braadpan, bakpan, hapjespan, koekenpan",odwn,"braadpan, bakpan, hapjespan, koekenpan"
+n03404251,eng-30-03404251-n,"bontjas, bontmantel",odwn,"bontjas, bontmantel"
+n03417042,eng-30-03417042-n,vuilniswagen,odwn,vuilniswagen
+n03424325,eng-30-03424325-n,gasmasker,odwn,gasmasker
+n03425413,eng-30-03425413-n,benzinepomp,odwn,benzinepomp
+n03443371,eng-30-03443371-n,beker,google_translate,beker
+n03444034,eng-30-03444034-n,skelter,google_translate,skelter
+n03445777,eng-30-03445777-n,golfbal,google_translate,golfbal
+n03445924,eng-30-03445924-n,"golfwagentje, golfwagentje",google_translate,"golfwagentje, golfwagentje"
+n03447447,eng-30-03447447-n,gondel,odwn,gondel
+n03447721,eng-30-03447721-n,tamtam,odwn,tamtam
+n03450230,eng-30-03450230-n,gewaad,odwn,gewaad
+n03452741,eng-30-03452741-n,"vleugelpiano, vleugel",odwn,"vleugelpiano, vleugel"
+n03457902,eng-30-03457902-n,"broeikas, kas, serre",odwn,"broeikas, kas, serre"
+n03459775,eng-30-03459775-n,"traliewerk, Radiatorrooster",google_translate,"traliewerk, Radiatorrooster"
+n03461385,eng-30-03461385-n,kruidenier,odwn,kruidenier
+n03467068,eng-30-03467068-n,guillotine,odwn,guillotine
+n03476684,eng-30-03476684-n,haarspeld,google_translate,haarspeld
+n03476991,eng-30-03476991-n,haarspray,google_translate,haarspray
+n03478589,eng-30-03478589-n,half spoor,google_translate,spoor
+n03481172,eng-30-03481172-n,"vuisthamer, vuist, hamer",odwn,"vuist, hamer"
+n03482405,eng-30-03482405-n,"korf, sluitmand, pakmand",odwn,korf
+n03483316,eng-30-03483316-n,"föhn, haardroger",odwn,"föhn, haardroger"
+n03485407,eng-30-03485407-n,"Handcomputer, Draagbare microcomputer",google_translate,smartphone
+n03485794,eng-30-03485794-n,"zardock, zakdoek",odwn,zakdoek
+n03492542,eng-30-03492542-n,"vaste schijf, hard disk, harddisk",odwn,"harddisk, harddisk"
+n03494278,eng-30-03494278-n,"harmonica, mondharmonica, mondharmonika, mondorgel",odwn,"harmonica, mondharmonica, mondharmonika, mondorgel"
+n03495258,eng-30-03495258-n,harp,odwn,harp
+n03496892,eng-30-03496892-n,"oogster, maaimachine",google_translate,"oogster, maaimachine"
+n03498962,eng-30-03498962-n,"bijl, hakbijl",odwn,"bijl, hakbijl"
+n03527444,eng-30-03527444-n,"holster, revolvertas",odwn,holster
+n03529860,eng-30-03529860-n,"thuisbioscoop, thuisbioscoop",google_translate,"thuisbioscoop, thuisbioscoop"
+n03530642,eng-30-03530642-n,honingraat,google_translate,honingraat
+n03532672,eng-30-03532672-n,"haak, haakje",odwn,"haak, haakje"
+n03534580,eng-30-03534580-n,"crinoline, hoepelrok",odwn,"crinoline, hoepelrok"
+n03535780,eng-30-03535780-n,"horizontale balk, rekstok",google_translate,rekstok
+n03538406,eng-30-03538406-n,"paardenkar, paardenkar",google_translate,"paardenkar, paardenkar"
+n03544143,eng-30-03544143-n,zandloper,odwn,zandloper
+n03584254,eng-30-03584254-n,iPod,odwn,iPod
+n03584829,eng-30-03584829-n,strijkijzer,odwn,strijkijzer
+n03590841,eng-30-03590841-n,dwaallicht,google_translate,dwaallicht
+n03594734,eng-30-03594734-n,"jeansbroek, blue jeans, jeans, spijkerbroek",odwn,"jeansbroek, jeans, spijkerbroek"
+n03594945,eng-30-03594945-n,land Rover,odwn,landrover
+n03595614,eng-30-03595614-n,"T-shirt, t-shirt",odwn,"T-shirt, t-shirt"
+n03598930,eng-30-03598930-n,"puzzel, legpuzzel",odwn,"puzzel, legpuzzel"
+n03599486,eng-30-03599486-n,"betjah, fietstaxi, riksja",odwn,"fietstaxi, riksja"
+n03602883,eng-30-03602883-n,"stuurknuppel, bedieningshendel",odwn,"stuurknuppel, bedieningshendel"
+n03617480,eng-30-03617480-n,kimono,odwn,kimono
+n03623198,eng-30-03623198-n,kniebeschermer,google_translate,kniebeschermer
+n03627232,eng-30-03627232-n,knoop,google_translate,knoop
+n03630383,eng-30-03630383-n,"Lab jas, laboratoriumjas",google_translate,laboratoriumjas
+n03633091,eng-30-03633091-n,"sauslepel, soeplepel, juslepel, opscheplepel",odwn,"sauslepel, soeplepel, juslepel, opscheplepel"
+n03637318,eng-30-03637318-n,"lampekap, lampenkap",odwn,"lampekap, lampenkap"
+n03642806,eng-30-03642806-n,"laptop, notebook, schootcomputer",odwn,"laptop, notebook, schootcomputer"
+n03649909,eng-30-03649909-n,"maaier, grasmaaimachine, grasmaaier",odwn,"maaier, grasmaaimachine, grasmaaier"
+n03657121,eng-30-03657121-n,"lensklep, lenskap, oogschelp",odwn,"lenskap, oogschelp"
+n03658185,eng-30-03658185-n,"briefopener, papiermes, vouwbeen",odwn,"briefopener, vouwbeen"
+n03661043,eng-30-03661043-n,"boekerij, bibliotheek",odwn,"boekerij, bibliotheek"
+n03662601,eng-30-03662601-n,"reddingsboot, vlot",odwn,"reddingsboot, vlot"
+n03666591,eng-30-03666591-n,"vuurtje, aansteker",odwn,"vuurtje, aansteker"
+n03670208,eng-30-03670208-n,"limo, limousin, limousine",odwn,"limo, limousin, limousine"
+n03673027,eng-30-03673027-n,"voering, oceaanstomer",google_translate,"voering, oceaanstomer"
+n03676483,eng-30-03676483-n,"lippenrood, lippenstift",odwn,"lippenrood, lippenstift"
+n03680355,eng-30-03680355-n,leegloper,odwn,leegloper
+n03690938,eng-30-03690938-n,lotion,odwn,lotion
+n03691459,eng-30-03691459-n,"loudspeaker, luidspreker, speaker",odwn,"loudspeaker, luidspreker, speaker"
+n03692522,eng-30-03692522-n,loep,odwn,loep
+n03697007,eng-30-03697007-n,"houtzagerij, zagerij",odwn,"houtzagerij, zagerij"
+n03706229,eng-30-03706229-n,magnetisch kompas,google_translate,kompas
+n03709823,eng-30-03709823-n,postzak,odwn,postzak
+n03710193,eng-30-03710193-n,brievenbus,odwn,brievenbus
+n03710637,eng-30-03710637-n,maillot,google_translate,maillot
+n03710721,eng-30-03710721-n,"maillot, tank suit",google_translate,maillot
+n03717622,eng-30-03717622-n,"putdeksel, riooldeksel",odwn,"putdeksel, riooldeksel"
+n03720891,eng-30-03720891-n,maraca,google_translate,maraca
+n03721384,eng-30-03721384-n,"marimba, xylofoon",odwn,"marimba, xylofoon"
+n03724870,eng-30-03724870-n,"masker, mom, mombakkes",odwn,"masker, mom, mombakkes"
+n03729826,eng-30-03729826-n,luciferhoutje,google_translate,luciferhoutje
+n03733131,eng-30-03733131-n,meiboom,odwn,meiboom
+n03733281,eng-30-03733281-n,"doolhof, dwaaltuin, gangenstelsel, labyrint",odwn,"doolhof, dwaaltuin, gangenstelsel, labyrint"
+n03733805,eng-30-03733805-n,maatbeker,odwn,maatbeker
+n03742115,eng-30-03742115-n,"medicijnkastje, medicijnkastje",google_translate,"medicijnkastje, medicijnkastje"
+n03743016,eng-30-03743016-n,"megaliet, megalitische structuur",google_translate,megaliet
+n03759954,eng-30-03759954-n,"Mike, microfoon",odwn,"Mike, microfoon"
+n03761084,eng-30-03761084-n,magnetron,odwn,magnetron
+n03763968,eng-30-03763968-n,militair uniform,google_translate,uniform
+n03764736,eng-30-03764736-n,melkkan,google_translate,melkkan
+n03769881,eng-30-03769881-n,busje,odwn,busje
+n03770439,eng-30-03770439-n,minirok,odwn,minirok
+n03770679,eng-30-03770679-n,busje,google_translate,busje
+n03773504,eng-30-03773504-n,raket,google_translate,raket
+n03775071,eng-30-03775071-n,want,odwn,want
+n03775546,eng-30-03775546-n,mengkom,google_translate,mengkom
+n03776460,eng-30-03776460-n,stacaravan,odwn,stacaravan
+n03777568,eng-30-03777568-n,T-Ford,odwn,T-Ford
+n03777754,eng-30-03777754-n,modem,odwn,modem
+n03781244,eng-30-03781244-n,"abdij, communauteit, communiteit, convent, klooster, kloostergemeenschap, monnikenklooster",odwn,"abdij, communauteit, communiteit, convent, klooster, kloostergemeenschap, monnikenklooster"
+n03782006,eng-30-03782006-n,monitor,google_translate,monitor
+n03785016,eng-30-03785016-n,"bromfiets, brommer, plof",odwn,"bromfiets, brommer, plof"
+n03786901,eng-30-03786901-n,"mortier, vijzel",odwn,"mortier, vijzel"
+n03787032,eng-30-03787032-n,baret,google_translate,baret
+n03788195,eng-30-03788195-n,"mesigit, missigit, moskee",odwn,"mesigit, moskee"
+n03788365,eng-30-03788365-n,"klamboe, muggengordijn, muggennet",odwn,"klamboe, muggennet"
+n03791053,eng-30-03791053-n,scooter,odwn,scooter
+n03792782,eng-30-03792782-n,BMX,odwn,BMX
+n03792972,eng-30-03792972-n,berg tent,google_translate,tent
+n03793489,eng-30-03793489-n,"computermuis, muis",odwn,"computermuis, muis"
+n03794056,eng-30-03794056-n,muizeval,odwn,muizeval
+n03796401,eng-30-03796401-n,"verhuisauto, verhuiswagen",odwn,"verhuisauto, verhuiswagen"
+n03803284,eng-30-03803284-n,snuit,google_translate,snuit
+n03804744,eng-30-03804744-n,"nagel, spijker",odwn,"nagel, spijker"
+n03814639,eng-30-03814639-n,nek brace,google_translate,nekbrace
+n03814906,eng-30-03814906-n,"halsketting, halssieraad, halssnoer, ketting",odwn,"halsketting, halssieraad, halssnoer, ketting"
+n03825788,eng-30-03825788-n,tepel,google_translate,tepel
+n03832673,eng-30-03832673-n,"notitieboekje, notebook computer",google_translate,"notitieboekje, notebookcomputer"
+n03837869,eng-30-03837869-n,obelisk,odwn,obelisk
+n03838899,eng-30-03838899-n,hobo,odwn,hobo
+n03840681,eng-30-03840681-n,"okarina, ocarina",odwn,ocarina
+n03841143,eng-30-03841143-n,"hodometer, kilometerteller, wegmeter",odwn,"hodometer, kilometerteller"
+n03843555,eng-30-03843555-n,oliefilter,odwn,oliefilter
+n03854065,eng-30-03854065-n,"orgel, orgaan",odwn,"orgel, orgaan"
+n03857828,eng-30-03857828-n,oscilloscoop,odwn,oscilloscoop
+n03866082,eng-30-03866082-n,overrok,google_translate,overrok
+n03868242,eng-30-03868242-n,"ossekar, ossenkar, ossenwagen, ossewagen",odwn,"ossenkar, ossenwagen"
+n03868863,eng-30-03868863-n,zuurstofmasker,odwn,zuurstofmasker
+n03871628,eng-30-03871628-n,"pak, pakje",odwn,"pak, pakje"
+n03873416,eng-30-03873416-n,"paddel, bat, batje",odwn,"paddel, bat, batje"
+n03874293,eng-30-03874293-n,"scheprad, scheprad",google_translate,"scheprad, scheprad"
+n03874599,eng-30-03874599-n,hangslot,odwn,hangslot
+n03876231,eng-30-03876231-n,"penseel, verfkwast",odwn,"penseel, verfkwast"
+n03877472,eng-30-03877472-n,pyjama,odwn,pyjama
+n03877845,eng-30-03877845-n,paleis,odwn,paleis
+n03884397,eng-30-03884397-n,"panfluit, pandean pipe, syrinx",google_translate,"panfluit, syrinx"
+n03887697,eng-30-03887697-n,keukenrol,odwn,keukenrol
+n03888257,eng-30-03888257-n,"parachute, springscherm, valscherm",odwn,"parachute, valscherm"
+n03888605,eng-30-03888605-n,brug,odwn,brug
+n03891251,eng-30-03891251-n,bank in het park,google_translate,bank
+n03891332,eng-30-03891332-n,parkeermeter,odwn,parkeermeter
+n03895866,eng-30-03895866-n,equipage,odwn,equipage
+n03899768,eng-30-03899768-n,terras,odwn,terras
+n03902125,eng-30-03902125-n,munttelefoon,odwn,telefooncel
+n03903868,eng-30-03903868-n,"plint, voetstuk, sokkel",odwn,"plint, voetstuk, sokkel"
+n03908618,eng-30-03908618-n,"etui, pennenzak",odwn,"etui, pennenzak"
+n03908714,eng-30-03908714-n,slijper,odwn,slijper
+n03916031,eng-30-03916031-n,"essence, parfum",odwn,"essence, parfum"
+n03920288,eng-30-03920288-n,petrischaal,odwn,petrischaal
+n03924679,eng-30-03924679-n,fotokopieerapparaat,odwn,fotokopieerapparaat
+n03929660,eng-30-03929660-n,plectrum,odwn,plectrum
+n03929855,eng-30-03929855-n,pickelhaube,google_translate,pickelhaube
+n03930313,eng-30-03930313-n,"paalwerk, palissade",odwn,"paalwerk, palissade"
+n03930630,eng-30-03930630-n,"oppakken, pick-up truck",google_translate,"oppakken, pick-uptruck"
+n03933933,eng-30-03933933-n,strekdam,odwn,strekdam
+n03935335,eng-30-03935335-n,"spaarvarken, spaarpot",odwn,"spaarvarken, spaarpot"
+n03937543,eng-30-03937543-n,pillenfles,google_translate,medicijnen
+n03938244,eng-30-03938244-n,"kussen, peluw, oorkussen, hoofdkussen",odwn,"kussen, peluw, oorkussen, hoofdkussen"
+n03942813,eng-30-03942813-n,tafeltennis balletje,google_translate,"tafeltennis, bal"
+n03944341,eng-30-03944341-n,pinwheel,google_translate,pinwheel
+n03947888,eng-30-03947888-n,"piraat, piratenschip",google_translate,"piraat, piratenschip"
+n03950228,eng-30-03950228-n,"lampetkan, kan",odwn,"lampetkan, kan"
+n03954731,eng-30-03954731-n,"vlak, plane timmerman, houtbewerking plane",google_translate,vlak
+n03956157,eng-30-03956157-n,planetarium,odwn,planetarium
+n03958227,eng-30-03958227-n,plastieken zak,google_translate,zak
+n03961711,eng-30-03961711-n,bordenrek,google_translate,bordenrek
+n03967562,eng-30-03967562-n,ploeg,odwn,ploeg
+n03970156,eng-30-03970156-n,"plunjer, loodgieter helper",google_translate,plunjer
+n03976467,eng-30-03976467-n,polaroidcamera,odwn,polaroidcamera
+n03976657,eng-30-03976657-n,"paal, boom, polsstok, staak",odwn,"paal, boom, polsstok, staak"
+n03977966,eng-30-03977966-n,overvalwagen,odwn,overvalwagen
+n03980874,eng-30-03980874-n,poncho,google_translate,poncho
+n03982430,eng-30-03982430-n,"biljart, tafelbiljart",odwn,biljart
+n03983396,eng-30-03983396-n,"pop fles, sodafles",google_translate,frisdrank
+n03991062,eng-30-03991062-n,bloempot,odwn,bloempot
+n03992509,eng-30-03992509-n,"draaischijf, pottenbakkersschijf, pottenbakkerswiel",odwn,"draaischijf, pottenbakkersschijf, pottenbakkerswiel"
+n03995372,eng-30-03995372-n,boormachine,google_translate,boormachine
+n03998194,eng-30-03998194-n,gebedskleed,odwn,gebedskleed
+n04004767,eng-30-04004767-n,printer,odwn,printer
+n04005630,eng-30-04005630-n,"penitentiaire inrichting, huis van bewaring, gevangenis",odwn,gevangenis
+n04008634,eng-30-04008634-n,"raket, projectiel",odwn,"raket, projectiel"
+n04009552,eng-30-04009552-n,"projectieapparaat, projectietoestel, projector",odwn,projector
+n04019541,eng-30-04019541-n,puck,odwn,puck
+n04023962,eng-30-04023962-n,"bokszak, stootzak",odwn,bokszak
+n04026417,eng-30-04026417-n,"beurs, geldbuidel, geldtas, geldzak, knip, portemonnee, zak",odwn,"beurs, geldbuidel, geldtas, geldzak, knip, portemonnee, zak"
+n04033901,eng-30-04033901-n,"schacht, ganzenveer",google_translate,"schacht, ganzenveer"
+n04033995,eng-30-04033995-n,"quilt, poederdons",odwn,"quilt, poederdons"
+n04037443,eng-30-04037443-n,racefiets,odwn,racefiets
+n04039381,eng-30-04039381-n,"raket, racket",odwn,"raket, racket"
+n04040759,eng-30-04040759-n,"radiator, verwarmingselement",odwn,"radiator, verwarmingselement"
+n04041544,eng-30-04041544-n,radio,odwn,radio
+n04044716,eng-30-04044716-n,"Radio Telescoop, radio reflector",google_translate,telescoop
+n04049303,eng-30-04049303-n,regenvat,google_translate,regenton
+n04065272,eng-30-04065272-n,"recreatie voertuig, RV, R.V.",google_translate,"RV, R.V."
+n04067472,eng-30-04067472-n,haspel,google_translate,haspel
+n04069434,eng-30-04069434-n,reflex camera,google_translate,reflexcamera
+n04070727,eng-30-04070727-n,"ijskast, koelkast",odwn,"ijskast, koelkast"
+n04074963,eng-30-04074963-n,"afgelegen, onwaarschijnlijk, afstandsbesturing, afstandsbediening",odwn,"afgelegen, onwaarschijnlijk, afstandsbesturing, afstandsbediening"
+n04081281,eng-30-04081281-n,"eetcafe, eetgelegenheid, eethuis, eettent, restaurant",odwn,"eetcafe, eetgelegenheid, eethuis, eettent, restaurant"
+n04086273,eng-30-04086273-n,revolver,odwn,revolver
+n04090263,eng-30-04090263-n,"karabijn, geweer, proppenschieter, schietgeweer, schietijzer, spuit",odwn,"karabijn, geweer, proppenschieter, schietgeweer, spuit"
+n04099969,eng-30-04099969-n,schommelstoel,odwn,schommelstoel
+n04111531,eng-30-04111531-n,rotisserie,google_translate,rotisserie
+n04116512,eng-30-04116512-n,"gom, gum, stuf, vlakgom",odwn,"gom, gum, stuf, vlakgom"
+n04118538,eng-30-04118538-n,rugbybal,odwn,rugbybal
+n04118776,eng-30-04118776-n,"maat, maatlat, meetlat, scepter",odwn,"maat, maatlat, meetlat, scepter"
+n04120489,eng-30-04120489-n,ren schoen,google_translate,hardloopschoen
+n04125021,eng-30-04125021-n,veilig,google_translate,veilig
+n04127249,eng-30-04127249-n,"sluitspeld, toespeld, veiligheidsspeld",odwn,"sluitspeld, veiligheidsspeld"
+n04131690,eng-30-04131690-n,"Zout schudder, Zout schudder",google_translate,zout
+n04133789,eng-30-04133789-n,"Jezusnikes, sandaal, zool",odwn,"sandaal, zool"
+n04136333,eng-30-04136333-n,sarong,odwn,sarong
+n04141076,eng-30-04141076-n,"sax, saxofoon",odwn,"sax, saxofoon"
+n04141327,eng-30-04141327-n,schede,odwn,schede
+n04141975,eng-30-04141975-n,"schaal, weegschaal, weegtoestel",odwn,"schaal, weegschaal, weegtoestel"
+n04146614,eng-30-04146614-n,schoolbus,odwn,schoolbus
+n04147183,eng-30-04147183-n,schoener,odwn,schoener
+n04149813,eng-30-04149813-n,"scorebord, uitslagenbord",odwn,scorebord
+n04152593,eng-30-04152593-n,televisiescherm,odwn,televisiescherm
+n04153751,eng-30-04153751-n,schroef,odwn,schroef
+n04154565,eng-30-04154565-n,"schroevedraaier, schroevendraaier",odwn,"schroevedraaier, schroevendraaier"
+n04162706,eng-30-04162706-n,"gordel, veiligheidsgordel",odwn,"gordel, veiligheidsgordel"
+n04179913,eng-30-04179913-n,naaimachine,odwn,naaimachine
+n04192698,eng-30-04192698-n,"bescherming, schild",odwn,"bescherming, schild"
+n04200800,eng-30-04200800-n,"schoenenwinkel, schoenenzaak",odwn,"schoenenwinkel, schoenenzaak"
+n04201297,eng-30-04201297-n,shoji,google_translate,shoji
+n04204238,eng-30-04204238-n,boodschappenmandje,odwn,boodschappenmandje
+n04204347,eng-30-04204347-n,winkelwagen,odwn,winkelwagen
+n04208210,eng-30-04208210-n,"schop, schep, schepje",odwn,"schop, schep, schepje"
+n04209133,eng-30-04209133-n,douchekop,google_translate,douchekop
+n04209239,eng-30-04209239-n,douchegordijn,odwn,douchegordijn
+n04228054,eng-30-04228054-n,ski,odwn,ski
+n04229816,eng-30-04229816-n,ski masker,google_translate,skimasker
+n04235860,eng-30-04235860-n,slaapzak,odwn,slaapzak
+n04238763,eng-30-04238763-n,"rekenliniaal, Slipstick",google_translate,rekenliniaal
+n04239074,eng-30-04239074-n,"roldeur, schuifdeur",odwn,"roldeur, schuifdeur"
+n04243546,eng-30-04243546-n,"eenarmige bandiet, gokautomaat, gokkast",odwn,"gokautomaat, gokkast"
+n04251144,eng-30-04251144-n,snorkel,google_translate,snorkel
+n04252077,eng-30-04252077-n,sneeuwscooter,odwn,sneeuwscooter
+n04252225,eng-30-04252225-n,"sneeuwploeg, sneeuwruimer, sneeuwschuiver",odwn,"sneeuwploeg, sneeuwruimer, sneeuwschuiver"
+n04254120,eng-30-04254120-n,zeeppomp,google_translate,zeeppomp
+n04254680,eng-30-04254680-n,voetbal,google_translate,voetbal
+n04254777,eng-30-04254777-n,sok,odwn,sok
+n04258138,eng-30-04258138-n,zonnecollector,odwn,zonnecollector
+n04259630,eng-30-04259630-n,sombrero,google_translate,sombrero
+n04263257,eng-30-04263257-n,soepkom,odwn,soepkom
+n04264628,eng-30-04264628-n,"spatiebalk, spatietoets",odwn,"spatiebalk, spatietoets"
+n04265275,eng-30-04265275-n,kachel,odwn,kachel
+n04266014,eng-30-04266014-n,"ruimtependel, ruimteveer, shuttle, space-shuttle",odwn,"ruimtependel, ruimteveer, shuttle"
+n04270147,eng-30-04270147-n,spatel,google_translate,spatel
+n04273569,eng-30-04273569-n,speedboot,google_translate,speedboot
+n04275548,eng-30-04275548-n,"spinnenweb, spinnenweb",google_translate,"spinnenweb, spinnenweb"
+n04277352,eng-30-04277352-n,spil,google_translate,spil
+n04285008,eng-30-04285008-n,"sportwagen, sportauto",google_translate,"sportwagen, sportauto"
+n04286575,eng-30-04286575-n,straler,odwn,straler
+n04296562,eng-30-04296562-n,"podium, verhoog",odwn,"podium, verhoog"
+n04310018,eng-30-04310018-n,stoomlocomotief,odwn,stoomlocomotief
+n04311004,eng-30-04311004-n,stalen boogbrug,google_translate,boogbrug
+n04311174,eng-30-04311174-n,staaltrommel,google_translate,trommel
+n04317175,eng-30-04317175-n,stethoscoop,odwn,stethoscoop
+n04325704,eng-30-04325704-n,stola,odwn,stola
+n04326547,eng-30-04326547-n,stenen muur,google_translate,muur
+n04328186,eng-30-04328186-n,"stopwatch, stopwatch",google_translate,"stopwatch, stopwatch"
+n04330267,eng-30-04330267-n,"haard, kachel, kacheltje, verwarmingstoestel",odwn,"haard, kachel, kacheltje, verwarmingstoestel"
+n04332243,eng-30-04332243-n,"vergiet, zeef",odwn,"vergiet, zeef"
+n04335435,eng-30-04335435-n,"mijnwagen, tram",odwn,"mijnwagen, tram"
+n04336792,eng-30-04336792-n,"draagbaar, baar, brancard",odwn,"draagbaar, baar, brancard"
+n04344873,eng-30-04344873-n,"slaapbank, dag bed",google_translate,"slaapbank, dagbed"
+n04346328,eng-30-04346328-n,stoepa,odwn,stoepa
+n04347754,eng-30-04347754-n,"U-boot, duikboot, onderzeeboot, onderzeeër",odwn,"U-boot, duikboot, onderzeeboot, onderzeeër"
+n04350905,eng-30-04350905-n,"kleur, kostuum, zaak, pak",odwn,"kleur, kostuum, zaak, pak"
+n04355338,eng-30-04355338-n,zonnewijzer,odwn,zonnewijzer
+n04355933,eng-30-04355933-n,zonnebril,odwn,zonnebril
+n04356056,eng-30-04356056-n,zonnebril,odwn,zonnebril
+n04357314,eng-30-04357314-n,zonnebrandcrème,odwn,zonnebrandcrème
+n04366367,eng-30-04366367-n,"hangbrug, kettingbrug",odwn,"hangbrug, kettingbrug"
+n04367480,eng-30-04367480-n,zwabber,odwn,zwabber
+n04370456,eng-30-04370456-n,sweater,odwn,sweater
+n04371430,eng-30-04371430-n,zwembroek,odwn,zwembroek
+n04371774,eng-30-04371774-n,schommel,google_translate,schommel
+n04372370,eng-30-04372370-n,"contact, schakelaar, schakelknop",odwn,"contact, schakelaar, schakelknop"
+n04376876,eng-30-04376876-n,"injectiespuit, injectiespuitje, spuit",odwn,"injectiespuit, injectiespuitje, spuit"
+n04380533,eng-30-04380533-n,tafellamp,odwn,tafellamp
+n04389033,eng-30-04389033-n,"gevechtswagen, tank",odwn,tank
+n04392985,eng-30-04392985-n,cassettespeler,google_translate,cassettespeler
+n04398044,eng-30-04398044-n,theepot,odwn,theepot
+n04399382,eng-30-04399382-n,"knuffelbeer, teddybeer",odwn,"knuffelbeer, teddybeer"
+n04404412,eng-30-04404412-n,"televisie, televisiesysteem",google_translate,"televisie, televisiesysteem"
+n04409515,eng-30-04409515-n,tennisbal,odwn,tennisbal
+n04417672,eng-30-04417672-n,"strobedekking, strodak",odwn,strodak
+n04418357,eng-30-04418357-n,"doek, scherm, toneelgordijn, toneelscherm",odwn,"doek, scherm, toneelgordijn"
+n04423845,eng-30-04423845-n,"kous, vingerhoed",odwn,"kous, vingerhoed"
+n04428191,eng-30-04428191-n,"dorsmachine, zeevos, dorsmachine",google_translate,"dorsmachine, dorsmachine"
+n04429376,eng-30-04429376-n,troon,google_translate,troon
+n04435653,eng-30-04435653-n,tegel dak,google_translate,dak
+n04442312,eng-30-04442312-n,"broodrooster, tosti-apparaat, tostiapparaat",odwn,"broodrooster, tosti-apparaat, tostiapparaat"
+n04443257,eng-30-04443257-n,"sigarenmagazijn, sigarenwinkel, tabakswinkel",odwn,"sigarenmagazijn, sigarenwinkel, tabakswinkel"
+n04447861,eng-30-04447861-n,wc-bril,odwn,wc-bril
+n04456115,eng-30-04456115-n,toorts,google_translate,toorts
+n04458633,eng-30-04458633-n,totempaal,odwn,totempaal
+n04461696,eng-30-04461696-n,takelwagen,odwn,takelwagen
+n04462240,eng-30-04462240-n,speelgoedwinkel,odwn,speelgoedwinkel
+n04465501,eng-30-04465501-n,"motortrekker, tractor, trekker, wieltrekker",odwn,"tractor, trekker"
+n04467665,eng-30-04467665-n,"vrachtwagen met aanhanger, traktor aanhanger, trucking tuig, tuig, vrachtwagencombinatie, semi",google_translate,"tuig, vrachtwagencombinatie, semi"
+n04476259,eng-30-04476259-n,"serveerblad, blad, dienblad, plateau, presenteerblad, schenkblad, theeblad",odwn,"serveerblad, blad, dienblad, plateau, presenteerblad, theeblad"
+n04479046,eng-30-04479046-n,lange jas,odwn,jas
+n04482393,eng-30-04482393-n,"driewieler, kinderfiets",odwn,"driewieler, kinderfiets"
+n04483307,eng-30-04483307-n,trimaran,odwn,trimaran
+n04485082,eng-30-04485082-n,statief,odwn,statief
+n04486054,eng-30-04486054-n,"ereboog, erepoort, triomfboog, zegeboog",odwn,"ereboog, erepoort, triomfboog"
+n04487081,eng-30-04487081-n,"trolleybus, trolley coach, ongebaande trolley",google_translate,trolleybus
+n04487394,eng-30-04487394-n,"bazuin, schuiftrombone, schuiftrompet, trombone",odwn,"bazuin, schuiftrombone, schuiftrompet, trombone"
+n04493381,eng-30-04493381-n,"tobbe, wastobbe",odwn,"tobbe, wastobbe"
+n04501370,eng-30-04501370-n,"draaihek, klaphek, tourniquet",odwn,"draaihek, klaphek, tourniquet"
+n04505470,eng-30-04505470-n,schrijfmachinetoetsenbord,google_translate,typemachine
+n04507155,eng-30-04507155-n,paraplu,google_translate,paraplu
+n04509417,eng-30-04509417-n,eenwieler,odwn,eenwieler
+n04515003,eng-30-04515003-n,"rechtop, piano",google_translate,"rechtop, piano"
+n04517823,eng-30-04517823-n,"stofzuigen, stofzuiger",odwn,"stofzuigen, stofzuiger"
+n04522168,eng-30-04522168-n,"bloemenvaas, pul, vaas",odwn,"bloemenvaas, pul, vaas"
+n04523525,eng-30-04523525-n,"welving, gewelf",odwn,"welving, gewelf"
+n04525038,eng-30-04525038-n,"fluweel, manchester, velvet",odwn,"fluweel, manchester, velvet"
+n04525305,eng-30-04525305-n,"verkoopautomaat, automaat",odwn,"verkoopautomaat, automaat"
+n04532106,eng-30-04532106-n,"gewaad, misgewaad, mishemd, miskleed",odwn,"gewaad, misgewaad"
+n04532670,eng-30-04532670-n,viaduct,odwn,viaduct
+n04536866,eng-30-04536866-n,"vedel, fiedel, viool",odwn,"vedel, viool"
+n04540053,eng-30-04540053-n,volleybal,odwn,volleybal
+n04542943,eng-30-04542943-n,wafelijzer,odwn,wafelijzer
+n04548280,eng-30-04548280-n,wandklok,odwn,wandklok
+n04548362,eng-30-04548362-n,"portefeuille, portemonnee",odwn,"portefeuille, portemonnee"
+n04550184,eng-30-04550184-n,"kledingkast, kleerkast, kast",odwn,"kledingkast, kleerkast, kast"
+n04552348,eng-30-04552348-n,gevechtsvliegtuig,odwn,gevechtsvliegtuig
+n04553703,eng-30-04553703-n,"fonteintje, wastafel, waskom, lavabo, wastafel",google_translate,"fonteintje, wastafel, waskom, lavabo, wastafel"
+n04554684,eng-30-04554684-n,wasmachine,odwn,wasmachine
+n04557648,eng-30-04557648-n,"bedkruik, bidon, kruik, warmwaterzak",odwn,"bedkruik, bidon, kruik, warmwaterzak"
+n04560804,eng-30-04560804-n,water kan,google_translate,waterkan
+n04562935,eng-30-04562935-n,"pompstation, waterstation, watertoren",odwn,"pompstation, waterstation, watertoren"
+n04579145,eng-30-04579145-n,whisky kruik,google_translate,whisky
+n04579432,eng-30-04579432-n,fluittoon,odwn,fluittoon
+n04584207,eng-30-04584207-n,pruik,odwn,pruik
+n04589890,eng-30-04589890-n,raamscherm,google_translate,scherm
+n04590129,eng-30-04590129-n,Zonnescherm,google_translate,Zonnescherm
+n04591157,eng-30-04591157-n,Windsor tie,google_translate,stropdas
+n04591713,eng-30-04591713-n,wijnfles,google_translate,wijnfles
+n04592741,eng-30-04592741-n,vleugel,odwn,vleugel
+n04596742,eng-30-04596742-n,"wokken, wadjan, wadjang, wok",odwn,"wokken, wadjan, wadjang, wok"
+n04597913,eng-30-04597913-n,houten lepel,google_translate,lepel
+n04599235,eng-30-04599235-n,"wol, schapenvacht, schapenwol, schapewol",odwn,"wol, schapenvacht, schapenwol"
+n04604644,eng-30-04604644-n,"worm hek, slang hek, snake-spooromheining, Virginia hek",google_translate,hel
+n04606251,eng-30-04606251-n,wrak,google_translate,wrak
+n04612504,eng-30-04612504-n,jol,google_translate,jol
+n04613696,eng-30-04613696-n,yurt,google_translate,yurt
+n06359193,eng-30-06359193-n,website,odwn,website
+n06596364,eng-30-06596364-n,stripboek,google_translate,stripboek
+n06785654,eng-30-06785654-n,"kruiswoordpuzzel, kruiswoordraadsel",odwn,"kruiswoordpuzzel, kruiswoordraadsel"
+n06794110,eng-30-06794110-n,straatnaambordje,odwn,straatnaambordje
+n06874185,eng-30-06874185-n,"stoplicht, verkeerslicht, stopsein, stopsignaal",odwn,"stoplicht, verkeerslicht, stopsein, stopsignaal"
+n07248320,eng-30-07248320-n,"boekomslag, flap",odwn,"boekomslag, flap"
+n07565083,eng-30-07565083-n,menu,google_translate,menu
+n07579787,eng-30-07579787-n,bord,google_translate,bord
+n07583066,eng-30-07583066-n,guacamole,google_translate,guacamole
+n07584110,eng-30-07584110-n,consommé,odwn,consommé
+n07590611,eng-30-07590611-n,"hot pot, jachtschotel",google_translate,"hotpot, jachtschotel"
+n07613480,eng-30-07613480-n,puddingtaart,odwn,toetje
+n07614500,eng-30-07614500-n,"roomijs, ijs, ijsco, ijsje",odwn,"roomijs, ijs, ijsco, ijsje"
+n07615774,eng-30-07615774-n,"ijslolly, lolly",odwn,"ijslolly, lolly"
+n07684084,eng-30-07684084-n,Frans brood,google_translate,brood
+n07693725,eng-30-07693725-n,bagel,odwn,bagel
+n07695742,eng-30-07695742-n,"zoute krakeling, pretzel",odwn,pretzel
+n07697313,eng-30-07697313-n,"kaasburger, cheeseburger",odwn,"kaasburger, cheeseburger"
+n07697537,eng-30-07697537-n,"hotdog, hotdog, roodgloeiend",google_translate,"hotdog, hotdog, roodgloeiend"
+n07711569,eng-30-07711569-n,aardappelpuree,google_translate,aardappelpuree
+n07714571,eng-30-07714571-n,sluitkool,google_translate,sluitkool
+n07714990,eng-30-07714990-n,broccoli,odwn,broccoli
+n07715103,eng-30-07715103-n,bloemkool,odwn,bloemkool
+n07716358,eng-30-07716358-n,"courgette, courgette",google_translate,"courgette, courgette"
+n07716906,eng-30-07716906-n,spaghettipompoen,google_translate,spaghettipompoen
+n07717410,eng-30-07717410-n,eikelpompoen,google_translate,pompoen
+n07717556,eng-30-07717556-n,pompoen,google_translate,pompoen
+n07718472,eng-30-07718472-n,komkommer,odwn,komkommer
+n07718747,eng-30-07718747-n,artisjok,odwn,artisjok
+n07720875,eng-30-07720875-n,paprika,google_translate,paprika
+n07730033,eng-30-07730033-n,kardoen,odwn,kardoen
+n07734744,eng-30-07734744-n,"paddenstoel, op het puntje van zijn tong, zwam",odwn,"paddenstoel, zwam"
+n07742313,eng-30-07742313-n,Granny Smith,google_translate,appel
+n07745940,eng-30-07745940-n,aardbei,google_translate,aardbei
+n07747607,eng-30-07747607-n,"appelsienenboom, sinaasappelboom, appelsien, sinaasappel",odwn,"sinaasappelboom, appelsien, sinaasappel"
+n07749582,eng-30-07749582-n,citroen,odwn,citroen
+n07753113,eng-30-07753113-n,vijg,google_translate,vijg
+n07753275,eng-30-07753275-n,ananas,odwn,ananas
+n07753592,eng-30-07753592-n,bananengeel,odwn,geel
+n07754684,eng-30-07754684-n,"jackfruit, jak, vijzel",google_translate,"jackfruit, jak, vijzel"
+n07760859,eng-30-07760859-n,vlaappel,google_translate,appel
+n07768694,eng-30-07768694-n,granaatappel,google_translate,granaatappel
+n07802026,eng-30-07802026-n,hooi,odwn,hooi
+n07831146,eng-30-07831146-n,carbonara,google_translate,carbonara
+n07836838,eng-30-07836838-n,"chocolade saus, chocolade siroop",google_translate,chocoladesaus
+n07860988,eng-30-07860988-n,deeg,odwn,deeg
+n07871810,eng-30-07871810-n,"gehakt, gehaktbrood",odwn,"gehakt, gehaktbrood"
+n07873807,eng-30-07873807-n,pizza,odwn,pizza
+n07875152,eng-30-07875152-n,hutspot,google_translate,hutspot
+n07880968,eng-30-07880968-n,burrito,google_translate,burrito
+n07892512,eng-30-07892512-n,rode wijn,odwn,rodewijn
+n07920052,eng-30-07920052-n,"espresso, espresso(-koffie), espressokoffie",odwn,"espresso, espressokoffie"
+n07930864,eng-30-07930864-n,kop,google_translate,kop
+n07932039,eng-30-07932039-n,"Advocaat, advokaat",odwn,"Advocaat, advokaat"
+n09193705,eng-30-09193705-n,"bergtop, alp",odwn,"bergtop, alp"
+n09229709,eng-30-09229709-n,bel,odwn,bel
+n09246464,eng-30-09246464-n,"klif, klip",odwn,"klif, klip"
+n09256479,eng-30-09256479-n,"koraalbank, koraalrif, puinwal",odwn,koraalrif
+n09288635,eng-30-09288635-n,"geizer, geiser",odwn,geiser
+n09332890,eng-30-09332890-n,"Lakeside, oever, meeroever",odwn,"Lakeside, oever, meeroever"
+n09399592,eng-30-09399592-n,"hoek, kaap, landpunt",odwn,"hoek, kaap, landpunt"
+n09421951,eng-30-09421951-n,zandbank,odwn,zandbank
+n09428293,eng-30-09428293-n,"zeekust, zeekant, kustlijn, kust",odwn,"zeekust, zeekant, kustlijn, kust"
+n09468604,eng-30-09468604-n,"dal, vallei",odwn,"dal, vallei"
+n09472597,eng-30-09472597-n,"vulkaan, vuurberg",odwn,"vulkaan, vuurberg"
+n09835506,eng-30-09835506-n,"ballplayer, basketbal speler",google_translate,basketbalspeler
+n10148035,eng-30-10148035-n,bruidegom,odwn,bruidegom
+n10565667,eng-30-10565667-n,duiker,google_translate,duiker
+n11879895,eng-30-11879895-n,"koolzaad, raapzaad",odwn,"koolzaad, raapzaad"
+n11939491,eng-30-11939491-n,"margriet, Margriet, Madelief, madeliefje",odwn,"margriet, Margriet, Madelief, madeliefje"
+n12057211,eng-30-12057211-n,"slipper geel dame, gele dame-slipper, vrouwenschoentje, Cypripedium parviflorum",google_translate,vrouwenschoentje
+n12144580,eng-30-12144580-n,maïs,google_translate,maïs
+n12267677,eng-30-12267677-n,eikel,odwn,eikel
+n12620546,eng-30-12620546-n,"bottel, rozebottel, rozenbottel",odwn,"bottel, rozebottel, rozenbottel"
+n12768682,eng-30-12768682-n,"Buckeye, paardekastanje, conker",google_translate,"Buckeye, paardekastanje"
+n12985857,eng-30-12985857-n,koraal schimmel,google_translate,schimmel
+n12998815,eng-30-12998815-n,plaatzwam,odwn,zwam
+n13037406,eng-30-13037406-n,Gyromitra,google_translate,Gyromitra
+n13040303,eng-30-13040303-n,"stinkhorn, aas schimmel",google_translate,schimmel
+n13044778,eng-30-13044778-n,aardster,google_translate,aardster
+n13052670,eng-30-13052670-n,"kip-of-the-woods, duivin van het bos, Polyporus frondosus, frondosa",google_translate,frondosa
+n13054560,eng-30-13054560-n,bolete,google_translate,boleet
+n13133613,eng-30-13133613-n,"aar, korenaar",odwn,"aar, korenaar"
+n15075141,eng-30-15075141-n,"pleepapier, toiletpapier, wc-papier",,"pleepapier, toiletpapier, wc-papier"

@@ -1,0 +1,82 @@
+Original,Dutch,Embedding
+__background,achtergrond,achtergrond
+person,persoon,persoon
+bicycle,fiets,fiets
+car,auto,auto
+motorcycle,motorfiets,motorfiets
+airplane,vliegtuig,vliegtuig
+bus,bus,bus
+train,trein,trein
+truck,vrachtauto,vrachtauto
+boat,boot,boot
+traffic light,stoplicht,stoplicht
+fire hydrant,brandkraan,brandkraan
+stop sign,stopteken,stopteken
+parking meter,parkeermeter,parkeermeter
+bench,bank,bank
+bird,vogel,vogel
+cat,kat,kat
+dog,hond,hond
+horse,paard,paard
+sheep,schapen,schapen
+cow,koe,koe
+elephant,olifant,olifant
+bear,beer,beer
+zebra,zebra,zebra
+giraffe,giraffe,giraffe
+backpack,rugzak,rugzak
+umbrella,paraplu,paraplu
+handbag,handtas,handtas
+tie,stropdas,stropdas
+suitcase,koffer,koffer
+frisbee,frisbee,frisbee
+skis,skis,skis
+snowboard,snowboard,snowboard
+sports ball,sport bal,sportballen
+kite,vlieger,vlieger
+baseball bat,honkbalknuppel,honkbalknuppel
+baseball glove,honkbalhandschoen,honkbalhandschoen
+skateboard,skateboard,skateboard
+surfboard,surfboard,surfboard
+tennis racket,tennisracket,tennisracket
+bottle,fles,fles
+wine glass,wijnglas,wijnglas
+cup,kop,kop
+fork,vork,vork
+knife,mes,mes
+spoon,lepel,lepel
+bowl,kom,kom
+banana,banaan,banaan
+apple,appel,appel
+sandwich,belegd broodje,broodje
+orange,oranje,oranje
+broccoli,broccoli,broccoli
+carrot,wortel,wortel
+hot dog,hotdog,hotdog
+pizza,pizza,pizza
+donut,donut,donut
+cake,cake,cake
+chair,stoel,stoel
+couch,divan,divan
+potted plant,plant in bloempot,"bloempot, plant"
+bed,bed,bed
+dining table,eettafel,eettafel
+toilet,toilet,toilet
+tv,TV,TV
+laptop,laptop,laptop
+mouse,muis,muis
+remote,afgelegen,afgelegen
+keyboard,toetsenbord,toetsenbord
+cell phone,mobiele telefoon,mobieltje
+microwave,magnetronoven,magnetronoven
+oven,oven,oven
+toaster,tosti apparaat,tostiapparaat
+sink,wastafel,wastafel
+refrigerator,koelkast,koelkast
+book,boek,boek
+clock,klok,klok
+vase,vaas,vaas
+scissors,schaar,schaar
+teddy bear,knuffelbeer,knuffelbeer
+hair drier,haardroger,haardroger
+toothbrush,tandenborstel,tandenborstel

@@ -27,15 +27,15 @@
         <section class="region--content">
             <div id="search-app">
                 <div class="search">
-                    <form class="search-form row"  action="/results/" method="POST" _lpchecked="1" style="padding: 20px 0;">
+                    <form class="search-form row" method="POST" _lpchecked="1" style="padding: 20px 0;">
                         <!-- <label>{{results|length}} Resultaten voor {{query}}</label> -->
                         <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}"> <br />
                         {% for category in weights %}
                             <div class="small-2 medium-2 large-2">
                                 <b>{{ category }}</b><br />
                                 {% for key in weights[category] %}
-                                    <label for="{{key}}" style="font-size: 16px; font-weight: normal;">{{weights[category][key].nl}}</label>
-                                    <input type="range" name="{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()"><br />
+                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal;">{{weights[category][key].nl}}</label>
+                                    <input type="range" name="{{category}}/{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()"><br />
                                 {% endfor %}
                             </div>
                         {% endfor %}

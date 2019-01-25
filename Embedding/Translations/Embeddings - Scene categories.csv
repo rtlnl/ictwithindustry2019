@@ -1,0 +1,366 @@
+Original,location_main,location_spec,translation_main,translation_spec,Embedding
+/a/airfield,airfield,,vliegveld,,vliegveld
+/a/airplane_cabin,airplane_cabin,,airplane_cabin,,vliegtuigcabine
+/a/airport_terminal,airport_terminal,,luchthaventerminal,,luchthaventerminal
+/a/alcove,alcove,,prieel,,prieel
+/a/alley,alley,,steeg,,steeg
+/a/amphitheater,amphitheater,,amfitheater,,amfitheater
+/a/amusement_arcade,amusement_arcade,,amusementshal,,amusementshal
+/a/amusement_park,amusement_park,,attractiepark,,attractiepark
+/a/apartment_building/outdoor,apartment_building,outdoor,appartementencomplex,outdoor,appartementencomplex
+/a/aquarium,aquarium,,aquarium,,aquarium
+/a/aqueduct,aqueduct,,waterleiding,,waterleiding
+/a/arcade,arcade,,zuilengang,,zuilengang
+/a/arch,arch,,boog,,boog
+/a/archaelogical_excavation,archaelogical_excavation,,archaelogical_excavation,,"archeologisch, uitgraving"
+/a/archive,archive,,archief,,archief
+/a/arena/hockey,arena,hockey,arena,hockey,arena
+/a/arena/performance,arena,performance,arena,performance,arena
+/a/arena/rodeo,arena,rodeo,arena,rodeo,arena
+/a/army_base,army_base,,leger basis,,legerbasis
+/a/art_gallery,art_gallery,,kunstgallerij,,kunstgallerij
+/a/art_school,art_school,,kunstschool,,kunstschool
+/a/art_studio,art_studio,,kunststudio,,kunststudio
+/a/artists_loft,artists_loft,,artists_loft,,"artiesten, loft"
+/a/assembly_line,assembly_line,,lopende band,,lopendeband
+/a/athletic_field/outdoor,athletic_field,outdoor,atletiek veld,outdoor,atletiekveld
+/a/atrium/public,atrium,public,atrium,public,public
+/a/attic,attic,,vliering,,vliering
+/a/auditorium,auditorium,,gehoorzaal,,gehoorzaal
+/a/auto_factory,auto_factory,,auto_factory,,autofabriek
+/a/auto_showroom,auto_showroom,,auto_showroom,,autoshowroom
+/b/badlands,badlands,,badlands,,badlands
+/b/bakery/shop,bakery,shop,bakkerij,shop,shop
+/b/balcony/exterior,balcony,exterior,balkon,exterior,exterior
+/b/balcony/interior,balcony,interior,balkon,interior,interior
+/b/ball_pit,ball_pit,,ballenbak,,ballenbak
+/b/ballroom,ballroom,,danszaal,,danszaal
+/b/bamboo_forest,bamboo_forest,,Bamboo Bos,,bamboebos
+/b/bank_vault,bank_vault,,bank kluis,,bankkluis
+/b/banquet_hall,banquet_hall,,banketzaal,,banketzaal
+/b/bar,bar,,bar,,bar
+/b/barn,barn,,schuur,,schuur
+/b/barndoor,barndoor,,schuurdeur,,schuurdeur
+/b/baseball_field,baseball_field,,Honkbal veld,,honkbalveld
+/b/basement,basement,,kelder,,kelder
+/b/basketball_court/indoor,basketball_court,indoor,basketbalveld,indoor,basketbalveld
+/b/bathroom,bathroom,,badkamer,,badkamer
+/b/bazaar/indoor,bazaar,indoor,bazaar,indoor,"bazaar, indoor"
+/b/bazaar/outdoor,bazaar,outdoor,bazaar,outdoor,"bazaar, outdoor"
+/b/beach,beach,,strand,,strand
+/b/beach_house,beach_house,,beach_house,,strandhuis
+/b/beauty_salon,beauty_salon,,schoonheidssalon,,schoonheidssalon
+/b/bedchamber,bedchamber,,bedchamber,,Bedchamber
+/b/bedroom,bedroom,,slaapkamer,,slaapkamer
+/b/beer_garden,beer_garden,,biertuin,,biertuin
+/b/beer_hall,beer_hall,,beer_hall,,bierhal
+/b/berth,berth,,ligplaats,,ligplaats
+/b/biology_laboratory,biology_laboratory,,biology_laboratory,,"biologie, laboratorium"
+/b/boardwalk,boardwalk,,promenade,,promenade
+/b/boat_deck,boat_deck,,boot dek,,"boot, dek"
+/b/boathouse,boathouse,,botenhuis,,botenhuis
+/b/bookstore,bookstore,,boekenwinkel,,boekenwinkel
+/b/booth/indoor,booth,indoor,kraam,indoor,kraam
+/b/botanical_garden,botanical_garden,,botanische tuin,,"botanische, tuin"
+/b/bow_window/indoor,bow_window,indoor,boograam,indoor,boograam
+/b/bowling_alley,bowling_alley,,bowlingbaan,,bowlingbaan
+/b/boxing_ring,boxing_ring,,boksring,,boksring
+/b/bridge,bridge,,brug,,brug
+/b/building_facade,building_facade,,building_facade,,gevel
+/b/bullring,bullring,,arena voor stierengevechten,,"stierengevechten, arena"
+/b/burial_chamber,burial_chamber,,burial_chamber,,grafkamer
+/b/bus_interior,bus_interior,,bus_interior,,bus
+/b/bus_station/indoor,bus_station,indoor,bushalte,indoor,bushalte
+/b/butchers_shop,butchers_shop,,slagerij,,slagerij
+/b/butte,butte,,butte,,butte
+/c/cabin/outdoor,cabin,outdoor,cabine,outdoor,cabine
+/c/cafeteria,cafeteria,,cafetaria,,cafetaria
+/c/campsite,campsite,,camping,,camping
+/c/campus,campus,,campus,,campus
+/c/canal/natural,canal,natural,kanaal,natural,kanaal
+/c/canal/urban,canal,urban,kanaal,urban,kanaal
+/c/candy_store,candy_store,,snoepwinkel,,snoepwinkel
+/c/canyon,canyon,,canyon,,kloof
+/c/car_interior,car_interior,,car_interior,,autointerieur
+/c/carrousel,carrousel,,carrousel,,carrousel
+/c/castle,castle,,kasteel,,kasteel
+/c/catacomb,catacomb,,catacombe,,catacombe
+/c/cemetery,cemetery,,begraafplaats,,begraafplaats
+/c/chalet,chalet,,chalet,,chalet
+/c/chemistry_lab,chemistry_lab,,scheikunde lab,,"scheikunde, lab"
+/c/childs_room,childs_room,,childs_room,,kinderkamer
+/c/church/indoor,church,indoor,kerk,indoor,"kerk, kerkzaal, kerkbanken,"
+/c/church/outdoor,church,outdoor,kerk,outdoor,"kerkgebouw, kerktoren"
+/c/classroom,classroom,,klas,,klaslokaal
+/c/clean_room,clean_room,,schone ruimte,,cleanroom
+/c/cliff,cliff,,klif,,klif
+/c/closet,closet,,kast,,kast
+/c/clothing_store,clothing_store,,Kledingwinkel,,kledingwinkel
+/c/coast,coast,,kust,,kust
+/c/cockpit,cockpit,,cockpit,,cockpit
+/c/coffee_shop,coffee_shop,,coffeeshop,,coffeeshop
+/c/computer_room,computer_room,,computer Kamer,,"computerkamer, computer, serverruimte"
+/c/conference_center,conference_center,,conferentiecentrum,,conferentiecentrum
+/c/conference_room,conference_room,,vergaderruimte,,vergaderruimte
+/c/construction_site,construction_site,,bouwplaats,,bouwplaats
+/c/corn_field,corn_field,,corn_field,,maisveld
+/c/corral,corral,,kraal,,paardestal
+/c/corridor,corridor,,gang,,gang
+/c/cottage,cottage,,huisje,,huisje
+/c/courthouse,courthouse,,gerechtsgebouw,,gerechtsgebouw
+/c/courtyard,courtyard,,binnenplaats,,binnenplaats
+/c/creek,creek,,kreek,,"kreek, inham"
+/c/crevasse,crevasse,,spleet,,"spleet, kloof"
+/c/crosswalk,crosswalk,,zebrapad,,zebrapad
+/d/dam,dam,,dam,,dam
+/d/delicatessen,delicatessen,,delicatessenwinkel,,delicatessenwinkel
+/d/department_store,department_store,,warenhuis,,warenhuis
+/d/desert/sand,desert,sand,woestijn,sand,"woestijn, zand"
+/d/desert/vegetation,desert,vegetation,woestijn,vegetation,"woestijn, vegetatie"
+/d/desert_road,desert_road,,desert_road,,woestijnweg
+/d/diner/outdoor,diner,outdoor,diner,outdoor,diner
+/d/dining_hall,dining_hall,,eetkamer,,eetkamer
+/d/dining_room,dining_room,,eetkamer,,eetkamer
+/d/discotheque,discotheque,,discotheek,,discotheek
+/d/doorway/outdoor,doorway,outdoor,deuropening,outdoor,deuropening
+/d/dorm_room,dorm_room,,studentenkamer,,studentenkamer
+/d/downtown,downtown,,downtown,,downtown
+/d/dressing_room,dressing_room,,kleedkamer,,kleedkamer
+/d/driveway,driveway,,pad,,"weg, pad"
+/d/drugstore,drugstore,,apotheek,,"apotheek, drogist"
+/e/elevator/door,elevator,door,lift,by,"liftdeur, lift, deur"
+/e/elevator_lobby,elevator_lobby,,elevator_lobby,,"lift, lobby"
+/e/elevator_shaft,elevator_shaft,,lift schacht,,liftschacht
+/e/embassy,embassy,,ambassade,,ambassade
+/e/engine_room,engine_room,,machinekamer,,machinekamer
+/e/entrance_hall,entrance_hall,,entreehal,,entreehal
+/e/escalator/indoor,escalator,indoor,roltrap,indoor,roltrap
+/e/excavation,excavation,,uitgraving,,uitgraving
+/f/fabric_store,fabric_store,,Stoffenwinkel,,stoffenwinkel
+/f/farm,farm,,farm,,boerderij
+/f/fastfood_restaurant,fastfood_restaurant,,fastfood restaurant,,fastfoodketen
+/f/field/cultivated,field,cultivated,veld-,cultivated,akker
+/f/field/wild,field,wild,veld-,wild,veld
+/f/field_road,field_road,,field_road,,veldweg
+/f/fire_escape,fire_escape,,nooduitgang,,nooduitgang
+/f/fire_station,fire_station,,brandweerkazerne,,brandweerkazerne
+/f/fishpond,fishpond,,visvijver,,visvijver
+/f/flea_market/indoor,flea_market,indoor,vlooienmarkt,indoor,vlooienmarkt
+/f/florist_shop/indoor,florist_shop,indoor,bloemenwinkel,indoor,bloemenwinkel
+/f/food_court,food_court,,voedselbank,,eten
+/f/football_field,football_field,,voetbalveld,,voetbalveld
+/f/forest/broadleaf,forest,broadleaf,Bos,broadleaf,"bos, breedbladig"
+/f/forest_path,forest_path,,forest_path,,bospad
+/f/forest_road,forest_road,,forest_road,,bospweg
+/f/formal_garden,formal_garden,,formal_garden,,tuin
+/f/fountain,fountain,,fontein,,fontein
+/g/galley,galley,,kombuis,,kombuis
+/g/garage/indoor,garage,indoor,garage,indoor,garage
+/g/garage/outdoor,garage,outdoor,garage,outdoor,garage
+/g/gas_station,gas_station,,benzinestation,,benzinestation
+/g/gazebo/exterior,gazebo,exterior,tuinhuisje,exterior,tuinhuisje
+/g/general_store/indoor,general_store,indoor,general_store,indoor,"winkel, algemeen"
+/g/general_store/outdoor,general_store,outdoor,general_store,outdoor,"winkel, algemeen"
+/g/gift_shop,gift_shop,,cadeauwinkel,,cadeauwinkel
+/g/glacier,glacier,,gletsjer,,gletsjer
+/g/golf_course,golf_course,,golfbaan,,golfbaan
+/g/greenhouse/indoor,greenhouse,indoor,broeikas,indoor,broeikas
+/g/greenhouse/outdoor,greenhouse,outdoor,broeikas,outdoor,broeikas
+/g/grotto,grotto,,grot,,grot
+/g/gymnasium/indoor,gymnasium,indoor,gymnastiekzaal,indoor,gymnastiekzaal
+/h/hangar/indoor,hangar,indoor,hangar,indoor,loods
+/h/hangar/outdoor,hangar,outdoor,hangar,outdoor,loods
+/h/harbor,harbor,,haven,,haven
+/h/hardware_store,hardware_store,,hardware_store,,hardware
+/h/hayfield,hayfield,,hayfield,,hooiveld
+/h/heliport,heliport,,heliport,,"heliport, helihaven"
+/h/highway,highway,,snelweg,,snelweg
+/h/home_office,home_office,,thuiskantoor,,thuiskantoor
+/h/home_theater,home_theater,,thuisbioscoop,,thuisbioscoop
+/h/hospital,hospital,,ziekenhuis,,ziekenhuis
+/h/hospital_room,hospital_room,,ziekenzaal,,ziekenzaal
+/h/hot_spring,hot_spring,,warme lente,,"hotspring, spa"
+/h/hotel/outdoor,hotel,outdoor,hotel,outdoor,hotel
+/h/hotel_room,hotel_room,,hotelkamer,,hotelkamer
+/h/house,house,,huis,,huis
+/h/hunting_lodge/outdoor,hunting_lodge,outdoor,jachthut,outdoor,jachthut
+/i/ice_cream_parlor,ice_cream_parlor,,ijssalon,,ijssalon
+/i/ice_floe,ice_floe,,ice_floe,,ijsschots
+/i/ice_shelf,ice_shelf,,ice_shelf,,ijsplaat
+/i/ice_skating_rink/indoor,ice_skating_rink,indoor,ijsbaan,indoor,ijsbaan
+/i/ice_skating_rink/outdoor,ice_skating_rink,outdoor,ijsbaan,outdoor,ijsbaan
+/i/iceberg,iceberg,,ijsberg,,ijsberg
+/i/igloo,igloo,,iglo,,iglo
+/i/industrial_area,industrial_area,,industriegebied,,industriegebied
+/i/inn/outdoor,inn,outdoor,cafe,outdoor,herberg
+/i/islet,islet,,eilandje,,eilandje
+/j/jacuzzi/indoor,jacuzzi,indoor,jacuzzi,indoor,jacuzzi
+/j/jail_cell,jail_cell,,gevangeniscel,,gevangeniscel
+/j/japanese_garden,japanese_garden,,Japanse tuin,,"japans, tuin"
+/j/jewelry_shop,jewelry_shop,,juwelier,,juwelier
+/j/junkyard,junkyard,,autokerkhof,,autokerkhof
+/k/kasbah,kasbah,,kasbah,,kasbah
+/k/kennel/outdoor,kennel,outdoor,hok,outdoor,hok
+/k/kindergarden_classroom,kindergarden_classroom,,kindergarden_classroom,,"kleuterklas, klaslokaal"
+/k/kitchen,kitchen,,keuken,,keuken
+/l/lagoon,lagoon,,lagune,,lagune
+/l/lake/natural,lake,natural,meer,natural,meer
+/l/landfill,landfill,,stortplaats,,stortplaats
+/l/landing_deck,landing_deck,,landing_deck,,landingsdek
+/l/laundromat,laundromat,,wasserette,,wasserette
+/l/lawn,lawn,,gazon,,gazon
+/l/lecture_room,lecture_room,,collegezaal,,collegezaal
+/l/legislative_chamber,legislative_chamber,,legislative_chamber,,wetgeving
+/l/library/indoor,library,indoor,bibliotheek,indoor,bibliotheek
+/l/library/outdoor,library,outdoor,bibliotheek,outdoor,bibliotheek
+/l/lighthouse,lighthouse,,vuurtoren,,vuurtoren
+/l/living_room,living_room,,woonkamer,,woonkamer
+/l/loading_dock,loading_dock,,laadperron,,laadperron
+/l/lobby,lobby,,lobby,,lobby
+/l/lock_chamber,lock_chamber,,lock_chamber,,sluiskamer
+/l/locker_room,locker_room,,kleedkamer,,kleedkamer
+/m/mansion,mansion,,herenhuis,,herenhuis
+/m/manufactured_home,manufactured_home,,manufactured_home,,huis
+/m/market/indoor,market,indoor,markt,indoor,markt
+/m/market/outdoor,market,outdoor,markt,outdoor,markt
+/m/marsh,marsh,,moeras,,moeras
+/m/martial_arts_gym,martial_arts_gym,,martial_arts_gym,,vechtsport
+/m/mausoleum,mausoleum,,mausoleum,,mausoleum
+/m/medina,medina,,medina,,medina
+/m/mezzanine,mezzanine,,tussenverdieping,,tussenverdieping
+/m/moat/water,moat,water,slotgracht,water,slotgracht
+/m/mosque/outdoor,mosque,outdoor,moskee,outdoor,moskee
+/m/motel,motel,,motel,,motel
+/m/mountain,mountain,,berg-,,berg-
+/m/mountain_path,mountain_path,,mountain_path,,bergpad
+/m/mountain_snowy,mountain_snowy,,mountain_snowy,,"berg, sneeuw"
+/m/movie_theater/indoor,movie_theater,indoor,bioscoop,indoor,bioscoop
+/m/museum/indoor,museum,indoor,museum,indoor,museum
+/m/museum/outdoor,museum,outdoor,museum,outdoor,museum
+/m/music_studio,music_studio,,muziek studio,,muziekstudio
+/n/natural_history_museum,natural_history_museum,,natuurlijk geschiedenismuseum,,"natuurhistorisch, museum"
+/n/nursery,nursery,,kwekerij,,kwekerij
+/n/nursing_home,nursing_home,,verzorgingstehuis,,verzorgingstehuis
+/o/oast_house,oast_house,,oast_house,,"hop, drogerij"
+/o/ocean,ocean,,oceaan,,oceaan
+/o/office,office,,kantoor,,kantoor
+/o/office_building,office_building,,kantoorgebouw,,kantoorgebouw
+/o/office_cubicles,office_cubicles,,office_cubicles,,kantoorruimte
+/o/oilrig,oilrig,,booreiland,,booreiland
+/o/operating_room,operating_room,,operating_room,,operatiekamer
+/o/orchard,orchard,,boomgaard,,boomgaard
+/o/orchestra_pit,orchestra_pit,,orkestbak,,orkestbak
+/p/pagoda,pagoda,,pagode,,pagode
+/p/palace,palace,,paleis,,paleis
+/p/pantry,pantry,,provisiekast,,"provisiekamer, provisiekast"
+/p/park,park,,park,,park
+/p/parking_garage/indoor,parking_garage,indoor,parkeergarage,indoor,parkeergarage
+/p/parking_garage/outdoor,parking_garage,outdoor,parkeergarage,outdoor,parkeergarage
+/p/parking_lot,parking_lot,,parkeerplaats,,parkeerplaats
+/p/pasture,pasture,,weide,,weide
+/p/patio,patio,,patio,,patio
+/p/pavilion,pavilion,,paviljoen,,paviljoen
+/p/pet_shop,pet_shop,,dierenwinkel,,dierenwinkel
+/p/pharmacy,pharmacy,,apotheek,,apotheek
+/p/phone_booth,phone_booth,,telefooncel,,telefooncel
+/p/physics_laboratory,physics_laboratory,,physics_laboratory,,"natuurkunde, laboratorium"
+/p/picnic_area,picnic_area,,picnic_area,,picknickplaats
+/p/pier,pier,,pier,,pier
+/p/pizzeria,pizzeria,,pizzeria,,pizzeria
+/p/playground,playground,,speelplaats,,speelplaats
+/p/playroom,playroom,,speelkamer,,speelkamer
+/p/plaza,plaza,,plein,,plein
+/p/pond,pond,,vijver,,vijver
+/p/porch,porch,,veranda,,veranda
+/p/promenade,promenade,,promenade,,promenade
+/p/pub/indoor,pub,indoor,kroeg,indoor,kroeg
+/r/racecourse,racecourse,,renbaan,,renbaan
+/r/raceway,raceway,,toevoerkanaal,,toevoerkanaal
+/r/raft,raft,,vlot,,vlot
+/r/railroad_track,railroad_track,,spoorlijn,,spoorlijn
+/r/rainforest,rainforest,,regenwoud,,regenwoud
+/r/reception,reception,,ontvangst,,"ontvangst, receptie"
+/r/recreation_room,recreation_room,,recreatie ruimte,,recreatieruimte
+/r/repair_shop,repair_shop,,herstelwinkel,,reparatiewinkel
+/r/residential_neighborhood,residential_neighborhood,,residential_neighborhood,,woonwijk
+/r/restaurant,restaurant,,restaurant,,restaurant
+/r/restaurant_kitchen,restaurant_kitchen,,restaurant_kitchen,,restaurantkeuken
+/r/restaurant_patio,restaurant_patio,,restaurant_patio,,"restaurant, patio"
+/r/rice_paddy,rice_paddy,,rijstveld,,rijstveld
+/r/river,river,,rivier-,,rivier
+/r/rock_arch,rock_arch,,rock_arch,,rotsboog
+/r/roof_garden,roof_garden,,tuin op het dak,,daktuin
+/r/rope_bridge,rope_bridge,,touwbrug,,touwbrug
+/r/ruin,ruin,,ruïneren,,ruine
+/r/runway,runway,,startbaan,,startbaan
+/s/sandbox,sandbox,,zandbak,,zandbak
+/s/sauna,sauna,,sauna,,sauna
+/s/schoolhouse,schoolhouse,,schoolgebouw,,schoolgebouw
+/s/science_museum,science_museum,,wetenschapsmuseum,,wetenschapsmuseum
+/s/server_room,server_room,,server ruimte,,serverruimte
+/s/shed,shed,,schuur,,schuur
+/s/shoe_shop,shoe_shop,,schoenenwinkel,,schoenenwinkel
+/s/shopfront,shopfront,,winkel voorkant,,winkelpui
+/s/shopping_mall/indoor,shopping_mall,indoor,winkelcentrum,indoor,winkelcentrum
+/s/shower,shower,,douche,,douche
+/s/ski_resort,ski_resort,,ski_resort,,skiresort
+/s/ski_slope,ski_slope,,piste,,piste
+/s/sky,sky,,hemel,,hemel
+/s/skyscraper,skyscraper,,wolkenkrabber,,wolkenkrabber
+/s/slum,slum,,achterbuurt,,achterbuurt
+/s/snowfield,snowfield,,snowfield,,sneeuwveld
+/s/soccer_field,soccer_field,,voetbalveld,,voetbalveld
+/s/stable,stable,,stal,,stal
+/s/stadium/baseball,stadium,baseball,stadion,baseball,honkbalstadion
+/s/stadium/football,stadium,football,stadion,football,voetbalstadion
+/s/stadium/soccer,stadium,soccer,stadion,soccer,voetbalstadion
+/s/stage/indoor,stage,indoor,stadium,indoor,stadium
+/s/stage/outdoor,stage,outdoor,stadium,outdoor,stadium
+/s/staircase,staircase,,trappenhuis,,trappenhuis
+/s/storage_room,storage_room,,opslagruimte,,opslagruimte
+/s/street,street,,straat,,straat
+/s/subway_station/platform,subway_station,platform,metrostation,platform,metrostation
+/s/supermarket,supermarket,,supermarkt,,supermarkt
+/s/sushi_bar,sushi_bar,,sushi bar,,sushibar
+/s/swamp,swamp,,moeras,,moeras
+/s/swimming_hole,swimming_hole,,swimming_hole,,"zwemmen, gat"
+/s/swimming_pool/indoor,swimming_pool,indoor,zwembad,indoor,zwembad
+/s/swimming_pool/outdoor,swimming_pool,outdoor,zwembad,outdoor,zwembad
+/s/synagogue/outdoor,synagogue,outdoor,synagoge,outdoor,synagoge
+/t/television_room,television_room,,television_room,,televisiekamer
+/t/television_studio,television_studio,,television_studio,,televisiestudio
+/t/temple/asia,temple,asia,tempel,asia,tempel
+/t/throne_room,throne_room,,troonzaal,,troonzaal
+/t/ticket_booth,ticket_booth,,loket,,loket
+/t/topiary_garden,topiary_garden,,topiary_garden,,"topiary, tuin"
+/t/tower,tower,,toren,,toren
+/t/toyshop,toyshop,,speelgoedwinkel,,speelgoedwinkel
+/t/train_interior,train_interior,,train_interior,,trein
+/t/train_station/platform,train_station,platform,treinstation,platform,treinstation
+/t/tree_farm,tree_farm,,tree_farm,,boomkwekerij
+/t/tree_house,tree_house,,boomhut,,boomhut
+/t/trench,trench,,loopgraaf,,loopgraaf
+/t/tundra,tundra,,toendra,,toendra
+/u/underwater/ocean_deep,underwater,ocean_deep,onderwater-,ocean_deep,onderwater
+/u/utility_room,utility_room,,utility_room,,bijkeuken
+/v/valley,valley,,vallei,,vallei
+/v/vegetable_garden,vegetable_garden,,moestuin,,moestuin
+/v/veterinarians_office,veterinarians_office,,veterinarians_office,,dierenartsenpraktijk
+/v/viaduct,viaduct,,viaduct,,viaduct
+/v/village,village,,dorp,,dorp
+/v/vineyard,vineyard,,wijngaard,,wijngaard
+/v/volcano,volcano,,vulkaan,,vulkaan
+/v/volleyball_court/outdoor,volleyball_court,outdoor,volleybal veld,outdoor,volleybal veld
+/w/waiting_room,waiting_room,,wachtkamer,,wachtkamer
+/w/water_park,water_park,,waterpark,,waterpark
+/w/water_tower,water_tower,,watertoren,,watertoren
+/w/waterfall,waterfall,,waterval,,waterval
+/w/watering_hole,watering_hole,,afvoer,,afvoer
+/w/wave,wave,,Golf,,golf
+/w/wet_bar,wet_bar,,natte bar,,bar
+/w/wheat_field,wheat_field,,tarwe veld,,tarweveld
+/w/wind_farm,wind_farm,,windmolenpark,,windmolenpark
+/w/windmill,windmill,,windmolen,,windmolen
+/y/yard,yard,,werf,,werf
+/y/youth_hostel,youth_hostel,,jeugdherberg,,jeugdherberg
+/z/zen_garden,zen_garden,,zentuin,,zentuin
