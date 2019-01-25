@@ -77,7 +77,44 @@
           <h4 class="modal-title">{{ row.title }}</h4>
         </div>
         <div class="modal-body">
-            <center><iframe width="750" height="500" src="{{ row.url }}"></iframe></center>
+            <div>
+                <center></center>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td><iframe width="400" height="250" src="{{ row.url }}"></iframe></td>
+                        <td valign="top">{{ row.description }}</td>
+                    </tr>
+
+                    <tr><th colspan="2">Objects</th></tr>
+                    {% for imagenet, coco in row.objects %}
+                    <tr>
+                        <td>{{imagenet}}</td>
+                        <td>{{coco}}</td>
+                    </tr>
+                    {% endfor %}
+                    <tr><th colspan="2">Locations</th></tr>
+                    {% for places, plattributes in row.locations %}
+                    <tr>
+                        <td>{{places}}</td>
+                        <td>{{plattributes}}</td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <th colspan="2">
+                            Actions
+                        </th>
+                    </tr>
+                    {% for action in row.actions %}
+                    <tr>
+                        <td colspan="2">
+                            {{action}}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
         </div>
       </div>
 

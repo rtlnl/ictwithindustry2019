@@ -3,6 +3,7 @@ from flask import Flask, request, render_template
 import json
 import elasticsearch
 import requests
+from operator import itemgetter
 
 ################################################################################
 # Load data
@@ -11,6 +12,10 @@ import requests
 ################################################################################
 # Set up general functions
 
+def get_top_items(dictionary, n):
+    "Get N top items from a dictionary"
+    sorted_tuples = sorted(dictionary.items(), key=itemgetter(1))
+    return [item for item, value in sorted_tuples[:n]]
 
 ################################################################################
 # Set up app:
@@ -29,6 +34,8 @@ except:
     MOCK_ES = True
     with open('static/search.json') as f:
         all_docs = json.load(f)["hits"]["hits"]
+    with open('static/mock.json') as f:
+        mock_embeddings = json.load(f)
 
 ################################################################################
 # Webpage-related functions
@@ -64,6 +71,9 @@ def text_search(query, weights):
         doc['description'] = doc['description'].split("Abonneer je GRATIS voor meer video")[0]
         doc['url'] = doc["meta"]["og:video:url"]
         doc['tags'] = [tag.capitalize() for tag in doc["meta"]["og:video:tag"][4:]]
+        doc['actions'] = get_top_items(doc['kinetics'],5)
+        doc['objects'] = list(zip(get_top_items(doc['imagenet'], 5), get_top_items(doc['coco'], 5)))
+        doc['locations'] = list(zip(get_top_items(doc['places'], 5), get_top_items(doc['places_attributes'], 5)))
         docs.append(doc)
     return docs
 
@@ -77,7 +87,10 @@ def rank_concepts(query):
         }
     }
     for term in query.split():
-        concept_scores = requests.get(f'http://localhost:5001/{term}').json()
+        if not MOCK_ES:
+            concept_scores = requests.get(f'http://localhost:5001/{term}').json()
+        else:
+            concept_scores = mock_embeddings
         for field, scores in concept_scores.items():
             if field not in weights:
                 weights[field] = {}
