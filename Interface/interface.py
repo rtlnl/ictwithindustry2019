@@ -18,7 +18,7 @@ app = Flask(__name__)
 es = elasticsearch.Elasticsearch()
 
 CONCEPT_FIELDS = ('places', 'places_attributes', 'places_environment', 'coco', 'coco_count', 'imagenet', 'kinetics')
-FIELD_MAPPING = {'places_attributes': 'Attributen'}
+FIELD_MAPPING = {'places_attributes': 'Omgeving'}
 
 try:
     assert es.cluster.health(timeout='10s').get('status') == 'green'
@@ -42,20 +42,13 @@ def main_page():
     return render_template('index.html')
 
 def search(query, weights):
-    return text_search(query, weights['Tekst'])
+    visual_scores = visual_search(weights)
+    text_scores = text_search(query, weights['Tekst'])
 
-def text_search(query, weights):
-    if MOCK_ES:
-        search_data = all_docs
-    else:
-        query = {"query": {"multi_match" : {
-            "query": query,
-            "fields": [f'{k}^{w["weight"]}' for k, w in weights.items()]
-        }}}
-        search_data = es.search(body=query)["hits"]["hits"]
+    scores = sorted(text_scores, key=lambda doc: -visual_scores[doc['_id']])
 
     docs = []
-    for row in search_data:
+    for row in scores:
         doc = row['_source']
         doc['id'] = row["_id"]
         doc["title"] = doc["title"].replace(" - RTL NIEUWS - YouTube", "")
@@ -65,7 +58,29 @@ def text_search(query, weights):
         doc['url'] = doc["meta"]["og:video:url"]
         doc['tags'] = [tag.capitalize() for tag in doc["meta"]["og:video:tag"][4:]]
         docs.append(doc)
+
     return docs
+
+def text_search(query, weights):
+    if MOCK_ES:
+        search_data = all_docs
+    else:
+        query = {"query": {"multi_match" : {
+            "query": query,
+            "fields": [f'{k}^{w["weight"]}' for k, w in weights.items()]
+        }}}
+        search_data = es.search(body=query, size=500)["hits"]["hits"]
+    return search_data
+
+def visual_search(weights):
+    scores = {}
+    for doc in all_docs:
+        scores[doc['_id']] = 0.0
+        for field, values in weights.items():
+            if field in doc['_source']:
+                for concept, value in values.items():
+                    scores[doc['_id']] += doc['_source'][field].get(concept, 0.0) * float(value['weight'])
+    return scores
 
 def rank_concepts(query):
     weights = {
@@ -99,13 +114,14 @@ def results():
     """
     query = request.form['textfield']
     weights = rank_concepts(query)
+    print(request.form)
     for category in weights:
         for key, value in weights[category].items():
             if f'{category}/{key}' in request.form:
                 value['weight'] = request.form[f'{category}/{key}']
 
     return render_template('results.html', query=query, results=search(query, weights),
-                           weights={FIELD_MAPPING.get(field, field.capitalize()): v for field, v in weights.items()})
+                           weights=weights, field_mapping={field: FIELD_MAPPING.get(field, field.capitalize()) for field in weights})
 
 ################################################################################
 # Running the website
