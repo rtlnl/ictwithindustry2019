@@ -36,7 +36,7 @@
                         <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}"> <br />
                         {% for category in weights %}
                             <div class="small-2 medium-2 large-2">
-                                <b title="{{ tooltips[category] }}">{{ field_mapping[category] }}</b><br />
+                                <b title="{{ tooltips[category] }}">{{ field_mapping[category] }} <span style="color: grey;">ℹ</span></b><br />
                                 {% for key in weights[category] %}
                                     <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal; white-space: nowrap; line-height: 1.0;">{{weights[category][key].nl}}</label>
                                     <input type="range" name="{{category}}/{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()">
@@ -113,6 +113,12 @@
                         <td>Actions:</td>
                         <td colspan="2">{{row.actions}}</td>
                     </tr>
+                    <tr><th colspan="3">Shots</th></tr>
+                    <tr><td colspan="3">
+                    {% for shot in row.shots %}
+                        <img src="/static/GIFs/{{row.filename}}/{{ '%08d' % (shot['Start Frame']+1) }}-{{ '%08d' % (shot['End Frame']) }}.gif" style="float: left; width: 200px;" />
+                    {% endfor %}
+                    </td></tr>
                 </table>
             </div>
         </div>

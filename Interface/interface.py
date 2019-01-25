@@ -82,7 +82,6 @@ def search(query, weights):
         max_visual_score = 1
     if max_text_score == 0:
         max_text_score = 1
-    print(max_text_score, max_visual_score, sum_text_weights, sum_visual_weights)
 
     scores = {doc['_id']: doc['_score'] / max_text_score * sum_text_weights +
                           visual_scores[doc['_id']] / max_visual_score * sum_visual_weights
