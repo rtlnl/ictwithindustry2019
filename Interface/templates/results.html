@@ -9,6 +9,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!--<script type="text/javascript" src="{{url_for('static', filename='modal.js') }}"></script>-->
+    <style>
+        a:hover { text-decoration: none; }
+        .search-item .search-item__image img { height: 55px; }
+        .rtlnieuws-header .header-nav { margin-top: -30px; }
+    </style>
 </head>
 
 <div>
@@ -18,7 +23,6 @@
             <div class="header-nav">
                 <div class="logo vertical-middle">
                     <img src="https://www.rtlnieuws.nl/themes/custom/rtlnieuws/images/logo-rtlnieuws.svg">
-
                 </div>
             </div>
         </header>
@@ -32,9 +36,9 @@
                         <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}"> <br />
                         {% for category in weights %}
                             <div class="small-2 medium-2 large-2">
-                                <b>{{ field_mapping[category] }}</b><br />
+                                <b style=>{{ field_mapping[category] }}</b><br />
                                 {% for key in weights[category] %}
-                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal; white-space: nowrap;">{{weights[category][key].nl}}</label>
+                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal; white-space: nowrap; line-height: 1.0;">{{weights[category][key].nl}}</label>
                                     <input type="range" name="{{category}}/{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()">
                                 {% endfor %}
                             </div>

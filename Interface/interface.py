@@ -21,7 +21,7 @@ def map_list(my_list, translations):
 
 def get_top_items(dictionary, n):
     "Get N top items from a dictionary"
-    sorted_tuples = sorted(dictionary.items(), key=itemgetter(1))
+    sorted_tuples = sorted(dictionary.items(), key=itemgetter(1), reverse=True)
     return [item for item, value in sorted_tuples[:n]]
 
 ################################################################################
@@ -75,12 +75,13 @@ def search(query, weights):
         max_visual_score = 1
     if max_text_score == 0:
         max_text_score = 1
+    print(max_text_score, max_visual_score, sum_text_weights, sum_visual_weights)
 
     scores = {doc['_id']: doc['_score'] / max_text_score * sum_text_weights +
                           visual_scores[doc['_id']] / max_visual_score * sum_visual_weights
               for doc in text_scores}
 
-    scores = sorted(text_scores, key=lambda doc: -scores[doc['_id']])
+    scores = sorted(text_scores, key=lambda doc: -scores[doc['_id']])[:10]
 
     docs = []
     for row in scores:
@@ -148,6 +149,9 @@ def rank_concepts(query):
 
     for field, scores in weights.items():
         weights[field] = dict(sorted(scores.items(), key=lambda x: -x[1]['weight'])[:4])
+        if field != 'Tekst':
+            for k, v in weights[field].items():
+                v['weight'] = 0.0
 
     return weights
 
