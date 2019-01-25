@@ -32,9 +32,9 @@
                         <input class="search-box" type="text" name="textfield" placeholder="Fill in your search terms..." value="{{query}}"> <br />
                         {% for category in weights %}
                             <div class="small-2 medium-2 large-2">
-                                <b>{{ field_mapping[category] }}</b><br />
+                                <b title="{{ tooltips[category] }}">{{ field_mapping[category] }}</b><br />
                                 {% for key in weights[category] %}
-                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal;">{{weights[category][key].nl}}</label>
+                                    <label for="{{category}}/{{key}}" style="font-size: 16px; font-weight: normal;"{{weights[category][key].nl}}</label>
                                     <input type="range" name="{{category}}/{{key}}" value="{{weights[category][key].weight}}" min="0" max="100" class="small-11 medium-11 large-11" onchange="this.form.submit()"><br />
                                 {% endfor %}
                             </div>
