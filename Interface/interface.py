@@ -32,9 +32,9 @@ try:
 except:
     app.logger.warn('Cannot connect to Elasticsearch, using mock data.')
     MOCK_ES = True
-    with open('static/search.json') as f:
+    with open('static/search.json', encoding='utf-8') as f:
         all_docs = json.load(f)["hits"]["hits"]
-    with open('static/mock.json') as f:
+    with open('static/mock.json', encoding='utf-8') as f:
         mock_embeddings = json.load(f)
 
 ################################################################################
@@ -72,8 +72,10 @@ def text_search(query, weights):
         doc['url'] = doc["meta"]["og:video:url"]
         doc['tags'] = [tag.capitalize() for tag in doc["meta"]["og:video:tag"][4:]]
         doc['actions'] = get_top_items(doc['kinetics'],5)
-        doc['objects'] = list(zip(get_top_items(doc['imagenet'], 5), get_top_items(doc['coco'], 5)))
-        doc['locations'] = list(zip(get_top_items(doc['places'], 5), get_top_items(doc['places_attributes'], 5)))
+        doc['imagenet'] = get_top_items(doc['imagenet'], 5)
+        doc['coco'] = get_top_items(doc['coco'], 5)
+        doc['places'] = get_top_items(doc['places'], 5)
+        doc['places_attributes'] = get_top_items(doc['places_attributes'], 5)
         docs.append(doc)
     return docs
 
