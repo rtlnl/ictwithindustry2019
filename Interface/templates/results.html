@@ -46,7 +46,7 @@
                 <div class="search-items__list">
                     <div class="search-results">
                         {% for row in results %}
-                            <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}">
+                            <a class="search-item search-item--artikel" role="button" data-toggle="modal" data-target="#myOutput{{ row.id }}" onClick="loadYouTube('{{ row.id }}', '{{ row.url }}')">
                                 <div class="search-item__image">
                                     <img src="https://img.youtube.com/vi/{{row.id}}/default.jpg" alt="ALT_TEXT">
                                 </div>
@@ -83,7 +83,7 @@
             <div>
                 <table>
                     <tr>
-                        <td colspan="2"><iframe width="400" height="250" src="{{ row.url }}"></iframe></td>
+                        <td colspan="2"><iframe width="400" height="250" src="about:blank" id="iframe{{ row.id }}"></iframe></td>
                         <td valign="top">{{ row.description }}</td>
                     </tr>
                     <tr><th colspan="3">Objects</th></tr>
@@ -139,6 +139,14 @@
   </div>
 {% endfor %}
 </div>
+
+<script type="text/javascript">
+
+function loadYouTube(id, yt_url) {
+
+    document.getElementById('iframe'+id).src = yt_url;
+}
+</script>
 
 </body>
 </html>
