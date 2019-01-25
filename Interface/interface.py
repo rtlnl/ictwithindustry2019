@@ -8,9 +8,16 @@ from operator import itemgetter
 ################################################################################
 # Load data
 
+with open('static/imagenet_translations.json') as f:
+    imagenet_translation = json.load(f)
 
 ################################################################################
 # Set up general functions
+
+def map_list(my_list, translations):
+   "Return a translation for every item in a list"
+   return [translations[item] for item in my_list]
+
 
 def get_top_items(dictionary, n):
     "Get N top items from a dictionary"
@@ -71,11 +78,11 @@ def text_search(query, weights):
         doc['description'] = doc['description'].split("Abonneer je GRATIS voor meer video")[0]
         doc['url'] = doc["meta"]["og:video:url"]
         doc['tags'] = [tag.capitalize() for tag in doc["meta"]["og:video:tag"][4:]]
-        doc['actions'] = get_top_items(doc['kinetics'],5)
-        doc['imagenet'] = get_top_items(doc['imagenet'], 5)
-        doc['coco'] = get_top_items(doc['coco'], 5)
-        doc['places'] = get_top_items(doc['places'], 5)
-        doc['places_attributes'] = get_top_items(doc['places_attributes'], 5)
+        doc['actions'] = " • ".join(get_top_items(doc['kinetics'],5))
+        doc['imagenet_str'] = " • ".join(map_list(get_top_items(doc['imagenet'], 5), imagenet_translation))
+        doc['coco_str'] = " • ".join(get_top_items(doc['coco'], 5))
+        doc['places_str'] = " • ".join(get_top_items(doc['places'], 5))
+        doc['places_attributes_str'] = " • ".join(get_top_items(doc['places_attributes'], 5))
         docs.append(doc)
     return docs
 
