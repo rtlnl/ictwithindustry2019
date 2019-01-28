@@ -4,6 +4,7 @@ import json
 import elasticsearch
 import requests
 from operator import itemgetter
+from functools import lru_cache
 
 ################################################################################
 # Load data
@@ -71,7 +72,7 @@ def main_page():
 
 def search(query, weights):
     visual_scores = visual_search(weights)
-    text_scores = text_search(query, weights['Tekst'])
+    text_scores = text_search(query, *[f'{k}^{w["weight"]}' for k, w in weights['Tekst'].items()])
 
     max_visual_score = max(visual_scores.values())
     max_text_score = max(doc['_score'] for doc in text_scores)
@@ -108,7 +109,8 @@ def search(query, weights):
 
     return docs
 
-def text_search(query, weights):
+@lru_cache(maxsize=1024)
+def text_search(query, *fields):
     if MOCK_ES:
         search_data = all_docs
     else:
@@ -142,6 +144,7 @@ def visual_search(weights):
                     scores[doc['_id']] += doc['_source'][field].get(concept, 0.0) * float(value['weight'])
     return scores
 
+@lru_cache(maxsize=1024)
 def rank_concepts(query):
     weights = {
         'Tekst': {
