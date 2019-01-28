@@ -32,11 +32,11 @@ es = elasticsearch.Elasticsearch()
 CONCEPT_FIELDS = ('places', 'places_attributes', 'places_environment', 'coco', 'coco_count', 'imagenet', 'kinetics')
 FIELD_MAPPING = {'places_attributes': 'Omgeving'}
 TOOL_TIPS = {
-    'places': 'Zoek op basis van de scenes in de Places365 dataset', 
-    'places_attributes':'Zoek op basis van scenebeschrijvingen in de Places365 dataset', 
-    'coco':'Zoek op basis van objecten in de MS-COCO dataset', 
-    'imagenet':'Zoek op basis van objecten in de ImageNet dataset', 
-    'kinetics':'Zoek op basis van acties in de Kinetics400 dataset', 
+    'places': 'Zoek op basis van de scenes in de Places365 dataset',
+    'places_attributes':'Zoek op basis van scenebeschrijvingen in de Places365 dataset',
+    'coco':'Zoek op basis van objecten in de MS-COCO dataset',
+    'imagenet':'Zoek op basis van objecten in de ImageNet dataset',
+    'kinetics':'Zoek op basis van acties in de Kinetics400 dataset',
     'Tekst':'Zoek op basis van tekstuele elementen in de videos en de beschrijving'}
 
 try:
@@ -174,7 +174,7 @@ def results():
                 value['weight'] = int(request.form[f'{category}/{key}'])
 
     return render_template('results.html', query=query, results=search(query, weights),
-                           weights=weights, field_mapping={field: FIELD_MAPPING.get(field, field.capitalize()) for field in weights}, 
+                           weights=weights, field_mapping={field: FIELD_MAPPING.get(field, field.capitalize()) for field in weights},
                            tooltips=TOOL_TIPS)
 
 ################################################################################
