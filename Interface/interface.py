@@ -112,11 +112,24 @@ def text_search(query, weights):
     if MOCK_ES:
         search_data = all_docs
     else:
-        query = {"query": {"multi_match" : {
-            "query": query,
-            "fields": [f'{k}^{w["weight"]}' for k, w in weights.items()]
-        }}}
-        search_data = es.search(body=query, size=500)["hits"]["hits"]
+        query = {
+            "query": {
+                "bool": {
+                    "should": [
+                        {"match_all": {}},
+                        {
+                            "multi_match" : {
+                                "query": query,
+                                "fields": fields
+                            }
+                        }
+                    ],
+                    "minimum_should_match": 1
+                }
+            }
+        }
+        search_data = es.search('ictwi2019', body=query, size=500)["hits"]["hits"]
+
     return search_data
 
 def visual_search(weights):
